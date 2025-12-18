@@ -2,7 +2,7 @@
   {
     "id": 1,
     "word": "abandon",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to give up completely",
     "example": "She decided to abandon her plans due to the weather.",
@@ -46,7 +46,7 @@
   {
     "id": 2,
     "word": "abbreviate",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to shorten",
     "example": "Please abbreviate your response to fit the word limit.",
@@ -90,7 +90,7 @@
   {
     "id": 3,
     "word": "abhor",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to hate deeply",
     "example": "I abhor violence in any form.",
@@ -178,7 +178,7 @@
   {
     "id": 5,
     "word": "abundant",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "plentiful; existing in large quantities",
     "example": "The garden had abundant flowers in spring.",
@@ -222,7 +222,7 @@
   {
     "id": 6,
     "word": "acclaim",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "noun",
     "definition": "enthusiastic approval",
     "example": "The movie received critical acclaim worldwide.",
@@ -266,7 +266,7 @@
   {
     "id": 7,
     "word": "accommodate",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to provide lodging or adapt to",
     "example": "The hotel can accommodate up to 200 guests.",
@@ -310,7 +310,7 @@
   {
     "id": 8,
     "word": "accumulate",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to gather or collect over time",
     "example": "Dust tends to accumulate on unused furniture.",
@@ -442,7 +442,7 @@
   {
     "id": 11,
     "word": "acquire",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to obtain or gain possession of",
     "example": "He worked hard to acquire new skills.",
@@ -530,7 +530,7 @@
   {
     "id": 13,
     "word": "adapt",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to adjust to new conditions",
     "example": "Animals adapt to their environment over time.",
@@ -662,7 +662,7 @@
   {
     "id": 16,
     "word": "adjacent",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "next to or adjoining",
     "example": "The park is adjacent to the school.",
@@ -706,7 +706,7 @@
   {
     "id": 17,
     "word": "advocate",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to support or recommend publicly",
     "example": "She advocates for environmental protection.",
@@ -794,7 +794,7 @@
   {
     "id": 19,
     "word": "affable",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "friendly and easy to talk to",
     "example": "The host was affable and welcoming.",
@@ -882,7 +882,7 @@
   {
     "id": 21,
     "word": "aggregate",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "a whole formed by combining parts",
     "example": "The aggregate score determines the winner.",
@@ -926,7 +926,7 @@
   {
     "id": 22,
     "word": "agile",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "able to move quickly and easily",
     "example": "Cats are known for being agile animals.",
@@ -970,7 +970,7 @@
   {
     "id": 23,
     "word": "albeit",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "conjunction",
     "definition": "although",
     "example": "He accepted the job, albeit reluctantly.",
@@ -1014,7 +1014,7 @@
   {
     "id": 24,
     "word": "alleviate",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to make less severe",
     "example": "Medicine can alleviate pain.",
@@ -1058,7 +1058,7 @@
   {
     "id": 25,
     "word": "allude",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to refer to indirectly",
     "example": "She alluded to problems in her speech.",
@@ -1102,7 +1102,7 @@
   {
     "id": 26,
     "word": "altruistic",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "selflessly concerned for others",
     "example": "His altruistic nature made him volunteer regularly.",
@@ -1190,7 +1190,7 @@
   {
     "id": 28,
     "word": "ambitious",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "having strong desire for success",
     "example": "She is an ambitious young professional.",
@@ -1234,7 +1234,7 @@
   {
     "id": 29,
     "word": "ameliorate",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to make better; improve",
     "example": "New policies aim to ameliorate living conditions.",
@@ -1278,7 +1278,7 @@
   {
     "id": 30,
     "word": "amiable",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "friendly and pleasant",
     "example": "He has an amiable personality.",
@@ -1410,7 +1410,7 @@
   {
     "id": 33,
     "word": "analyze",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to examine in detail",
     "example": "Scientists analyze data to draw conclusions.",
@@ -1454,7 +1454,7 @@
   {
     "id": 34,
     "word": "anecdote",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "noun",
     "definition": "a short interesting story",
     "example": "He shared an amusing anecdote from his childhood.",
@@ -1498,7 +1498,7 @@
   {
     "id": 35,
     "word": "animosity",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "noun",
     "definition": "strong hostility",
     "example": "There was animosity between the rival teams.",
@@ -1542,7 +1542,7 @@
   {
     "id": 36,
     "word": "anomaly",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "something unusual or unexpected",
     "example": "The data showed an anomaly that needed investigation.",
@@ -1586,7 +1586,7 @@
   {
     "id": 37,
     "word": "anticipate",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to expect or predict",
     "example": "We anticipate a busy holiday season.",
@@ -1630,7 +1630,7 @@
   {
     "id": 38,
     "word": "apathy",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "noun",
     "definition": "lack of interest or emotion",
     "example": "Voter apathy led to low turnout.",
@@ -1674,7 +1674,7 @@
   {
     "id": 39,
     "word": "apprehensive",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "anxious or fearful",
     "example": "She felt apprehensive about the exam.",
@@ -1718,7 +1718,7 @@
   {
     "id": 40,
     "word": "apt",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "appropriate; having a tendency to",
     "example": "He is apt to forget appointments.",
@@ -1762,7 +1762,7 @@
   {
     "id": 41,
     "word": "arbitrary",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "based on random choice",
     "example": "The decision seemed arbitrary and unfair.",
@@ -1806,7 +1806,7 @@
   {
     "id": 42,
     "word": "archaic",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "very old or outdated",
     "example": "The law contains archaic language.",
@@ -1938,7 +1938,7 @@
   {
     "id": 45,
     "word": "aspire",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to have a strong desire to achieve",
     "example": "She aspires to become a doctor.",
@@ -1982,7 +1982,7 @@
   {
     "id": 46,
     "word": "assert",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to state confidently",
     "example": "He asserted his innocence.",
@@ -2026,7 +2026,7 @@
   {
     "id": 47,
     "word": "assess",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to evaluate or estimate",
     "example": "Teachers assess student progress regularly.",
@@ -2070,7 +2070,7 @@
   {
     "id": 48,
     "word": "asset",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "a useful or valuable thing",
     "example": "Her experience is a valuable asset.",
@@ -2114,7 +2114,7 @@
   {
     "id": 49,
     "word": "assimilate",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to absorb or integrate",
     "example": "Immigrants often assimilate into new cultures.",
@@ -2158,7 +2158,7 @@
   {
     "id": 50,
     "word": "assume",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to suppose without proof",
     "example": "Don't assume anything without evidence.",
@@ -2202,7 +2202,7 @@
   {
     "id": 51,
     "word": "astute",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "having sharp judgment",
     "example": "She made an astute observation about the market.",
@@ -2246,7 +2246,7 @@
   {
     "id": 52,
     "word": "attribute",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to regard as caused by",
     "example": "Success is often attributed to hard work.",
@@ -2290,7 +2290,7 @@
   {
     "id": 53,
     "word": "augment",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to make larger or increase",
     "example": "He augmented his income with freelance work.",
@@ -2378,7 +2378,7 @@
   {
     "id": 55,
     "word": "autonomy",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "independence; self-governance",
     "example": "The region sought greater autonomy.",
@@ -2466,7 +2466,7 @@
   {
     "id": 57,
     "word": "banal",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "lacking originality; boring",
     "example": "The movie had a banal plot.",
@@ -2510,7 +2510,7 @@
   {
     "id": 58,
     "word": "barren",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "unproductive; empty",
     "example": "The desert landscape was barren.",
@@ -2554,7 +2554,7 @@
   {
     "id": 59,
     "word": "benevolent",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "kind and generous",
     "example": "The benevolent donor gave millions to charity.",
@@ -2598,7 +2598,7 @@
   {
     "id": 60,
     "word": "bias",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "prejudice; inclination",
     "example": "The study showed bias in the results.",
@@ -2642,7 +2642,7 @@
   {
     "id": 61,
     "word": "bolster",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to support or strengthen",
     "example": "New evidence bolstered their case.",
@@ -2686,7 +2686,7 @@
   {
     "id": 62,
     "word": "brevity",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "noun",
     "definition": "shortness of time or expression",
     "example": "Brevity is the soul of wit.",
@@ -2774,7 +2774,7 @@
   {
     "id": 64,
     "word": "candid",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "truthful and straightforward",
     "example": "She gave a candid interview about her struggles.",
@@ -2818,7 +2818,7 @@
   {
     "id": 65,
     "word": "capitalism",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "economic system based on private ownership",
     "example": "Capitalism drives innovation through competition.",
@@ -2862,7 +2862,7 @@
   {
     "id": 66,
     "word": "catalyst",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "something that causes change",
     "example": "The protest was a catalyst for reform.",
@@ -2906,7 +2906,7 @@
   {
     "id": 67,
     "word": "caustic",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "harsh or corrosive",
     "example": "His caustic remarks hurt many people.",
@@ -2950,7 +2950,7 @@
   {
     "id": 68,
     "word": "cautious",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "careful to avoid danger",
     "example": "Investors remain cautious about the market.",
@@ -2994,7 +2994,7 @@
   {
     "id": 69,
     "word": "censure",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to criticize severely",
     "example": "The committee voted to censure the member.",
@@ -3082,7 +3082,7 @@
   {
     "id": 71,
     "word": "circumvent",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to find a way around",
     "example": "They tried to circumvent the regulations.",
@@ -3126,7 +3126,7 @@
   {
     "id": 72,
     "word": "cite",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to quote as evidence",
     "example": "The lawyer cited several precedents.",
@@ -3170,7 +3170,7 @@
   {
     "id": 73,
     "word": "clandestine",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "kept secret",
     "example": "They held clandestine meetings at night.",
@@ -3258,7 +3258,7 @@
   {
     "id": 75,
     "word": "coerce",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to force someone to act",
     "example": "He was coerced into signing the contract.",
@@ -3346,7 +3346,7 @@
   {
     "id": 77,
     "word": "coherent",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "logical and consistent",
     "example": "His explanation was coherent and easy to follow.",
@@ -3390,7 +3390,7 @@
   {
     "id": 78,
     "word": "collaborate",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to work together",
     "example": "Scientists collaborate on research projects.",
@@ -3434,7 +3434,7 @@
   {
     "id": 79,
     "word": "commensurate",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "corresponding in size or degree",
     "example": "Salary should be commensurate with experience.",
@@ -3478,7 +3478,7 @@
   {
     "id": 80,
     "word": "compelling",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "very convincing",
     "example": "The documentary told a compelling story.",
@@ -3522,7 +3522,7 @@
   {
     "id": 81,
     "word": "compensate",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to make up for; to pay",
     "example": "The company will compensate for damages.",
@@ -3566,7 +3566,7 @@
   {
     "id": 82,
     "word": "compile",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to collect and assemble",
     "example": "She compiled data from multiple sources.",
@@ -3654,7 +3654,7 @@
   {
     "id": 84,
     "word": "comply",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to act according to rules",
     "example": "All employees must comply with safety regulations.",
@@ -3874,7 +3874,7 @@
   {
     "id": 89,
     "word": "concise",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "brief and clear",
     "example": "Keep your answers concise.",
@@ -3918,7 +3918,7 @@
   {
     "id": 90,
     "word": "concurrent",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "happening at the same time",
     "example": "The two events were concurrent.",
@@ -3962,7 +3962,7 @@
   {
     "id": 91,
     "word": "condone",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to accept or allow",
     "example": "The school does not condone cheating.",
@@ -4050,7 +4050,7 @@
   {
     "id": 93,
     "word": "confine",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to restrict within limits",
     "example": "The patient was confined to bed.",
@@ -4094,7 +4094,7 @@
   {
     "id": 94,
     "word": "confirm",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to establish the truth of",
     "example": "Please confirm your reservation.",
@@ -4182,7 +4182,7 @@
   {
     "id": 96,
     "word": "confront",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to face or challenge",
     "example": "We must confront the problem directly.",
@@ -4226,7 +4226,7 @@
   {
     "id": 97,
     "word": "consensus",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "general agreement",
     "example": "The committee reached a consensus.",
@@ -4314,7 +4314,7 @@
   {
     "id": 99,
     "word": "conserve",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to protect from waste",
     "example": "We should conserve natural resources.",
@@ -4358,7 +4358,7 @@
   {
     "id": 100,
     "word": "considerable",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "notably large",
     "example": "She has considerable influence in the industry.",
@@ -4402,7 +4402,7 @@
   {
     "id": 101,
     "word": "conspicuous",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "clearly visible; attracting attention",
     "example": "His absence was conspicuous at the meeting.",
@@ -4490,7 +4490,7 @@
   {
     "id": 103,
     "word": "constrain",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to restrict or limit",
     "example": "Budget constraints limited the project.",
@@ -4622,7 +4622,7 @@
   {
     "id": 106,
     "word": "contend",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to struggle or argue",
     "example": "They contend that the policy is unfair.",
@@ -4666,7 +4666,7 @@
   {
     "id": 107,
     "word": "context",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "circumstances surrounding an event",
     "example": "The quote was taken out of context.",
@@ -4798,7 +4798,7 @@
   {
     "id": 110,
     "word": "contribute",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to give or supply",
     "example": "Everyone should contribute to the discussion.",
@@ -4842,7 +4842,7 @@
   {
     "id": 111,
     "word": "controversy",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "prolonged public disagreement",
     "example": "The decision sparked controversy.",
@@ -4886,7 +4886,7 @@
   {
     "id": 112,
     "word": "conventional",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "based on accepted practices",
     "example": "They followed conventional methods.",
@@ -4930,7 +4930,7 @@
   {
     "id": 113,
     "word": "converge",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to come together",
     "example": "The rivers converge at this point.",
@@ -4974,7 +4974,7 @@
   {
     "id": 114,
     "word": "convey",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to communicate or transport",
     "example": "Words cannot convey my gratitude.",
@@ -5018,7 +5018,7 @@
   {
     "id": 115,
     "word": "conviction",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "a firmly held belief",
     "example": "She spoke with conviction.",
@@ -5106,7 +5106,7 @@
   {
     "id": 117,
     "word": "correlate",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to have a mutual relationship",
     "example": "Education levels correlate with income.",
@@ -5150,7 +5150,7 @@
   {
     "id": 118,
     "word": "corroborate",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to confirm or support",
     "example": "Witnesses corroborated her account.",
@@ -5238,7 +5238,7 @@
   {
     "id": 120,
     "word": "criterion",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "a standard for judgment",
     "example": "What criteria will you use to evaluate?",
@@ -5326,7 +5326,7 @@
   {
     "id": 122,
     "word": "culminate",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to reach the highest point",
     "example": "The ceremony culminated in fireworks.",
@@ -5370,7 +5370,7 @@
   {
     "id": 123,
     "word": "cursory",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "hasty and superficial",
     "example": "She gave the document a cursory glance.",
@@ -5414,7 +5414,7 @@
   {
     "id": 124,
     "word": "cynical",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "distrustful of motives",
     "example": "He has a cynical view of politics.",
@@ -5458,7 +5458,7 @@
   {
     "id": 125,
     "word": "debilitating",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "causing weakness",
     "example": "The disease has debilitating effects.",
@@ -5502,7 +5502,7 @@
   {
     "id": 126,
     "word": "deceive",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to mislead or trick",
     "example": "Appearances can deceive.",
@@ -5590,7 +5590,7 @@
   {
     "id": 128,
     "word": "decline",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to refuse or decrease",
     "example": "Sales continued to decline.",
@@ -5634,7 +5634,7 @@
   {
     "id": 129,
     "word": "deduce",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to reach a conclusion through reasoning",
     "example": "We can deduce the answer from the clues.",
@@ -5678,7 +5678,7 @@
   {
     "id": 130,
     "word": "deem",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to consider or judge",
     "example": "The court deemed it necessary.",
@@ -5722,7 +5722,7 @@
   {
     "id": 131,
     "word": "deficient",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "lacking something essential",
     "example": "The diet was deficient in vitamins.",
@@ -5766,7 +5766,7 @@
   {
     "id": 132,
     "word": "definitive",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "conclusive; final",
     "example": "This is the definitive guide to the topic.",
@@ -5810,7 +5810,7 @@
   {
     "id": 133,
     "word": "degrade",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to lower in dignity or quality",
     "example": "Pollution degrades the environment.",
@@ -5854,7 +5854,7 @@
   {
     "id": 134,
     "word": "deliberate",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "done consciously and intentionally",
     "example": "It was a deliberate decision.",
@@ -5898,7 +5898,7 @@
   {
     "id": 135,
     "word": "delineate",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to describe precisely",
     "example": "The contract delineates responsibilities.",
@@ -5942,7 +5942,7 @@
   {
     "id": 136,
     "word": "demographic",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "relating to population statistics",
     "example": "Demographic changes affect markets.",
@@ -5986,7 +5986,7 @@
   {
     "id": 137,
     "word": "demonstrate",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to show clearly",
     "example": "The experiment demonstrates the principle.",
@@ -6030,7 +6030,7 @@
   {
     "id": 138,
     "word": "denounce",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to publicly condemn",
     "example": "Leaders denounced the violence.",
@@ -6074,7 +6074,7 @@
   {
     "id": 139,
     "word": "depict",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to represent in art or words",
     "example": "The painting depicts a rural scene.",
@@ -6162,7 +6162,7 @@
   {
     "id": 141,
     "word": "derive",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to obtain from a source",
     "example": "Many words derive from Latin.",
@@ -6206,7 +6206,7 @@
   {
     "id": 142,
     "word": "designate",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to officially assign",
     "example": "The area was designated a national park.",
@@ -6250,7 +6250,7 @@
   {
     "id": 143,
     "word": "desirable",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "worth having or wanting",
     "example": "Location is a desirable feature.",
@@ -6338,7 +6338,7 @@
   {
     "id": 145,
     "word": "detect",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to discover or identify",
     "example": "Sensors detect motion in the room.",
@@ -6382,7 +6382,7 @@
   {
     "id": 146,
     "word": "deter",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to discourage from acting",
     "example": "High prices deter some customers.",
@@ -6426,7 +6426,7 @@
   {
     "id": 147,
     "word": "deteriorate",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to become progressively worse",
     "example": "His health began to deteriorate.",
@@ -6470,7 +6470,7 @@
   {
     "id": 148,
     "word": "determination",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "firmness of purpose",
     "example": "Her determination led to success.",
@@ -6514,7 +6514,7 @@
   {
     "id": 149,
     "word": "detrimental",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "causing harm",
     "example": "Smoking is detrimental to health.",
@@ -6558,7 +6558,7 @@
   {
     "id": 150,
     "word": "devise",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to plan or invent",
     "example": "They devised a new strategy.",
@@ -6602,7 +6602,7 @@
   {
     "id": 151,
     "word": "devoid",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "entirely lacking",
     "example": "The room was devoid of furniture.",
@@ -6646,7 +6646,7 @@
   {
     "id": 152,
     "word": "devote",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to give time or resources to",
     "example": "She devoted her life to research.",
@@ -6690,7 +6690,7 @@
   {
     "id": 153,
     "word": "dilemma",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "a difficult choice",
     "example": "He faced a moral dilemma.",
@@ -6734,7 +6734,7 @@
   {
     "id": 154,
     "word": "diligent",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "showing careful effort",
     "example": "She is a diligent student.",
@@ -6866,7 +6866,7 @@
   {
     "id": 157,
     "word": "disclose",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to make known",
     "example": "The company disclosed its financial results.",
@@ -6910,7 +6910,7 @@
   {
     "id": 158,
     "word": "discourse",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "written or spoken communication",
     "example": "Academic discourse can be complex.",
@@ -6954,7 +6954,7 @@
   {
     "id": 159,
     "word": "discrepancy",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "noun",
     "definition": "a lack of compatibility",
     "example": "There was a discrepancy in the accounts.",
@@ -6998,7 +6998,7 @@
   {
     "id": 160,
     "word": "discrete",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "individually separate",
     "example": "The project has three discrete phases.",
@@ -7042,7 +7042,7 @@
   {
     "id": 161,
     "word": "discriminate",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to recognize differences; to treat unfairly",
     "example": "It is illegal to discriminate based on race.",
@@ -7130,7 +7130,7 @@
   {
     "id": 163,
     "word": "disparate",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "essentially different",
     "example": "The study compared disparate groups.",
@@ -7218,7 +7218,7 @@
   {
     "id": 165,
     "word": "disperse",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to scatter in different directions",
     "example": "The crowd began to disperse.",
@@ -7262,7 +7262,7 @@
   {
     "id": 166,
     "word": "displace",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to force from usual position",
     "example": "War displaced millions of people.",
@@ -7394,7 +7394,7 @@
   {
     "id": 169,
     "word": "dispute",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "a disagreement or argument",
     "example": "They are involved in a legal dispute.",
@@ -7438,7 +7438,7 @@
   {
     "id": 170,
     "word": "disrupt",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to interrupt or disturb",
     "example": "Technology disrupts traditional industries.",
@@ -7482,7 +7482,7 @@
   {
     "id": 171,
     "word": "disseminate",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to spread widely",
     "example": "Social media disseminates information quickly.",
@@ -7526,7 +7526,7 @@
   {
     "id": 172,
     "word": "dissent",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "disagreement with majority opinion",
     "example": "There was dissent within the party.",
@@ -7658,7 +7658,7 @@
   {
     "id": 175,
     "word": "distort",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to twist out of shape",
     "example": "The media distorted the facts.",
@@ -7746,7 +7746,7 @@
   {
     "id": 177,
     "word": "diverse",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "showing variety",
     "example": "The city has a diverse population.",
@@ -7790,7 +7790,7 @@
   {
     "id": 178,
     "word": "divert",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to redirect",
     "example": "Traffic was diverted around the accident.",
@@ -7834,7 +7834,7 @@
   {
     "id": 179,
     "word": "doctrine",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "a set of beliefs",
     "example": "Religious doctrine guides their practices.",
@@ -7878,7 +7878,7 @@
   {
     "id": 180,
     "word": "document",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to record in detail",
     "example": "Scientists document their findings.",
@@ -7966,7 +7966,7 @@
   {
     "id": 182,
     "word": "domestic",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "relating to home or country",
     "example": "Domestic issues take priority.",
@@ -8010,7 +8010,7 @@
   {
     "id": 183,
     "word": "dominant",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "most important or powerful",
     "example": "They are the dominant force in the market.",
@@ -8054,7 +8054,7 @@
   {
     "id": 184,
     "word": "dramatic",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "striking; relating to drama",
     "example": "The results showed dramatic improvement.",
@@ -8098,7 +8098,7 @@
   {
     "id": 185,
     "word": "drastic",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "extreme; severe",
     "example": "Drastic measures were needed.",
@@ -8186,7 +8186,7 @@
   {
     "id": 187,
     "word": "dynamic",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "characterized by change",
     "example": "The economy is dynamic and evolving.",
@@ -8230,7 +8230,7 @@
   {
     "id": 188,
     "word": "eccentric",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "unconventional",
     "example": "He was known for his eccentric behavior.",
@@ -8274,7 +8274,7 @@
   {
     "id": 189,
     "word": "eclipse",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to surpass in importance",
     "example": "Her achievements eclipsed all others.",
@@ -8318,7 +8318,7 @@
   {
     "id": 190,
     "word": "economic",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "relating to the economy",
     "example": "Economic growth has slowed.",
@@ -8362,7 +8362,7 @@
   {
     "id": 191,
     "word": "elaborate",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "detailed and complicated",
     "example": "She gave an elaborate explanation.",
@@ -8494,7 +8494,7 @@
   {
     "id": 194,
     "word": "eloquent",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "fluent and persuasive",
     "example": "She delivered an eloquent speech.",
@@ -8538,7 +8538,7 @@
   {
     "id": 195,
     "word": "elucidate",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to make clear",
     "example": "Please elucidate your point.",
@@ -8582,7 +8582,7 @@
   {
     "id": 196,
     "word": "elusive",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "difficult to find or achieve",
     "example": "Success remained elusive.",
@@ -8626,7 +8626,7 @@
   {
     "id": 197,
     "word": "emanate",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to originate from",
     "example": "Light emanated from the window.",
@@ -8670,7 +8670,7 @@
   {
     "id": 198,
     "word": "embed",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to fix firmly",
     "example": "Values are embedded in culture.",
@@ -8714,7 +8714,7 @@
   {
     "id": 199,
     "word": "embody",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to represent in physical form",
     "example": "She embodies the spirit of innovation.",
@@ -8758,7 +8758,7 @@
   {
     "id": 200,
     "word": "emerge",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to come out or appear",
     "example": "New leaders emerged from the crisis.",
@@ -8802,7 +8802,7 @@
   {
     "id": 201,
     "word": "eminent",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "famous and respected",
     "example": "She is an eminent scholar.",
@@ -8846,7 +8846,7 @@
   {
     "id": 202,
     "word": "emit",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to send out",
     "example": "The factory emits smoke.",
@@ -8934,7 +8934,7 @@
   {
     "id": 204,
     "word": "empirical",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "based on observation",
     "example": "We need empirical evidence.",
@@ -8978,7 +8978,7 @@
   {
     "id": 205,
     "word": "emulate",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to imitate",
     "example": "Students emulate their teachers.",
@@ -9022,7 +9022,7 @@
   {
     "id": 206,
     "word": "enact",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to make into law",
     "example": "Congress enacted the bill.",
@@ -9066,7 +9066,7 @@
   {
     "id": 207,
     "word": "encompass",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to include",
     "example": "The study encompasses many topics.",
@@ -9110,7 +9110,7 @@
   {
     "id": 208,
     "word": "endeavor",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "an effort",
     "example": "His endeavor succeeded.",
@@ -9154,7 +9154,7 @@
   {
     "id": 209,
     "word": "endorse",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to support",
     "example": "She endorsed the candidate.",
@@ -9198,7 +9198,7 @@
   {
     "id": 210,
     "word": "endure",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to suffer through",
     "example": "He endured the pain.",
@@ -9242,7 +9242,7 @@
   {
     "id": 211,
     "word": "enhance",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to improve",
     "example": "Technology enhances learning.",
@@ -9330,7 +9330,7 @@
   {
     "id": 213,
     "word": "enormous",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "very large",
     "example": "The task was enormous.",
@@ -9374,7 +9374,7 @@
   {
     "id": 214,
     "word": "ensure",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to make certain",
     "example": "Ensure the door is locked.",
@@ -9418,7 +9418,7 @@
   {
     "id": 215,
     "word": "entail",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to involve",
     "example": "The job entails travel.",
@@ -9462,7 +9462,7 @@
   {
     "id": 216,
     "word": "enterprise",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "a business project",
     "example": "She runs an enterprise.",
@@ -9506,7 +9506,7 @@
   {
     "id": 217,
     "word": "enthusiastic",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "very excited",
     "example": "The crowd was enthusiastic.",
@@ -9594,7 +9594,7 @@
   {
     "id": 219,
     "word": "entrepreneur",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "business starter",
     "example": "The entrepreneur succeeded.",
@@ -9726,7 +9726,7 @@
   {
     "id": 222,
     "word": "envisage",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to imagine",
     "example": "I envisage great success.",
@@ -9770,7 +9770,7 @@
   {
     "id": 223,
     "word": "ephemeral",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "short-lived",
     "example": "Fame is ephemeral.",
@@ -9814,7 +9814,7 @@
   {
     "id": 224,
     "word": "epidemic",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "disease outbreak",
     "example": "The epidemic spread quickly.",
@@ -9858,7 +9858,7 @@
   {
     "id": 225,
     "word": "episodic",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "in episodes",
     "example": "The show is episodic.",
@@ -9902,7 +9902,7 @@
   {
     "id": 226,
     "word": "equate",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to consider equal",
     "example": "Don't equate money with happiness.",
@@ -9990,7 +9990,7 @@
   {
     "id": 228,
     "word": "equip",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to provide tools",
     "example": "Equip yourself with knowledge.",
@@ -10078,7 +10078,7 @@
   {
     "id": 230,
     "word": "equivocal",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "ambiguous",
     "example": "His answer was equivocal.",
@@ -10122,7 +10122,7 @@
   {
     "id": 231,
     "word": "eradicate",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to destroy completely",
     "example": "Eradicate poverty.",
@@ -10210,7 +10210,7 @@
   {
     "id": 233,
     "word": "erratic",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "unpredictable",
     "example": "His behavior was erratic.",
@@ -10254,7 +10254,7 @@
   {
     "id": 234,
     "word": "erudite",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "very learned",
     "example": "The professor is erudite.",
@@ -10298,7 +10298,7 @@
   {
     "id": 235,
     "word": "escalate",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to increase",
     "example": "Tensions escalated.",
@@ -10342,7 +10342,7 @@
   {
     "id": 236,
     "word": "essential",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "necessary",
     "example": "Water is essential.",
@@ -10474,7 +10474,7 @@
   {
     "id": 239,
     "word": "estimate",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to guess",
     "example": "Estimate the cost.",
@@ -10518,7 +10518,7 @@
   {
     "id": 240,
     "word": "eternal",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "lasting forever",
     "example": "Eternal love.",
@@ -10562,7 +10562,7 @@
   {
     "id": 241,
     "word": "ethical",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "moral",
     "example": "Ethical behavior matters.",
@@ -10606,7 +10606,7 @@
   {
     "id": 242,
     "word": "ethnic",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "cultural group",
     "example": "Ethnic diversity.",
@@ -10650,7 +10650,7 @@
   {
     "id": 243,
     "word": "etiquette",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "noun",
     "definition": "manners",
     "example": "Business etiquette.",
@@ -10738,7 +10738,7 @@
   {
     "id": 245,
     "word": "evaluate",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to assess",
     "example": "Evaluate the results.",
@@ -10782,7 +10782,7 @@
   {
     "id": 246,
     "word": "evade",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to avoid",
     "example": "Evade the question.",
@@ -10870,7 +10870,7 @@
   {
     "id": 248,
     "word": "evident",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "obvious",
     "example": "The answer is evident.",
@@ -10914,7 +10914,7 @@
   {
     "id": 249,
     "word": "evoke",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to bring to mind",
     "example": "Music evokes memories.",
@@ -10958,7 +10958,7 @@
   {
     "id": 250,
     "word": "evolve",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to develop",
     "example": "Species evolve.",
@@ -11002,7 +11002,7 @@
   {
     "id": 251,
     "word": "exacerbate",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to make worse",
     "example": "The drought exacerbated the famine.",
@@ -11046,7 +11046,7 @@
   {
     "id": 252,
     "word": "examine",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to inspect closely",
     "example": "Examine the evidence carefully.",
@@ -11090,7 +11090,7 @@
   {
     "id": 253,
     "word": "exceed",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to go beyond",
     "example": "Sales exceeded expectations.",
@@ -11134,7 +11134,7 @@
   {
     "id": 254,
     "word": "excerpt",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "a passage taken from a text",
     "example": "Read this excerpt from the novel.",
@@ -11222,7 +11222,7 @@
   {
     "id": 256,
     "word": "exclusive",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "limited to a select group",
     "example": "An exclusive club membership.",
@@ -11266,7 +11266,7 @@
   {
     "id": 257,
     "word": "execute",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to carry out",
     "example": "Execute the plan immediately.",
@@ -11310,7 +11310,7 @@
   {
     "id": 258,
     "word": "exemplify",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to serve as an example",
     "example": "Her work exemplifies excellence.",
@@ -11442,7 +11442,7 @@
   {
     "id": 261,
     "word": "exhaust",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to use up completely",
     "example": "We exhausted all options.",
@@ -11574,7 +11574,7 @@
   {
     "id": 264,
     "word": "expand",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to increase in size",
     "example": "The company plans to expand.",
@@ -11618,7 +11618,7 @@
   {
     "id": 265,
     "word": "expedite",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to speed up",
     "example": "We need to expedite the process.",
@@ -11662,7 +11662,7 @@
   {
     "id": 266,
     "word": "expel",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to force out",
     "example": "The student was expelled from school.",
@@ -11706,7 +11706,7 @@
   {
     "id": 267,
     "word": "expertise",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "specialized knowledge",
     "example": "Her expertise is in medicine.",
@@ -11750,7 +11750,7 @@
   {
     "id": 268,
     "word": "explicit",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "clearly stated",
     "example": "Give explicit instructions.",
@@ -11794,7 +11794,7 @@
   {
     "id": 269,
     "word": "exploit",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to use selfishly",
     "example": "Don't exploit your workers.",
@@ -11838,7 +11838,7 @@
   {
     "id": 270,
     "word": "explore",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to investigate",
     "example": "Explore new possibilities.",
@@ -11882,7 +11882,7 @@
   {
     "id": 271,
     "word": "expose",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to reveal",
     "example": "The article exposed corruption.",
@@ -11926,7 +11926,7 @@
   {
     "id": 272,
     "word": "express",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to communicate",
     "example": "Express your feelings openly.",
@@ -12014,7 +12014,7 @@
   {
     "id": 274,
     "word": "extensive",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "wide-ranging",
     "example": "Extensive research was conducted.",
@@ -12058,7 +12058,7 @@
   {
     "id": 275,
     "word": "extent",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "degree or scope",
     "example": "The full extent of the damage.",
@@ -12102,7 +12102,7 @@
   {
     "id": 276,
     "word": "external",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "outside",
     "example": "External factors affected the outcome.",
@@ -12146,7 +12146,7 @@
   {
     "id": 277,
     "word": "extinct",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "no longer existing",
     "example": "Dinosaurs are extinct.",
@@ -12234,7 +12234,7 @@
   {
     "id": 279,
     "word": "extraordinary",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "remarkable",
     "example": "An extraordinary achievement.",
@@ -12278,7 +12278,7 @@
   {
     "id": 280,
     "word": "extreme",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "very great",
     "example": "Extreme weather conditions.",
@@ -12322,7 +12322,7 @@
   {
     "id": 281,
     "word": "fabricate",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to invent falsely",
     "example": "He fabricated the story.",
@@ -12410,7 +12410,7 @@
   {
     "id": 283,
     "word": "factor",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "an element",
     "example": "Consider all factors involved.",
@@ -12454,7 +12454,7 @@
   {
     "id": 284,
     "word": "faculty",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "teaching staff",
     "example": "The faculty voted unanimously.",
@@ -12498,7 +12498,7 @@
   {
     "id": 285,
     "word": "fade",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to lose intensity",
     "example": "Memories fade over time.",
@@ -12542,7 +12542,7 @@
   {
     "id": 286,
     "word": "fallacy",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "noun",
     "definition": "a false belief",
     "example": "That argument is a fallacy.",
@@ -12586,7 +12586,7 @@
   {
     "id": 287,
     "word": "familiar",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "well known",
     "example": "A familiar face in the crowd.",
@@ -12630,7 +12630,7 @@
   {
     "id": 288,
     "word": "famine",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "extreme food shortage",
     "example": "The famine killed thousands.",
@@ -12674,7 +12674,7 @@
   {
     "id": 289,
     "word": "fanatic",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "noun",
     "definition": "an extremist",
     "example": "A religious fanatic.",
@@ -12718,7 +12718,7 @@
   {
     "id": 290,
     "word": "fascinate",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to attract strongly",
     "example": "The topic fascinates me.",
@@ -12762,7 +12762,7 @@
   {
     "id": 291,
     "word": "fatal",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "causing death",
     "example": "A fatal accident occurred.",
@@ -12806,7 +12806,7 @@
   {
     "id": 292,
     "word": "fatigue",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "extreme tiredness",
     "example": "Mental fatigue set in.",
@@ -12850,7 +12850,7 @@
   {
     "id": 293,
     "word": "feasible",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "possible to do",
     "example": "Is the plan feasible?",
@@ -12894,7 +12894,7 @@
   {
     "id": 294,
     "word": "feature",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "a characteristic",
     "example": "A key feature of the design.",
@@ -12938,7 +12938,7 @@
   {
     "id": 295,
     "word": "federal",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "relating to central government",
     "example": "Federal law applies here.",
@@ -13026,7 +13026,7 @@
   {
     "id": 297,
     "word": "fertile",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "able to produce",
     "example": "Fertile soil for farming.",
@@ -13070,7 +13070,7 @@
   {
     "id": 298,
     "word": "fervent",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "intensely passionate",
     "example": "A fervent supporter.",
@@ -13114,7 +13114,7 @@
   {
     "id": 299,
     "word": "fictitious",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "imaginary",
     "example": "A fictitious character.",
@@ -13158,7 +13158,7 @@
   {
     "id": 300,
     "word": "finite",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "limited",
     "example": "Resources are finite.",
@@ -13202,7 +13202,7 @@
   {
     "id": 301,
     "word": "flagrant",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "obviously offensive",
     "example": "A flagrant violation of the rules.",
@@ -13246,7 +13246,7 @@
   {
     "id": 302,
     "word": "flaw",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "a defect",
     "example": "The plan has a fatal flaw.",
@@ -13290,7 +13290,7 @@
   {
     "id": 303,
     "word": "fleeting",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "passing quickly",
     "example": "A fleeting moment of joy.",
@@ -13334,7 +13334,7 @@
   {
     "id": 304,
     "word": "flexible",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "able to bend",
     "example": "Be flexible with your schedule.",
@@ -13378,7 +13378,7 @@
   {
     "id": 305,
     "word": "flourish",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to thrive",
     "example": "The business flourished.",
@@ -13422,7 +13422,7 @@
   {
     "id": 306,
     "word": "fluctuate",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to vary irregularly",
     "example": "Prices fluctuate daily.",
@@ -13510,7 +13510,7 @@
   {
     "id": 308,
     "word": "focus",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to concentrate",
     "example": "Focus on the task at hand.",
@@ -13554,7 +13554,7 @@
   {
     "id": 309,
     "word": "foil",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to prevent success",
     "example": "Police foiled the robbery.",
@@ -13642,7 +13642,7 @@
   {
     "id": 311,
     "word": "forfeit",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to lose as a penalty",
     "example": "He forfeited his right to appeal.",
@@ -13686,7 +13686,7 @@
   {
     "id": 312,
     "word": "formidable",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "inspiring fear or respect",
     "example": "A formidable opponent.",
@@ -13730,7 +13730,7 @@
   {
     "id": 313,
     "word": "formulate",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to create systematically",
     "example": "Formulate a new strategy.",
@@ -13774,7 +13774,7 @@
   {
     "id": 314,
     "word": "forsake",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to abandon",
     "example": "Never forsake your principles.",
@@ -13862,7 +13862,7 @@
   {
     "id": 316,
     "word": "foster",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to encourage development",
     "example": "Foster creativity in children.",
@@ -13994,7 +13994,7 @@
   {
     "id": 319,
     "word": "fragile",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "easily broken",
     "example": "Handle with care, it's fragile.",
@@ -14038,7 +14038,7 @@
   {
     "id": 320,
     "word": "fragment",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "a piece broken off",
     "example": "Fragments of the vase scattered.",
@@ -14126,7 +14126,7 @@
   {
     "id": 322,
     "word": "fraud",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "deception for gain",
     "example": "He was convicted of fraud.",
@@ -14258,7 +14258,7 @@
   {
     "id": 325,
     "word": "frustrate",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to discourage",
     "example": "Delays frustrated the team.",
@@ -14346,7 +14346,7 @@
   {
     "id": 327,
     "word": "function",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "purpose or role",
     "example": "What is its function?",
@@ -14390,7 +14390,7 @@
   {
     "id": 328,
     "word": "fundamental",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "basic and essential",
     "example": "A fundamental principle.",
@@ -14434,7 +14434,7 @@
   {
     "id": 329,
     "word": "futile",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "useless",
     "example": "Resistance was futile.",
@@ -14522,7 +14522,7 @@
   {
     "id": 331,
     "word": "generate",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to produce",
     "example": "Generate new ideas.",
@@ -14566,7 +14566,7 @@
   {
     "id": 332,
     "word": "generous",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "willing to give",
     "example": "A generous donation.",
@@ -14654,7 +14654,7 @@
   {
     "id": 334,
     "word": "genuine",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "authentic",
     "example": "A genuine smile.",
@@ -14698,7 +14698,7 @@
   {
     "id": 335,
     "word": "gesture",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "a movement expressing thought",
     "example": "A kind gesture.",
@@ -14742,7 +14742,7 @@
   {
     "id": 336,
     "word": "global",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "worldwide",
     "example": "Global warming is real.",
@@ -14786,7 +14786,7 @@
   {
     "id": 337,
     "word": "glossary",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "noun",
     "definition": "list of terms",
     "example": "Check the glossary.",
@@ -14830,7 +14830,7 @@
   {
     "id": 338,
     "word": "grant",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to give formally",
     "example": "Grant permission.",
@@ -14874,7 +14874,7 @@
   {
     "id": 339,
     "word": "gravity",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "seriousness",
     "example": "The gravity of the situation.",
@@ -14918,7 +14918,7 @@
   {
     "id": 340,
     "word": "guarantee",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to promise",
     "example": "We guarantee satisfaction.",
@@ -14962,7 +14962,7 @@
   {
     "id": 341,
     "word": "guideline",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "noun",
     "definition": "a general rule",
     "example": "Follow the guidelines.",
@@ -15050,7 +15050,7 @@
   {
     "id": 343,
     "word": "hamper",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to hinder",
     "example": "Bad weather hampered rescue efforts.",
@@ -15094,7 +15094,7 @@
   {
     "id": 344,
     "word": "hardy",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "robust",
     "example": "Hardy plants survive winter.",
@@ -15138,7 +15138,7 @@
   {
     "id": 345,
     "word": "harmony",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "agreement",
     "example": "Live in harmony with nature.",
@@ -15226,7 +15226,7 @@
   {
     "id": 347,
     "word": "harvest",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "gathering of crops",
     "example": "A bountiful harvest.",
@@ -15314,7 +15314,7 @@
   {
     "id": 349,
     "word": "hazard",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "danger",
     "example": "A fire hazard.",
@@ -15358,7 +15358,7 @@
   {
     "id": 350,
     "word": "heed",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to pay attention to",
     "example": "Heed my warning.",
@@ -15402,7 +15402,7 @@
   {
     "id": 351,
     "word": "heighten",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to increase",
     "example": "Heighten awareness of the issue.",
@@ -15446,7 +15446,7 @@
   {
     "id": 352,
     "word": "heritage",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "inherited tradition",
     "example": "Preserve our cultural heritage.",
@@ -15490,7 +15490,7 @@
   {
     "id": 353,
     "word": "hesitate",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to pause before acting",
     "example": "Don't hesitate to ask.",
@@ -15534,7 +15534,7 @@
   {
     "id": 354,
     "word": "hierarchy",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "ranking system",
     "example": "The corporate hierarchy.",
@@ -15578,7 +15578,7 @@
   {
     "id": 355,
     "word": "highlight",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to emphasize",
     "example": "Highlight the key points.",
@@ -15666,7 +15666,7 @@
   {
     "id": 357,
     "word": "hindrance",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "noun",
     "definition": "an obstacle",
     "example": "Bureaucracy is a hindrance.",
@@ -15710,7 +15710,7 @@
   {
     "id": 358,
     "word": "homogeneous",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "uniform",
     "example": "A homogeneous mixture.",
@@ -15754,7 +15754,7 @@
   {
     "id": 359,
     "word": "hostile",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "unfriendly",
     "example": "A hostile environment.",
@@ -15798,7 +15798,7 @@
   {
     "id": 360,
     "word": "humane",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "compassionate",
     "example": "Humane treatment of animals.",
@@ -15842,7 +15842,7 @@
   {
     "id": 361,
     "word": "humble",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "modest",
     "example": "Despite fame, he remained humble.",
@@ -15930,7 +15930,7 @@
   {
     "id": 363,
     "word": "identical",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "exactly alike",
     "example": "Identical twins.",
@@ -15974,7 +15974,7 @@
   {
     "id": 364,
     "word": "identify",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to recognize",
     "example": "Identify the problem.",
@@ -16018,7 +16018,7 @@
   {
     "id": 365,
     "word": "ideology",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "system of beliefs",
     "example": "Political ideology.",
@@ -16106,7 +16106,7 @@
   {
     "id": 367,
     "word": "illuminate",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to light up or clarify",
     "example": "Illuminate the subject.",
@@ -16150,7 +16150,7 @@
   {
     "id": 368,
     "word": "illusion",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "false impression",
     "example": "An optical illusion.",
@@ -16194,7 +16194,7 @@
   {
     "id": 369,
     "word": "illustrate",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to explain with examples",
     "example": "Illustrate your point.",
@@ -16326,7 +16326,7 @@
   {
     "id": 372,
     "word": "immune",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "protected against",
     "example": "Immune to criticism.",
@@ -16414,7 +16414,7 @@
   {
     "id": 374,
     "word": "impair",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to weaken",
     "example": "Alcohol impairs judgment.",
@@ -16458,7 +16458,7 @@
   {
     "id": 375,
     "word": "impartial",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "unbiased",
     "example": "An impartial judge.",
@@ -16546,7 +16546,7 @@
   {
     "id": 377,
     "word": "imperative",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "absolutely necessary",
     "example": "Action is imperative.",
@@ -16634,7 +16634,7 @@
   {
     "id": 379,
     "word": "implicate",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to show involvement",
     "example": "Evidence implicated him.",
@@ -16678,7 +16678,7 @@
   {
     "id": 380,
     "word": "implication",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "possible consequence",
     "example": "Consider the implications.",
@@ -16722,7 +16722,7 @@
   {
     "id": 381,
     "word": "implicit",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "implied but not stated",
     "example": "Implicit agreement.",
@@ -16766,7 +16766,7 @@
   {
     "id": 382,
     "word": "imply",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to suggest indirectly",
     "example": "What are you implying?",
@@ -16810,7 +16810,7 @@
   {
     "id": 383,
     "word": "impose",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to force upon",
     "example": "Impose strict rules.",
@@ -16898,7 +16898,7 @@
   {
     "id": 385,
     "word": "inadequate",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "insufficient",
     "example": "Inadequate resources.",
@@ -17074,7 +17074,7 @@
   {
     "id": 389,
     "word": "incorporate",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to include",
     "example": "Incorporate feedback.",
@@ -17118,7 +17118,7 @@
   {
     "id": 390,
     "word": "incredible",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "hard to believe",
     "example": "An incredible story.",
@@ -17162,7 +17162,7 @@
   {
     "id": 391,
     "word": "incur",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to bring upon oneself",
     "example": "Incur heavy debts.",
@@ -17206,7 +17206,7 @@
   {
     "id": 392,
     "word": "indicate",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to point out",
     "example": "Studies indicate a link.",
@@ -17250,7 +17250,7 @@
   {
     "id": 393,
     "word": "indigenous",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "native",
     "example": "Indigenous peoples.",
@@ -17294,7 +17294,7 @@
   {
     "id": 394,
     "word": "indispensable",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "essential",
     "example": "An indispensable tool.",
@@ -17382,7 +17382,7 @@
   {
     "id": 396,
     "word": "inevitable",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "unavoidable",
     "example": "Change is inevitable.",
@@ -17426,7 +17426,7 @@
   {
     "id": 397,
     "word": "infamous",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "well-known for bad reasons",
     "example": "An infamous criminal.",
@@ -17470,7 +17470,7 @@
   {
     "id": 398,
     "word": "infer",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to conclude from evidence",
     "example": "What can we infer?",
@@ -17558,7 +17558,7 @@
   {
     "id": 400,
     "word": "infinite",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "limitless",
     "example": "Infinite possibilities.",
@@ -17602,7 +17602,7 @@
   {
     "id": 401,
     "word": "inflate",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to expand",
     "example": "Inflate the balloon.",
@@ -17646,7 +17646,7 @@
   {
     "id": 402,
     "word": "influence",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "power to affect",
     "example": "A strong influence on her.",
@@ -17690,7 +17690,7 @@
   {
     "id": 403,
     "word": "inform",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to tell",
     "example": "Please inform me of changes.",
@@ -17734,7 +17734,7 @@
   {
     "id": 404,
     "word": "infrastructure",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "basic systems",
     "example": "Improve the infrastructure.",
@@ -17778,7 +17778,7 @@
   {
     "id": 405,
     "word": "inhabit",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to live in",
     "example": "Animals inhabit the forest.",
@@ -17822,7 +17822,7 @@
   {
     "id": 406,
     "word": "inherent",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "built-in",
     "example": "An inherent flaw in the design.",
@@ -17998,7 +17998,7 @@
   {
     "id": 410,
     "word": "initiate",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to begin",
     "example": "Initiate the process.",
@@ -18042,7 +18042,7 @@
   {
     "id": 411,
     "word": "initiative",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "a new plan",
     "example": "Take the initiative.",
@@ -18130,7 +18130,7 @@
   {
     "id": 413,
     "word": "innate",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "inborn",
     "example": "Innate talent for music.",
@@ -18174,7 +18174,7 @@
   {
     "id": 414,
     "word": "innocuous",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "harmless",
     "example": "An innocuous remark.",
@@ -18218,7 +18218,7 @@
   {
     "id": 415,
     "word": "innovate",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to introduce new ideas",
     "example": "Companies must innovate.",
@@ -18306,7 +18306,7 @@
   {
     "id": 417,
     "word": "insatiable",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "never satisfied",
     "example": "An insatiable appetite.",
@@ -18438,7 +18438,7 @@
   {
     "id": 420,
     "word": "insist",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to demand firmly",
     "example": "I insist on quality.",
@@ -18482,7 +18482,7 @@
   {
     "id": 421,
     "word": "inspect",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to examine closely",
     "example": "Inspect the goods carefully.",
@@ -18570,7 +18570,7 @@
   {
     "id": 423,
     "word": "install",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to set up",
     "example": "Install the software.",
@@ -18614,7 +18614,7 @@
   {
     "id": 424,
     "word": "instance",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "an example",
     "example": "For instance, consider this.",
@@ -18658,7 +18658,7 @@
   {
     "id": 425,
     "word": "instinct",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "natural tendency",
     "example": "Trust your instincts.",
@@ -18702,7 +18702,7 @@
   {
     "id": 426,
     "word": "institute",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "an organization",
     "example": "A research institute.",
@@ -18746,7 +18746,7 @@
   {
     "id": 427,
     "word": "instruct",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to teach",
     "example": "Instruct the students.",
@@ -18790,7 +18790,7 @@
   {
     "id": 428,
     "word": "instrument",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "a tool",
     "example": "A surgical instrument.",
@@ -18834,7 +18834,7 @@
   {
     "id": 429,
     "word": "integral",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "essential",
     "example": "An integral part of the plan.",
@@ -18878,7 +18878,7 @@
   {
     "id": 430,
     "word": "integrate",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to combine",
     "example": "Integrate new technology.",
@@ -18922,7 +18922,7 @@
   {
     "id": 431,
     "word": "integrity",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "honesty",
     "example": "A person of integrity.",
@@ -18966,7 +18966,7 @@
   {
     "id": 432,
     "word": "intellect",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "mental capacity",
     "example": "A sharp intellect.",
@@ -19098,7 +19098,7 @@
   {
     "id": 435,
     "word": "intense",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "very strong",
     "example": "Intense pressure.",
@@ -19142,7 +19142,7 @@
   {
     "id": 436,
     "word": "interact",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to communicate",
     "example": "Students interact with teachers.",
@@ -19186,7 +19186,7 @@
   {
     "id": 437,
     "word": "interfere",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to meddle",
     "example": "Don't interfere with my work.",
@@ -19230,7 +19230,7 @@
   {
     "id": 438,
     "word": "interior",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "inside part",
     "example": "The car's interior.",
@@ -19274,7 +19274,7 @@
   {
     "id": 439,
     "word": "intermediate",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "in between",
     "example": "An intermediate level.",
@@ -19318,7 +19318,7 @@
   {
     "id": 440,
     "word": "internal",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "inside",
     "example": "Internal affairs.",
@@ -19362,7 +19362,7 @@
   {
     "id": 441,
     "word": "interpret",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to explain meaning",
     "example": "Interpret the data.",
@@ -19406,7 +19406,7 @@
   {
     "id": 442,
     "word": "intervene",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to come between",
     "example": "The government intervened.",
@@ -19450,7 +19450,7 @@
   {
     "id": 443,
     "word": "intimate",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "closely personal",
     "example": "An intimate conversation.",
@@ -19538,7 +19538,7 @@
   {
     "id": 445,
     "word": "intricate",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "complex",
     "example": "An intricate design.",
@@ -19582,7 +19582,7 @@
   {
     "id": 446,
     "word": "intrinsic",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "essential by nature",
     "example": "Intrinsic value.",
@@ -19626,7 +19626,7 @@
   {
     "id": 447,
     "word": "introduce",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to present",
     "example": "Let me introduce myself.",
@@ -19714,7 +19714,7 @@
   {
     "id": 449,
     "word": "intuition",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "instinctive knowing",
     "example": "Trust your intuition.",
@@ -19758,7 +19758,7 @@
   {
     "id": 450,
     "word": "invade",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to enter forcefully",
     "example": "Troops invaded the country.",
@@ -19846,7 +19846,7 @@
   {
     "id": 452,
     "word": "inventory",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "stock of goods",
     "example": "Check the inventory.",
@@ -19934,7 +19934,7 @@
   {
     "id": 454,
     "word": "investigate",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to examine",
     "example": "Police investigate the crime.",
@@ -19978,7 +19978,7 @@
   {
     "id": 455,
     "word": "invoke",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to call upon",
     "example": "Invoke the law.",
@@ -20022,7 +20022,7 @@
   {
     "id": 456,
     "word": "involve",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to include",
     "example": "The project involves many people.",
@@ -20066,7 +20066,7 @@
   {
     "id": 457,
     "word": "ironic",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "contrary to expectations",
     "example": "An ironic twist.",
@@ -20110,7 +20110,7 @@
   {
     "id": 458,
     "word": "irrational",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "not logical",
     "example": "An irrational fear.",
@@ -20154,7 +20154,7 @@
   {
     "id": 459,
     "word": "irrelevant",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "not related",
     "example": "That point is irrelevant.",
@@ -20198,7 +20198,7 @@
   {
     "id": 460,
     "word": "isolate",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to separate",
     "example": "Isolate the problem.",
@@ -20286,7 +20286,7 @@
   {
     "id": 462,
     "word": "jeopardize",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to endanger",
     "example": "Don't jeopardize your career.",
@@ -20330,7 +20330,7 @@
   {
     "id": 463,
     "word": "judicial",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "relating to courts",
     "example": "The judicial system.",
@@ -20374,7 +20374,7 @@
   {
     "id": 464,
     "word": "justify",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to prove right",
     "example": "Justify your decision.",
@@ -20418,7 +20418,7 @@
   {
     "id": 465,
     "word": "keen",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "eager",
     "example": "A keen interest in art.",
@@ -20462,7 +20462,7 @@
   {
     "id": 466,
     "word": "kinetic",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "relating to motion",
     "example": "Kinetic energy.",
@@ -20506,7 +20506,7 @@
   {
     "id": 467,
     "word": "labor",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "work",
     "example": "Manual labor.",
@@ -20550,7 +20550,7 @@
   {
     "id": 468,
     "word": "lack",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to be without",
     "example": "They lack resources.",
@@ -20594,7 +20594,7 @@
   {
     "id": 469,
     "word": "landmark",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "significant place or event",
     "example": "A landmark decision.",
@@ -20638,7 +20638,7 @@
   {
     "id": 470,
     "word": "landscape",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "scenery",
     "example": "A beautiful landscape.",
@@ -20682,7 +20682,7 @@
   {
     "id": 471,
     "word": "latent",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "hidden",
     "example": "Latent potential.",
@@ -20726,7 +20726,7 @@
   {
     "id": 472,
     "word": "lateral",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "sideways",
     "example": "Lateral movement.",
@@ -20814,7 +20814,7 @@
   {
     "id": 474,
     "word": "layer",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "a level",
     "example": "Multiple layers of meaning.",
@@ -20858,7 +20858,7 @@
   {
     "id": 475,
     "word": "layout",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "arrangement",
     "example": "The page layout.",
@@ -20902,7 +20902,7 @@
   {
     "id": 476,
     "word": "lean",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "thin and efficient",
     "example": "A lean organization.",
@@ -20990,7 +20990,7 @@
   {
     "id": 478,
     "word": "legal",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "lawful",
     "example": "Legal proceedings.",
@@ -21034,7 +21034,7 @@
   {
     "id": 479,
     "word": "legislate",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to make laws",
     "example": "Congress legislates.",
@@ -21078,7 +21078,7 @@
   {
     "id": 480,
     "word": "legitimate",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "lawful or valid",
     "example": "A legitimate concern.",
@@ -21122,7 +21122,7 @@
   {
     "id": 481,
     "word": "lenient",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "not strict",
     "example": "A lenient judge.",
@@ -21210,7 +21210,7 @@
   {
     "id": 483,
     "word": "liable",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "legally responsible",
     "example": "He is liable for damages.",
@@ -21254,7 +21254,7 @@
   {
     "id": 484,
     "word": "liberal",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "open to new ideas",
     "example": "A liberal education.",
@@ -21298,7 +21298,7 @@
   {
     "id": 485,
     "word": "liberate",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to set free",
     "example": "Liberate the prisoners.",
@@ -21430,7 +21430,7 @@
   {
     "id": 488,
     "word": "limit",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to restrict",
     "example": "Limit your spending.",
@@ -21474,7 +21474,7 @@
   {
     "id": 489,
     "word": "linear",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "in a straight line",
     "example": "Linear progression.",
@@ -21518,7 +21518,7 @@
   {
     "id": 490,
     "word": "link",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to connect",
     "example": "Link the two ideas.",
@@ -21606,7 +21606,7 @@
   {
     "id": 492,
     "word": "literary",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "relating to literature",
     "example": "Literary analysis.",
@@ -21650,7 +21650,7 @@
   {
     "id": 493,
     "word": "lobby",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to influence",
     "example": "Lobby for change.",
@@ -21738,7 +21738,7 @@
   {
     "id": 495,
     "word": "logic",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "reasoning",
     "example": "Sound logic.",
@@ -21782,7 +21782,7 @@
   {
     "id": 496,
     "word": "longevity",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "long life",
     "example": "The secret to longevity.",
@@ -21826,7 +21826,7 @@
   {
     "id": 497,
     "word": "lucid",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "clear",
     "example": "A lucid explanation.",
@@ -21870,7 +21870,7 @@
   {
     "id": 498,
     "word": "lucrative",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "profitable",
     "example": "A lucrative business.",
@@ -21914,7 +21914,7 @@
   {
     "id": 499,
     "word": "luminous",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "bright",
     "example": "Luminous stars.",
@@ -21958,7 +21958,7 @@
   {
     "id": 500,
     "word": "magnitude",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "size or importance",
     "example": "The magnitude of the problem.",
@@ -22046,7 +22046,7 @@
   {
     "id": 502,
     "word": "major",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "significant",
     "example": "A major breakthrough.",
@@ -22134,7 +22134,7 @@
   {
     "id": 504,
     "word": "mandate",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "official order",
     "example": "A government mandate.",
@@ -22178,7 +22178,7 @@
   {
     "id": 505,
     "word": "manifest",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to show clearly",
     "example": "Symptoms manifest quickly.",
@@ -22222,7 +22222,7 @@
   {
     "id": 506,
     "word": "manipulate",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to control unfairly",
     "example": "Manipulate the data.",
@@ -22266,7 +22266,7 @@
   {
     "id": 507,
     "word": "margin",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "edge or difference",
     "example": "A narrow margin of victory.",
@@ -22310,7 +22310,7 @@
   {
     "id": 508,
     "word": "marginal",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "minor",
     "example": "Marginal improvements.",
@@ -22398,7 +22398,7 @@
   {
     "id": 510,
     "word": "maximize",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to increase to the most",
     "example": "Maximize profits.",
@@ -22442,7 +22442,7 @@
   {
     "id": 511,
     "word": "mechanism",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "a system of parts",
     "example": "The mechanism of action.",
@@ -22530,7 +22530,7 @@
   {
     "id": 513,
     "word": "medieval",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "of the Middle Ages",
     "example": "Medieval architecture.",
@@ -22574,7 +22574,7 @@
   {
     "id": 514,
     "word": "medium",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "middle ground or means",
     "example": "Social media is the medium.",
@@ -22618,7 +22618,7 @@
   {
     "id": 515,
     "word": "mental",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "of the mind",
     "example": "Mental health matters.",
@@ -22662,7 +22662,7 @@
   {
     "id": 516,
     "word": "mentor",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "a guide",
     "example": "Find a good mentor.",
@@ -22706,7 +22706,7 @@
   {
     "id": 517,
     "word": "merit",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "worth or value",
     "example": "Judge on merit.",
@@ -22750,7 +22750,7 @@
   {
     "id": 518,
     "word": "metabolism",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "body's chemical processes",
     "example": "A fast metabolism.",
@@ -22794,7 +22794,7 @@
   {
     "id": 519,
     "word": "method",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "a way of doing",
     "example": "Scientific method.",
@@ -22882,7 +22882,7 @@
   {
     "id": 521,
     "word": "migrate",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to move to another place",
     "example": "Birds migrate south.",
@@ -22926,7 +22926,7 @@
   {
     "id": 522,
     "word": "military",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "of armed forces",
     "example": "Military service.",
@@ -23014,7 +23014,7 @@
   {
     "id": 524,
     "word": "minimal",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "very small",
     "example": "Minimal effort required.",
@@ -23058,7 +23058,7 @@
   {
     "id": 525,
     "word": "minimize",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to reduce",
     "example": "Minimize risks.",
@@ -23102,7 +23102,7 @@
   {
     "id": 526,
     "word": "minor",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "not important",
     "example": "A minor issue.",
@@ -23146,7 +23146,7 @@
   {
     "id": 527,
     "word": "minute",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "very small",
     "example": "Minute differences.",
@@ -23234,7 +23234,7 @@
   {
     "id": 529,
     "word": "mislead",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to deceive",
     "example": "Don't mislead the public.",
@@ -23278,7 +23278,7 @@
   {
     "id": 530,
     "word": "mobile",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "able to move",
     "example": "Mobile devices.",
@@ -23322,7 +23322,7 @@
   {
     "id": 531,
     "word": "mode",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "method or style",
     "example": "A mode of transport.",
@@ -23366,7 +23366,7 @@
   {
     "id": 532,
     "word": "moderate",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "average",
     "example": "Moderate temperatures.",
@@ -23410,7 +23410,7 @@
   {
     "id": 533,
     "word": "modify",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to change",
     "example": "Modify the design.",
@@ -23498,7 +23498,7 @@
   {
     "id": 535,
     "word": "monitor",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to watch",
     "example": "Monitor progress closely.",
@@ -23542,7 +23542,7 @@
   {
     "id": 536,
     "word": "monopoly",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "exclusive control",
     "example": "A market monopoly.",
@@ -23586,7 +23586,7 @@
   {
     "id": 537,
     "word": "monotonous",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "boring and repetitive",
     "example": "A monotonous task.",
@@ -23630,7 +23630,7 @@
   {
     "id": 538,
     "word": "moral",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "relating to right and wrong",
     "example": "Moral values.",
@@ -23674,7 +23674,7 @@
   {
     "id": 539,
     "word": "motive",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "reason for action",
     "example": "What was the motive?",
@@ -23718,7 +23718,7 @@
   {
     "id": 540,
     "word": "mutual",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "shared by both",
     "example": "Mutual respect.",
@@ -23762,7 +23762,7 @@
   {
     "id": 541,
     "word": "naive",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "lacking experience",
     "example": "A naive assumption.",
@@ -23806,7 +23806,7 @@
   {
     "id": 542,
     "word": "narrative",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "a story",
     "example": "The narrative unfolds.",
@@ -23850,7 +23850,7 @@
   {
     "id": 543,
     "word": "narrow",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "limited in width",
     "example": "A narrow path.",
@@ -23894,7 +23894,7 @@
   {
     "id": 544,
     "word": "native",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "born in a place",
     "example": "A native speaker.",
@@ -23938,7 +23938,7 @@
   {
     "id": 545,
     "word": "navigate",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to find one's way",
     "example": "Navigate the system.",
@@ -23982,7 +23982,7 @@
   {
     "id": 546,
     "word": "neglect",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to fail to care for",
     "example": "Neglect your duties.",
@@ -24026,7 +24026,7 @@
   {
     "id": 547,
     "word": "negotiate",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to discuss terms",
     "example": "Negotiate a deal.",
@@ -24070,7 +24070,7 @@
   {
     "id": 548,
     "word": "neutral",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "not taking sides",
     "example": "Remain neutral.",
@@ -24114,7 +24114,7 @@
   {
     "id": 549,
     "word": "nevertheless",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "adverb",
     "definition": "in spite of that",
     "example": "Nevertheless, we tried.",
@@ -24158,7 +24158,7 @@
   {
     "id": 550,
     "word": "nominal",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "in name only",
     "example": "A nominal fee.",
@@ -24202,7 +24202,7 @@
   {
     "id": 551,
     "word": "norm",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "standard",
     "example": "Social norms.",
@@ -24246,7 +24246,7 @@
   {
     "id": 552,
     "word": "notable",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "worthy of attention",
     "example": "A notable achievement.",
@@ -24290,7 +24290,7 @@
   {
     "id": 553,
     "word": "notion",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "an idea",
     "example": "A strange notion.",
@@ -24334,7 +24334,7 @@
   {
     "id": 554,
     "word": "notorious",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "famous for bad reasons",
     "example": "A notorious criminal.",
@@ -24378,7 +24378,7 @@
   {
     "id": 555,
     "word": "novel",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "new and original",
     "example": "A novel approach.",
@@ -24422,7 +24422,7 @@
   {
     "id": 556,
     "word": "nuclear",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "relating to atoms",
     "example": "Nuclear energy.",
@@ -24466,7 +24466,7 @@
   {
     "id": 557,
     "word": "nullify",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to make invalid",
     "example": "Nullify the contract.",
@@ -24510,7 +24510,7 @@
   {
     "id": 558,
     "word": "numerous",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "many",
     "example": "Numerous examples.",
@@ -24554,7 +24554,7 @@
   {
     "id": 559,
     "word": "nurture",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to care for",
     "example": "Nurture talent.",
@@ -24598,7 +24598,7 @@
   {
     "id": 560,
     "word": "objective",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "unbiased",
     "example": "An objective view.",
@@ -24642,7 +24642,7 @@
   {
     "id": 561,
     "word": "obligate",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to require",
     "example": "Obligated to respond.",
@@ -24730,7 +24730,7 @@
   {
     "id": 563,
     "word": "observe",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to watch",
     "example": "Observe the experiment.",
@@ -24774,7 +24774,7 @@
   {
     "id": 564,
     "word": "obsolete",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "outdated",
     "example": "Obsolete technology.",
@@ -24818,7 +24818,7 @@
   {
     "id": 565,
     "word": "obstacle",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "something in the way",
     "example": "Overcome obstacles.",
@@ -24862,7 +24862,7 @@
   {
     "id": 566,
     "word": "obtain",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to get",
     "example": "Obtain permission.",
@@ -24906,7 +24906,7 @@
   {
     "id": 567,
     "word": "obvious",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "clear",
     "example": "The obvious choice.",
@@ -24950,7 +24950,7 @@
   {
     "id": 568,
     "word": "occupy",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to take up space",
     "example": "Occupy the building.",
@@ -25038,7 +25038,7 @@
   {
     "id": 570,
     "word": "odd",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "strange",
     "example": "An odd behavior.",
@@ -25082,7 +25082,7 @@
   {
     "id": 571,
     "word": "offense",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "a crime or insult",
     "example": "A serious offense.",
@@ -25126,7 +25126,7 @@
   {
     "id": 572,
     "word": "offset",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to balance",
     "example": "Offset the costs.",
@@ -25214,7 +25214,7 @@
   {
     "id": 574,
     "word": "onset",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "beginning",
     "example": "The onset of winter.",
@@ -25258,7 +25258,7 @@
   {
     "id": 575,
     "word": "opaque",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "not transparent",
     "example": "Opaque glass.",
@@ -25302,7 +25302,7 @@
   {
     "id": 576,
     "word": "operate",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to function",
     "example": "Operate the machine.",
@@ -25346,7 +25346,7 @@
   {
     "id": 577,
     "word": "opponent",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "adversary",
     "example": "A tough opponent.",
@@ -25390,7 +25390,7 @@
   {
     "id": 578,
     "word": "opportunity",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "a chance",
     "example": "Seize the opportunity.",
@@ -25434,7 +25434,7 @@
   {
     "id": 579,
     "word": "oppose",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to resist",
     "example": "Oppose the motion.",
@@ -25478,7 +25478,7 @@
   {
     "id": 580,
     "word": "optimal",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "best possible",
     "example": "Optimal conditions.",
@@ -25654,7 +25654,7 @@
   {
     "id": 584,
     "word": "orient",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to adjust",
     "example": "Orient yourself.",
@@ -25786,7 +25786,7 @@
   {
     "id": 587,
     "word": "oscillate",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to swing back and forth",
     "example": "Prices oscillate.",
@@ -25830,7 +25830,7 @@
   {
     "id": 588,
     "word": "outcome",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "result",
     "example": "A favorable outcome.",
@@ -25874,7 +25874,7 @@
   {
     "id": 589,
     "word": "outline",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "a summary",
     "example": "An outline of the plan.",
@@ -25962,7 +25962,7 @@
   {
     "id": 591,
     "word": "output",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "production",
     "example": "Increase output.",
@@ -26006,7 +26006,7 @@
   {
     "id": 592,
     "word": "outrage",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "extreme anger",
     "example": "Public outrage.",
@@ -26182,7 +26182,7 @@
   {
     "id": 596,
     "word": "overlook",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to miss or ignore",
     "example": "Don't overlook details.",
@@ -26226,7 +26226,7 @@
   {
     "id": 597,
     "word": "oversee",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to supervise",
     "example": "Oversee the project.",
@@ -26270,7 +26270,7 @@
   {
     "id": 598,
     "word": "overt",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "open and obvious",
     "example": "Overt hostility.",
@@ -26314,7 +26314,7 @@
   {
     "id": 599,
     "word": "overwhelm",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to overpower",
     "example": "Overwhelmed by emotions.",
@@ -26358,7 +26358,7 @@
   {
     "id": 600,
     "word": "paradigm",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "a model or example",
     "example": "A paradigm shift.",
@@ -26402,7 +26402,7 @@
   {
     "id": 601,
     "word": "paradox",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "a contradictory statement",
     "example": "A puzzling paradox.",
@@ -26534,7 +26534,7 @@
   {
     "id": 604,
     "word": "paramount",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "supreme",
     "example": "Safety is paramount.",
@@ -26578,7 +26578,7 @@
   {
     "id": 605,
     "word": "paraphrase",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to restate",
     "example": "Paraphrase the quote.",
@@ -26666,7 +26666,7 @@
   {
     "id": 607,
     "word": "participate",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to take part",
     "example": "Participate in the discussion.",
@@ -26710,7 +26710,7 @@
   {
     "id": 608,
     "word": "particular",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "specific",
     "example": "A particular case.",
@@ -26754,7 +26754,7 @@
   {
     "id": 609,
     "word": "partisan",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "biased",
     "example": "Partisan politics.",
@@ -26842,7 +26842,7 @@
   {
     "id": 611,
     "word": "patent",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "legal protection for invention",
     "example": "Apply for a patent.",
@@ -26886,7 +26886,7 @@
   {
     "id": 612,
     "word": "pathetic",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "pitiful",
     "example": "A pathetic excuse.",
@@ -26930,7 +26930,7 @@
   {
     "id": 613,
     "word": "patron",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "supporter",
     "example": "A patron of the arts.",
@@ -26974,7 +26974,7 @@
   {
     "id": 614,
     "word": "peak",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "highest point",
     "example": "At its peak.",
@@ -27062,7 +27062,7 @@
   {
     "id": 616,
     "word": "peer",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "an equal",
     "example": "Peer review.",
@@ -27150,7 +27150,7 @@
   {
     "id": 618,
     "word": "penetrate",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to enter",
     "example": "Penetrate the market.",
@@ -27238,7 +27238,7 @@
   {
     "id": 620,
     "word": "perennial",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "lasting",
     "example": "A perennial favorite.",
@@ -27326,7 +27326,7 @@
   {
     "id": 622,
     "word": "peripheral",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "on the edge",
     "example": "Peripheral vision.",
@@ -27370,7 +27370,7 @@
   {
     "id": 623,
     "word": "permanent",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "lasting forever",
     "example": "A permanent solution.",
@@ -27458,7 +27458,7 @@
   {
     "id": 625,
     "word": "permit",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to allow",
     "example": "Permit access.",
@@ -27502,7 +27502,7 @@
   {
     "id": 626,
     "word": "perpetual",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "never ending",
     "example": "Perpetual motion.",
@@ -27546,7 +27546,7 @@
   {
     "id": 627,
     "word": "perplex",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to confuse",
     "example": "The puzzle perplexed me.",
@@ -27590,7 +27590,7 @@
   {
     "id": 628,
     "word": "persist",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to continue",
     "example": "Problems persist.",
@@ -27678,7 +27678,7 @@
   {
     "id": 630,
     "word": "persuade",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to convince",
     "example": "Persuade the jury.",
@@ -27722,7 +27722,7 @@
   {
     "id": 631,
     "word": "pertinent",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "relevant",
     "example": "Pertinent information.",
@@ -27810,7 +27810,7 @@
   {
     "id": 633,
     "word": "pessimistic",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "expecting the worst",
     "example": "A pessimistic outlook.",
@@ -27854,7 +27854,7 @@
   {
     "id": 634,
     "word": "petition",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "formal request",
     "example": "Sign the petition.",
@@ -27898,7 +27898,7 @@
   {
     "id": 635,
     "word": "phase",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "a stage",
     "example": "The next phase.",
@@ -27942,7 +27942,7 @@
   {
     "id": 636,
     "word": "phenomenon",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "an observable fact",
     "example": "A natural phenomenon.",
@@ -28030,7 +28030,7 @@
   {
     "id": 638,
     "word": "physical",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "of the body",
     "example": "Physical fitness.",
@@ -28074,7 +28074,7 @@
   {
     "id": 639,
     "word": "pioneer",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "first to explore",
     "example": "A pioneer in medicine.",
@@ -28118,7 +28118,7 @@
   {
     "id": 640,
     "word": "pivotal",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "crucial",
     "example": "A pivotal moment.",
@@ -28162,7 +28162,7 @@
   {
     "id": 641,
     "word": "placate",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to calm",
     "example": "Placate the angry customer.",
@@ -28206,7 +28206,7 @@
   {
     "id": 642,
     "word": "plagiarize",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to copy without credit",
     "example": "Don't plagiarize.",
@@ -28294,7 +28294,7 @@
   {
     "id": 644,
     "word": "pledge",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to promise",
     "example": "Pledge support.",
@@ -28338,7 +28338,7 @@
   {
     "id": 645,
     "word": "plummet",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to fall sharply",
     "example": "Prices plummeted.",
@@ -28382,7 +28382,7 @@
   {
     "id": 646,
     "word": "plural",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "more than one",
     "example": "The plural form.",
@@ -28426,7 +28426,7 @@
   {
     "id": 647,
     "word": "policy",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "a plan of action",
     "example": "Company policy.",
@@ -28470,7 +28470,7 @@
   {
     "id": 648,
     "word": "portion",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "a part",
     "example": "A large portion.",
@@ -28514,7 +28514,7 @@
   {
     "id": 649,
     "word": "portray",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to depict",
     "example": "Portray emotions.",
@@ -28602,7 +28602,7 @@
   {
     "id": 651,
     "word": "positive",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "optimistic",
     "example": "A positive attitude.",
@@ -28646,7 +28646,7 @@
   {
     "id": 652,
     "word": "possess",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to own",
     "example": "Possess great skill.",
@@ -28690,7 +28690,7 @@
   {
     "id": 653,
     "word": "postpone",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to delay",
     "example": "Postpone the meeting.",
@@ -28734,7 +28734,7 @@
   {
     "id": 654,
     "word": "potential",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "capability",
     "example": "Reach your potential.",
@@ -28778,7 +28778,7 @@
   {
     "id": 655,
     "word": "practical",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "useful",
     "example": "A practical solution.",
@@ -28822,7 +28822,7 @@
   {
     "id": 656,
     "word": "pragmatic",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "realistic",
     "example": "A pragmatic approach.",
@@ -28866,7 +28866,7 @@
   {
     "id": 657,
     "word": "precaution",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "noun",
     "definition": "preventive measure",
     "example": "Take precautions.",
@@ -28910,7 +28910,7 @@
   {
     "id": 658,
     "word": "precede",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to come before",
     "example": "Thunder precedes rain.",
@@ -28998,7 +28998,7 @@
   {
     "id": 660,
     "word": "precise",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "exact",
     "example": "Precise measurements.",
@@ -29042,7 +29042,7 @@
   {
     "id": 661,
     "word": "preclude",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to prevent",
     "example": "Preclude any errors.",
@@ -29086,7 +29086,7 @@
   {
     "id": 662,
     "word": "predecessor",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "one who came before",
     "example": "My predecessor.",
@@ -29130,7 +29130,7 @@
   {
     "id": 663,
     "word": "predict",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to forecast",
     "example": "Predict the outcome.",
@@ -29218,7 +29218,7 @@
   {
     "id": 665,
     "word": "preface",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "noun",
     "definition": "introduction",
     "example": "Read the preface.",
@@ -29262,7 +29262,7 @@
   {
     "id": 666,
     "word": "prejudice",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "unfair opinion",
     "example": "Racial prejudice.",
@@ -29306,7 +29306,7 @@
   {
     "id": 667,
     "word": "preliminary",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "introductory",
     "example": "Preliminary results.",
@@ -29350,7 +29350,7 @@
   {
     "id": 668,
     "word": "premise",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "a basis for reasoning",
     "example": "The basic premise.",
@@ -29438,7 +29438,7 @@
   {
     "id": 670,
     "word": "prescribe",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to recommend",
     "example": "Prescribe medication.",
@@ -29482,7 +29482,7 @@
   {
     "id": 671,
     "word": "preserve",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to protect",
     "example": "Preserve the environment.",
@@ -29526,7 +29526,7 @@
   {
     "id": 672,
     "word": "prestige",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "respect and admiration",
     "example": "Gain prestige.",
@@ -29570,7 +29570,7 @@
   {
     "id": 673,
     "word": "presume",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to assume",
     "example": "I presume you agree.",
@@ -29614,7 +29614,7 @@
   {
     "id": 674,
     "word": "prevail",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to triumph",
     "example": "Justice will prevail.",
@@ -29702,7 +29702,7 @@
   {
     "id": 676,
     "word": "previous",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "earlier",
     "example": "The previous owner.",
@@ -29790,7 +29790,7 @@
   {
     "id": 678,
     "word": "primary",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "main",
     "example": "The primary goal.",
@@ -29834,7 +29834,7 @@
   {
     "id": 679,
     "word": "prime",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "first in importance",
     "example": "Prime example.",
@@ -29878,7 +29878,7 @@
   {
     "id": 680,
     "word": "primitive",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "early and basic",
     "example": "Primitive tools.",
@@ -29966,7 +29966,7 @@
   {
     "id": 682,
     "word": "principle",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "a fundamental truth",
     "example": "Basic principles.",
@@ -30010,7 +30010,7 @@
   {
     "id": 683,
     "word": "prior",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "earlier",
     "example": "Prior experience.",
@@ -30054,7 +30054,7 @@
   {
     "id": 684,
     "word": "priority",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "something more important",
     "example": "Top priority.",
@@ -30098,7 +30098,7 @@
   {
     "id": 685,
     "word": "probe",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to investigate",
     "example": "Probe the issue.",
@@ -30142,7 +30142,7 @@
   {
     "id": 686,
     "word": "procedure",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "method",
     "example": "Follow the procedure.",
@@ -30186,7 +30186,7 @@
   {
     "id": 687,
     "word": "proceed",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to continue",
     "example": "Proceed with caution.",
@@ -30230,7 +30230,7 @@
   {
     "id": 688,
     "word": "process",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "series of actions",
     "example": "The hiring process.",
@@ -30274,7 +30274,7 @@
   {
     "id": 689,
     "word": "proclaim",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to announce",
     "example": "Proclaim victory.",
@@ -30318,7 +30318,7 @@
   {
     "id": 690,
     "word": "procrastinate",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to delay",
     "example": "Stop procrastinating.",
@@ -30362,7 +30362,7 @@
   {
     "id": 691,
     "word": "produce",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to create",
     "example": "Produce results.",
@@ -30450,7 +30450,7 @@
   {
     "id": 693,
     "word": "profound",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "very deep",
     "example": "A profound impact.",
@@ -30494,7 +30494,7 @@
   {
     "id": 694,
     "word": "prohibit",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to forbid",
     "example": "Smoking prohibited.",
@@ -30538,7 +30538,7 @@
   {
     "id": 695,
     "word": "project",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to estimate",
     "example": "Project future growth.",
@@ -30626,7 +30626,7 @@
   {
     "id": 697,
     "word": "prolong",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to extend",
     "example": "Prolong the discussion.",
@@ -30670,7 +30670,7 @@
   {
     "id": 698,
     "word": "prominent",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "well-known",
     "example": "A prominent figure.",
@@ -30714,7 +30714,7 @@
   {
     "id": 699,
     "word": "promote",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to support",
     "example": "Promote healthy habits.",
@@ -30758,7 +30758,7 @@
   {
     "id": 700,
     "word": "prompt",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "quick",
     "example": "A prompt response.",
@@ -30802,7 +30802,7 @@
   {
     "id": 701,
     "word": "propaganda",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "biased information",
     "example": "Political propaganda.",
@@ -30846,7 +30846,7 @@
   {
     "id": 702,
     "word": "propel",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to push forward",
     "example": "Propel the project.",
@@ -30890,7 +30890,7 @@
   {
     "id": 703,
     "word": "proper",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "correct",
     "example": "Proper grammar.",
@@ -30934,7 +30934,7 @@
   {
     "id": 704,
     "word": "property",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "possession",
     "example": "Private property.",
@@ -30978,7 +30978,7 @@
   {
     "id": 705,
     "word": "proportion",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "ratio",
     "example": "In proportion to size.",
@@ -31110,7 +31110,7 @@
   {
     "id": 708,
     "word": "prospect",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "possibility",
     "example": "Good job prospects.",
@@ -31154,7 +31154,7 @@
   {
     "id": 709,
     "word": "prosper",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to succeed",
     "example": "The business prospered.",
@@ -31198,7 +31198,7 @@
   {
     "id": 710,
     "word": "protagonist",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "main character",
     "example": "The protagonist dies.",
@@ -31242,7 +31242,7 @@
   {
     "id": 711,
     "word": "protocol",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "official procedure",
     "example": "Follow protocol.",
@@ -31286,7 +31286,7 @@
   {
     "id": 712,
     "word": "prototype",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "first model",
     "example": "Build a prototype.",
@@ -31330,7 +31330,7 @@
   {
     "id": 713,
     "word": "provoke",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to cause a reaction",
     "example": "Provoke anger.",
@@ -31418,7 +31418,7 @@
   {
     "id": 715,
     "word": "prudent",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "careful",
     "example": "A prudent decision.",
@@ -31462,7 +31462,7 @@
   {
     "id": 716,
     "word": "psychological",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "of the mind",
     "example": "Psychological effects.",
@@ -31506,7 +31506,7 @@
   {
     "id": 717,
     "word": "publish",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to make public",
     "example": "Publish the results.",
@@ -31550,7 +31550,7 @@
   {
     "id": 718,
     "word": "punctual",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "on time",
     "example": "Be punctual.",
@@ -31594,7 +31594,7 @@
   {
     "id": 719,
     "word": "purchase",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to buy",
     "example": "Purchase online.",
@@ -31638,7 +31638,7 @@
   {
     "id": 720,
     "word": "pursue",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to follow",
     "example": "Pursue your dreams.",
@@ -31682,7 +31682,7 @@
   {
     "id": 721,
     "word": "qualitative",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "relating to quality",
     "example": "Qualitative research.",
@@ -31726,7 +31726,7 @@
   {
     "id": 722,
     "word": "quantitative",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "relating to quantity",
     "example": "Quantitative analysis.",
@@ -31814,7 +31814,7 @@
   {
     "id": 724,
     "word": "query",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "a question",
     "example": "Answer the query.",
@@ -31858,7 +31858,7 @@
   {
     "id": 725,
     "word": "quest",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "a search",
     "example": "A quest for truth.",
@@ -31902,7 +31902,7 @@
   {
     "id": 726,
     "word": "radical",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "extreme",
     "example": "Radical change.",
@@ -31946,7 +31946,7 @@
   {
     "id": 727,
     "word": "random",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "without pattern",
     "example": "Random selection.",
@@ -31990,7 +31990,7 @@
   {
     "id": 728,
     "word": "range",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "extent",
     "example": "A wide range.",
@@ -32078,7 +32078,7 @@
   {
     "id": 730,
     "word": "rapid",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "fast",
     "example": "Rapid growth.",
@@ -32122,7 +32122,7 @@
   {
     "id": 731,
     "word": "ratio",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "proportion",
     "example": "The ratio of men to women.",
@@ -32166,7 +32166,7 @@
   {
     "id": 732,
     "word": "rational",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "logical",
     "example": "A rational decision.",
@@ -32210,7 +32210,7 @@
   {
     "id": 733,
     "word": "react",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to respond",
     "example": "React quickly.",
@@ -32298,7 +32298,7 @@
   {
     "id": 735,
     "word": "reassure",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to comfort",
     "example": "Reassure the patient.",
@@ -32342,7 +32342,7 @@
   {
     "id": 736,
     "word": "rebel",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to resist",
     "example": "Rebel against authority.",
@@ -32386,7 +32386,7 @@
   {
     "id": 737,
     "word": "rebuke",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to criticize sharply",
     "example": "Rebuke the student.",
@@ -32430,7 +32430,7 @@
   {
     "id": 738,
     "word": "recall",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to remember",
     "example": "I recall the event.",
@@ -32474,7 +32474,7 @@
   {
     "id": 739,
     "word": "recede",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to move back",
     "example": "Floodwaters recede.",
@@ -32518,7 +32518,7 @@
   {
     "id": 740,
     "word": "receive",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to get",
     "example": "Receive a gift.",
@@ -32562,7 +32562,7 @@
   {
     "id": 741,
     "word": "recipient",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "one who receives",
     "example": "The recipient of the award.",
@@ -32606,7 +32606,7 @@
   {
     "id": 742,
     "word": "reciprocal",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "mutual",
     "example": "Reciprocal respect.",
@@ -32694,7 +32694,7 @@
   {
     "id": 744,
     "word": "recognize",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to identify",
     "example": "Recognize the face.",
@@ -32782,7 +32782,7 @@
   {
     "id": 746,
     "word": "reconcile",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to restore harmony",
     "example": "Reconcile differences.",
@@ -32826,7 +32826,7 @@
   {
     "id": 747,
     "word": "reconstruct",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to rebuild",
     "example": "Reconstruct the scene.",
@@ -32870,7 +32870,7 @@
   {
     "id": 748,
     "word": "recover",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to regain",
     "example": "Recover from illness.",
@@ -32914,7 +32914,7 @@
   {
     "id": 749,
     "word": "recruit",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to enlist",
     "example": "Recruit new members.",
@@ -32958,7 +32958,7 @@
   {
     "id": 750,
     "word": "rectify",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to correct",
     "example": "Rectify the error.",
@@ -33002,7 +33002,7 @@
   {
     "id": 751,
     "word": "recur",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to happen again",
     "example": "The problem recurs.",
@@ -33046,7 +33046,7 @@
   {
     "id": 752,
     "word": "reduce",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to decrease",
     "example": "Reduce expenses.",
@@ -33090,7 +33090,7 @@
   {
     "id": 753,
     "word": "redundant",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "unnecessary",
     "example": "Redundant information.",
@@ -33134,7 +33134,7 @@
   {
     "id": 754,
     "word": "refer",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to mention",
     "example": "Refer to the manual.",
@@ -33178,7 +33178,7 @@
   {
     "id": 755,
     "word": "refine",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to improve",
     "example": "Refine your technique.",
@@ -33222,7 +33222,7 @@
   {
     "id": 756,
     "word": "reflect",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to think about",
     "example": "Reflect on the past.",
@@ -33310,7 +33310,7 @@
   {
     "id": 758,
     "word": "refrain",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to avoid",
     "example": "Refrain from smoking.",
@@ -33354,7 +33354,7 @@
   {
     "id": 759,
     "word": "refute",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to prove wrong",
     "example": "Refute the claim.",
@@ -33398,7 +33398,7 @@
   {
     "id": 760,
     "word": "regime",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "government",
     "example": "The new regime.",
@@ -33486,7 +33486,7 @@
   {
     "id": 762,
     "word": "register",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to record",
     "example": "Register for class.",
@@ -33530,7 +33530,7 @@
   {
     "id": 763,
     "word": "regulate",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to control",
     "example": "Regulate the industry.",
@@ -33574,7 +33574,7 @@
   {
     "id": 764,
     "word": "reign",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "period of rule",
     "example": "During his reign.",
@@ -33618,7 +33618,7 @@
   {
     "id": 765,
     "word": "reinforce",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to strengthen",
     "example": "Reinforce the message.",
@@ -33706,7 +33706,7 @@
   {
     "id": 767,
     "word": "relate",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to connect",
     "example": "Relate to others.",
@@ -33750,7 +33750,7 @@
   {
     "id": 768,
     "word": "relative",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "comparative",
     "example": "Relative importance.",
@@ -33838,7 +33838,7 @@
   {
     "id": 770,
     "word": "release",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to let go",
     "example": "Release the prisoner.",
@@ -33882,7 +33882,7 @@
   {
     "id": 771,
     "word": "relevant",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "related",
     "example": "Relevant information.",
@@ -33926,7 +33926,7 @@
   {
     "id": 772,
     "word": "reliable",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "dependable",
     "example": "A reliable source.",
@@ -33970,7 +33970,7 @@
   {
     "id": 773,
     "word": "relieve",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to ease",
     "example": "Relieve stress.",
@@ -34014,7 +34014,7 @@
   {
     "id": 774,
     "word": "reluctant",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "unwilling",
     "example": "Reluctant to admit.",
@@ -34058,7 +34058,7 @@
   {
     "id": 775,
     "word": "rely",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to depend on",
     "example": "Rely on friends.",
@@ -34102,7 +34102,7 @@
   {
     "id": 776,
     "word": "remain",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to stay",
     "example": "Remain calm.",
@@ -34190,7 +34190,7 @@
   {
     "id": 778,
     "word": "remedy",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "a cure",
     "example": "A home remedy.",
@@ -34234,7 +34234,7 @@
   {
     "id": 779,
     "word": "remote",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "distant",
     "example": "A remote location.",
@@ -34278,7 +34278,7 @@
   {
     "id": 780,
     "word": "remove",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to take away",
     "example": "Remove the obstacle.",
@@ -34322,7 +34322,7 @@
   {
     "id": 781,
     "word": "render",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to make",
     "example": "Render it useless.",
@@ -34366,7 +34366,7 @@
   {
     "id": 782,
     "word": "renew",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to make new again",
     "example": "Renew the contract.",
@@ -34410,7 +34410,7 @@
   {
     "id": 783,
     "word": "renovate",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to restore",
     "example": "Renovate the house.",
@@ -34454,7 +34454,7 @@
   {
     "id": 784,
     "word": "repeal",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to revoke",
     "example": "Repeal the law.",
@@ -34542,7 +34542,7 @@
   {
     "id": 786,
     "word": "replace",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to substitute",
     "example": "Replace the battery.",
@@ -34630,7 +34630,7 @@
   {
     "id": 788,
     "word": "represent",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to stand for",
     "example": "Represent the company.",
@@ -34674,7 +34674,7 @@
   {
     "id": 789,
     "word": "reproduce",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to copy",
     "example": "Reproduce the results.",
@@ -34718,7 +34718,7 @@
   {
     "id": 790,
     "word": "reputation",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "what others think",
     "example": "A good reputation.",
@@ -34762,7 +34762,7 @@
   {
     "id": 791,
     "word": "request",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to ask for",
     "example": "Request permission.",
@@ -34806,7 +34806,7 @@
   {
     "id": 792,
     "word": "require",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to need",
     "example": "This requires patience.",
@@ -34894,7 +34894,7 @@
   {
     "id": 794,
     "word": "resemble",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to look like",
     "example": "Resemble his father.",
@@ -34938,7 +34938,7 @@
   {
     "id": 795,
     "word": "resent",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to feel bitter",
     "example": "Resent the criticism.",
@@ -34982,7 +34982,7 @@
   {
     "id": 796,
     "word": "reserve",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to save",
     "example": "Reserve a table.",
@@ -35026,7 +35026,7 @@
   {
     "id": 797,
     "word": "reside",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to live",
     "example": "Reside in London.",
@@ -35114,7 +35114,7 @@
   {
     "id": 799,
     "word": "resist",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to oppose",
     "example": "Resist temptation.",
@@ -35158,7 +35158,7 @@
   {
     "id": 800,
     "word": "resolve",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to solve",
     "example": "Resolve the conflict.",
@@ -35290,7 +35290,7 @@
   {
     "id": 803,
     "word": "respond",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to reply",
     "example": "Respond to the email.",
@@ -35334,7 +35334,7 @@
   {
     "id": 804,
     "word": "restore",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to bring back",
     "example": "Restore peace.",
@@ -35378,7 +35378,7 @@
   {
     "id": 805,
     "word": "restrain",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to hold back",
     "example": "Restrain your anger.",
@@ -35422,7 +35422,7 @@
   {
     "id": 806,
     "word": "restrict",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to limit",
     "example": "Restrict access.",
@@ -35466,7 +35466,7 @@
   {
     "id": 807,
     "word": "retain",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to keep",
     "example": "Retain information.",
@@ -35554,7 +35554,7 @@
   {
     "id": 809,
     "word": "retrieve",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to get back",
     "example": "Retrieve the data.",
@@ -35598,7 +35598,7 @@
   {
     "id": 810,
     "word": "reveal",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to show",
     "example": "Reveal the truth.",
@@ -35642,7 +35642,7 @@
   {
     "id": 811,
     "word": "revenue",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "income",
     "example": "Company revenue.",
@@ -35686,7 +35686,7 @@
   {
     "id": 812,
     "word": "reverse",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to go backwards",
     "example": "Reverse the decision.",
@@ -35730,7 +35730,7 @@
   {
     "id": 813,
     "word": "revise",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to change",
     "example": "Revise the plan.",
@@ -35774,7 +35774,7 @@
   {
     "id": 814,
     "word": "revive",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to bring back to life",
     "example": "Revive the economy.",
@@ -35818,7 +35818,7 @@
   {
     "id": 815,
     "word": "revolutionary",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "causing great change",
     "example": "A revolutionary idea.",
@@ -35862,7 +35862,7 @@
   {
     "id": 816,
     "word": "rhetoric",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "persuasive language",
     "example": "Political rhetoric.",
@@ -35906,7 +35906,7 @@
   {
     "id": 817,
     "word": "rigid",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "stiff",
     "example": "A rigid schedule.",
@@ -35950,7 +35950,7 @@
   {
     "id": 818,
     "word": "rigorous",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "thorough",
     "example": "Rigorous testing.",
@@ -35994,7 +35994,7 @@
   {
     "id": 819,
     "word": "risk",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "danger",
     "example": "Take a risk.",
@@ -36038,7 +36038,7 @@
   {
     "id": 820,
     "word": "ritual",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "ceremony",
     "example": "A daily ritual.",
@@ -36082,7 +36082,7 @@
   {
     "id": 821,
     "word": "rival",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "competitor",
     "example": "A business rival.",
@@ -36170,7 +36170,7 @@
   {
     "id": 823,
     "word": "role",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "function",
     "example": "Play a vital role.",
@@ -36214,7 +36214,7 @@
   {
     "id": 824,
     "word": "rotate",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to turn",
     "example": "Rotate the image.",
@@ -36302,7 +36302,7 @@
   {
     "id": 826,
     "word": "rudimentary",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "basic",
     "example": "Rudimentary skills.",
@@ -36346,7 +36346,7 @@
   {
     "id": 827,
     "word": "rural",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "of the countryside",
     "example": "Rural areas.",
@@ -36390,7 +36390,7 @@
   {
     "id": 828,
     "word": "sabotage",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to destroy intentionally",
     "example": "Sabotage the plan.",
@@ -36478,7 +36478,7 @@
   {
     "id": 830,
     "word": "safeguard",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to protect",
     "example": "Safeguard your data.",
@@ -36522,7 +36522,7 @@
   {
     "id": 831,
     "word": "sample",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "a small part",
     "example": "A sample size.",
@@ -36610,7 +36610,7 @@
   {
     "id": 833,
     "word": "saturate",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to soak completely",
     "example": "Saturate the market.",
@@ -36654,7 +36654,7 @@
   {
     "id": 834,
     "word": "scale",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "size or range",
     "example": "On a large scale.",
@@ -36786,7 +36786,7 @@
   {
     "id": 837,
     "word": "scenario",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "possible situation",
     "example": "Worst case scenario.",
@@ -36830,7 +36830,7 @@
   {
     "id": 838,
     "word": "scheme",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "plan",
     "example": "A clever scheme.",
@@ -36874,7 +36874,7 @@
   {
     "id": 839,
     "word": "scope",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "extent",
     "example": "Beyond the scope.",
@@ -36962,7 +36962,7 @@
   {
     "id": 841,
     "word": "seclude",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to isolate",
     "example": "Seclude yourself.",
@@ -37006,7 +37006,7 @@
   {
     "id": 842,
     "word": "secondary",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "less important",
     "example": "Secondary effects.",
@@ -37050,7 +37050,7 @@
   {
     "id": 843,
     "word": "section",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "a part",
     "example": "This section covers.",
@@ -37094,7 +37094,7 @@
   {
     "id": 844,
     "word": "sector",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "a part of the economy",
     "example": "The private sector.",
@@ -37182,7 +37182,7 @@
   {
     "id": 846,
     "word": "seek",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to look for",
     "example": "Seek advice.",
@@ -37226,7 +37226,7 @@
   {
     "id": 847,
     "word": "segment",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "a piece",
     "example": "Market segment.",
@@ -37402,7 +37402,7 @@
   {
     "id": 851,
     "word": "sensitive",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "easily affected",
     "example": "Sensitive skin.",
@@ -37446,7 +37446,7 @@
   {
     "id": 852,
     "word": "separate",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to divide",
     "example": "Separate the groups.",
@@ -37534,7 +37534,7 @@
   {
     "id": 854,
     "word": "series",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "a set",
     "example": "A series of events.",
@@ -37578,7 +37578,7 @@
   {
     "id": 855,
     "word": "severe",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "harsh",
     "example": "Severe weather.",
@@ -37622,7 +37622,7 @@
   {
     "id": 856,
     "word": "shift",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to move",
     "example": "Shift focus.",
@@ -37666,7 +37666,7 @@
   {
     "id": 857,
     "word": "shortage",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "lack",
     "example": "A food shortage.",
@@ -37710,7 +37710,7 @@
   {
     "id": 858,
     "word": "shrink",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to become smaller",
     "example": "The economy shrinks.",
@@ -37798,7 +37798,7 @@
   {
     "id": 860,
     "word": "significant",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "important",
     "example": "A significant change.",
@@ -37886,7 +37886,7 @@
   {
     "id": 862,
     "word": "simulate",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to imitate",
     "example": "Simulate real conditions.",
@@ -37974,7 +37974,7 @@
   {
     "id": 864,
     "word": "singular",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "unique",
     "example": "A singular talent.",
@@ -38062,7 +38062,7 @@
   {
     "id": 866,
     "word": "skeptical",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "doubtful",
     "example": "Skeptical of claims.",
@@ -38106,7 +38106,7 @@
   {
     "id": 867,
     "word": "sketch",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "rough drawing",
     "example": "A quick sketch.",
@@ -38150,7 +38150,7 @@
   {
     "id": 868,
     "word": "slack",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "loose",
     "example": "Slack discipline.",
@@ -38194,7 +38194,7 @@
   {
     "id": 869,
     "word": "slant",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "noun",
     "definition": "bias",
     "example": "A political slant.",
@@ -38282,7 +38282,7 @@
   {
     "id": 871,
     "word": "sluggish",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "slow",
     "example": "Sluggish economy.",
@@ -38370,7 +38370,7 @@
   {
     "id": 873,
     "word": "societal",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "of society",
     "example": "Societal norms.",
@@ -38414,7 +38414,7 @@
   {
     "id": 874,
     "word": "sole",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "only",
     "example": "The sole survivor.",
@@ -38458,7 +38458,7 @@
   {
     "id": 875,
     "word": "solely",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "adverb",
     "definition": "only",
     "example": "Solely responsible.",
@@ -38546,7 +38546,7 @@
   {
     "id": 877,
     "word": "solidarity",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "unity",
     "example": "Show solidarity.",
@@ -38590,7 +38590,7 @@
   {
     "id": 878,
     "word": "solitary",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "alone",
     "example": "A solitary figure.",
@@ -38634,7 +38634,7 @@
   {
     "id": 879,
     "word": "solution",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "answer",
     "example": "Find a solution.",
@@ -38678,7 +38678,7 @@
   {
     "id": 880,
     "word": "solve",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to find the answer",
     "example": "Solve the problem.",
@@ -38722,7 +38722,7 @@
   {
     "id": 881,
     "word": "sophisticated",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "complex",
     "example": "Sophisticated technology.",
@@ -38766,7 +38766,7 @@
   {
     "id": 882,
     "word": "source",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "origin",
     "example": "The source of the leak.",
@@ -38810,7 +38810,7 @@
   {
     "id": 883,
     "word": "sovereign",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "supreme",
     "example": "Sovereign power.",
@@ -38898,7 +38898,7 @@
   {
     "id": 885,
     "word": "spawn",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to produce",
     "example": "Spawn new ideas.",
@@ -38942,7 +38942,7 @@
   {
     "id": 886,
     "word": "specialize",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to focus on one area",
     "example": "Specialize in medicine.",
@@ -38986,7 +38986,7 @@
   {
     "id": 887,
     "word": "species",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "type of organism",
     "example": "Endangered species.",
@@ -39030,7 +39030,7 @@
   {
     "id": 888,
     "word": "specific",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "particular",
     "example": "Be specific.",
@@ -39074,7 +39074,7 @@
   {
     "id": 889,
     "word": "specify",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to state clearly",
     "example": "Specify requirements.",
@@ -39118,7 +39118,7 @@
   {
     "id": 890,
     "word": "specimen",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "sample",
     "example": "A specimen for testing.",
@@ -39206,7 +39206,7 @@
   {
     "id": 892,
     "word": "spectrum",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "range",
     "example": "The full spectrum.",
@@ -39250,7 +39250,7 @@
   {
     "id": 893,
     "word": "speculate",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to guess",
     "example": "Speculate about the future.",
@@ -39470,7 +39470,7 @@
   {
     "id": 898,
     "word": "stagnant",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "not moving",
     "example": "Stagnant water.",
@@ -39514,7 +39514,7 @@
   {
     "id": 899,
     "word": "stance",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "position",
     "example": "Political stance.",
@@ -39558,7 +39558,7 @@
   {
     "id": 900,
     "word": "standard",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "level of quality",
     "example": "High standards.",
@@ -39602,7 +39602,7 @@
   {
     "id": 901,
     "word": "static",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "not moving",
     "example": "A static image.",
@@ -39646,7 +39646,7 @@
   {
     "id": 902,
     "word": "statistics",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "numerical data",
     "example": "Crime statistics.",
@@ -39690,7 +39690,7 @@
   {
     "id": 903,
     "word": "status",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "position",
     "example": "Social status.",
@@ -39734,7 +39734,7 @@
   {
     "id": 904,
     "word": "statute",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "law",
     "example": "Federal statute.",
@@ -39778,7 +39778,7 @@
   {
     "id": 905,
     "word": "steadfast",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "loyal",
     "example": "Steadfast support.",
@@ -39822,7 +39822,7 @@
   {
     "id": 906,
     "word": "steady",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "stable",
     "example": "A steady income.",
@@ -39866,7 +39866,7 @@
   {
     "id": 907,
     "word": "stereotype",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "noun",
     "definition": "fixed image",
     "example": "Avoid stereotypes.",
@@ -39910,7 +39910,7 @@
   {
     "id": 908,
     "word": "stimulate",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "to encourage",
     "example": "Stimulate growth.",
@@ -39954,7 +39954,7 @@
   {
     "id": 909,
     "word": "stipulate",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to require",
     "example": "Stipulate conditions.",
@@ -39998,7 +39998,7 @@
   {
     "id": 910,
     "word": "stock",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "supply",
     "example": "Stock market.",
@@ -40086,7 +40086,7 @@
   {
     "id": 912,
     "word": "strain",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "pressure",
     "example": "Physical strain.",
@@ -40218,7 +40218,7 @@
   {
     "id": 915,
     "word": "stress",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to emphasize",
     "example": "Stress the importance.",
@@ -40262,7 +40262,7 @@
   {
     "id": 916,
     "word": "strict",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "severe",
     "example": "Strict rules.",
@@ -40306,7 +40306,7 @@
   {
     "id": 917,
     "word": "striking",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "noticeable",
     "example": "A striking resemblance.",
@@ -40350,7 +40350,7 @@
   {
     "id": 918,
     "word": "stringent",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "strict",
     "example": "Stringent regulations.",
@@ -40438,7 +40438,7 @@
   {
     "id": 920,
     "word": "structure",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "framework",
     "example": "Organizational structure.",
@@ -40526,7 +40526,7 @@
   {
     "id": 922,
     "word": "stubborn",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "unwilling to change",
     "example": "A stubborn attitude.",
@@ -40570,7 +40570,7 @@
   {
     "id": 923,
     "word": "subject",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "topic",
     "example": "Change the subject.",
@@ -40614,7 +40614,7 @@
   {
     "id": 924,
     "word": "subjective",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "personal opinion",
     "example": "A subjective view.",
@@ -40658,7 +40658,7 @@
   {
     "id": 925,
     "word": "submit",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to give in",
     "example": "Submit the report.",
@@ -40702,7 +40702,7 @@
   {
     "id": 926,
     "word": "subordinate",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "lower in rank",
     "example": "A subordinate role.",
@@ -40746,7 +40746,7 @@
   {
     "id": 927,
     "word": "subsequent",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "following",
     "example": "Subsequent events.",
@@ -40834,7 +40834,7 @@
   {
     "id": 929,
     "word": "subsidize",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to fund",
     "example": "Subsidize farmers.",
@@ -40878,7 +40878,7 @@
   {
     "id": 930,
     "word": "substantial",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "large",
     "example": "A substantial amount.",
@@ -40922,7 +40922,7 @@
   {
     "id": 931,
     "word": "substantiate",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to prove",
     "example": "Substantiate the claim.",
@@ -40966,7 +40966,7 @@
   {
     "id": 932,
     "word": "substitute",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to replace",
     "example": "Substitute ingredients.",
@@ -41010,7 +41010,7 @@
   {
     "id": 933,
     "word": "subtle",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "not obvious",
     "example": "A subtle difference.",
@@ -41054,7 +41054,7 @@
   {
     "id": 934,
     "word": "subtract",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to take away",
     "example": "Subtract the cost.",
@@ -41098,7 +41098,7 @@
   {
     "id": 935,
     "word": "succeed",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to achieve",
     "example": "Succeed in business.",
@@ -41142,7 +41142,7 @@
   {
     "id": 936,
     "word": "successive",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "following one after another",
     "example": "Three successive wins.",
@@ -41186,7 +41186,7 @@
   {
     "id": 937,
     "word": "succinct",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "brief",
     "example": "A succinct summary.",
@@ -41230,7 +41230,7 @@
   {
     "id": 938,
     "word": "succumb",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to give in",
     "example": "Succumb to pressure.",
@@ -41274,7 +41274,7 @@
   {
     "id": 939,
     "word": "sufficient",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "enough",
     "example": "Sufficient evidence.",
@@ -41318,7 +41318,7 @@
   {
     "id": 940,
     "word": "suggest",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to propose",
     "example": "I suggest we leave.",
@@ -41406,7 +41406,7 @@
   {
     "id": 942,
     "word": "summarize",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to give a brief account",
     "example": "Summarize the article.",
@@ -41494,7 +41494,7 @@
   {
     "id": 944,
     "word": "superior",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "better",
     "example": "Superior quality.",
@@ -41538,7 +41538,7 @@
   {
     "id": 945,
     "word": "supersede",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to replace",
     "example": "New rules supersede old.",
@@ -41582,7 +41582,7 @@
   {
     "id": 946,
     "word": "supervise",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "to oversee",
     "example": "Supervise employees.",
@@ -41626,7 +41626,7 @@
   {
     "id": 947,
     "word": "supplement",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "to add to",
     "example": "Supplement your diet.",
@@ -41670,7 +41670,7 @@
   {
     "id": 948,
     "word": "supply",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to provide",
     "example": "Supply materials.",
@@ -41758,7 +41758,7 @@
   {
     "id": 950,
     "word": "suppose",
-    "level": "Common",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "to assume",
     "example": "I suppose so.",
@@ -41890,7 +41890,7 @@
   {
     "id": 953,
     "word": "surpass",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "To exceed or go beyond in achievement or quality",
     "example": "Her performance surpassed all expectations.",
@@ -41978,7 +41978,7 @@
   {
     "id": 955,
     "word": "surrender",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "To give up possession of; to yield to the control of another",
     "example": "The soldiers were forced to surrender.",
@@ -42022,7 +42022,7 @@
   {
     "id": 956,
     "word": "surveillance",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "noun",
     "definition": "Close observation of a person or group",
     "example": "The building was under constant surveillance.",
@@ -42110,7 +42110,7 @@
   {
     "id": 958,
     "word": "susceptible",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "Likely to be influenced or affected by something",
     "example": "Children are more susceptible to infections.",
@@ -42154,7 +42154,7 @@
   {
     "id": 959,
     "word": "suspect",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "verb",
     "definition": "To believe something to be true without proof",
     "example": "I suspect there's more to the story.",
@@ -42198,7 +42198,7 @@
   {
     "id": 960,
     "word": "suspend",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "To temporarily stop or delay; to hang",
     "example": "The school suspended the student for misconduct.",
@@ -42242,7 +42242,7 @@
   {
     "id": 961,
     "word": "sustain",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "To maintain or support over time; to suffer",
     "example": "The athlete sustained a serious injury.",
@@ -42286,7 +42286,7 @@
   {
     "id": 962,
     "word": "swiftly",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "adverb",
     "definition": "Moving or happening quickly",
     "example": "The changes were implemented swiftly.",
@@ -42330,7 +42330,7 @@
   {
     "id": 963,
     "word": "symbol",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "Something that represents or stands for something else",
     "example": "The dove is a symbol of peace.",
@@ -42374,7 +42374,7 @@
   {
     "id": 964,
     "word": "symmetry",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "Balanced proportions; harmonious arrangement",
     "example": "The building's design had perfect symmetry.",
@@ -42418,7 +42418,7 @@
   {
     "id": 965,
     "word": "sympathize",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "To share the feelings of another; to feel compassion",
     "example": "I sympathize with your difficult situation.",
@@ -42462,7 +42462,7 @@
   {
     "id": 966,
     "word": "symptom",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "A sign or indication of a condition or disease",
     "example": "Fatigue is a common symptom of stress.",
@@ -42506,7 +42506,7 @@
   {
     "id": 967,
     "word": "synthesize",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "To combine elements to form a coherent whole",
     "example": "The researcher synthesized data from multiple sources.",
@@ -42550,7 +42550,7 @@
   {
     "id": 968,
     "word": "systematic",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "Done according to a fixed plan or system; methodical",
     "example": "They conducted a systematic review of the literature.",
@@ -42594,7 +42594,7 @@
   {
     "id": 969,
     "word": "tacit",
-    "level": "Basic",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "Understood without being openly expressed",
     "example": "There was a tacit agreement between them.",
@@ -42638,7 +42638,7 @@
   {
     "id": 970,
     "word": "tangible",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "Able to be touched or felt; real and concrete",
     "example": "We need tangible evidence to proceed.",
@@ -42814,7 +42814,7 @@
   {
     "id": 974,
     "word": "tenacious",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "Holding firmly; persistent and determined",
     "example": "She was tenacious in pursuing her goals.",
@@ -42902,7 +42902,7 @@
   {
     "id": 976,
     "word": "terminate",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "To bring to an end; to conclude",
     "example": "The contract will terminate next month.",
@@ -42946,7 +42946,7 @@
   {
     "id": 977,
     "word": "testify",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "To give evidence as a witness; to declare",
     "example": "She agreed to testify in court.",
@@ -43034,7 +43034,7 @@
   {
     "id": 979,
     "word": "thereby",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "adverb",
     "definition": "By that means; as a result of that",
     "example": "He resigned, thereby avoiding prosecution.",
@@ -43078,7 +43078,7 @@
   {
     "id": 980,
     "word": "thorough",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "Complete and careful; exhaustive",
     "example": "The investigation was thorough and detailed.",
@@ -43122,7 +43122,7 @@
   {
     "id": 981,
     "word": "thrive",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "To prosper and flourish; to grow vigorously",
     "example": "Some plants thrive in dry conditions.",
@@ -43166,7 +43166,7 @@
   {
     "id": 982,
     "word": "tolerate",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "To allow or accept without opposition",
     "example": "I cannot tolerate such behavior.",
@@ -43210,7 +43210,7 @@
   {
     "id": 983,
     "word": "toxic",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "Poisonous; harmful to living things",
     "example": "The chemical proved to be highly toxic.",
@@ -43254,7 +43254,7 @@
   {
     "id": 984,
     "word": "tradition",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "A custom or belief passed through generations",
     "example": "It's a family tradition to gather for holidays.",
@@ -43298,7 +43298,7 @@
   {
     "id": 985,
     "word": "trait",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "noun",
     "definition": "A distinguishing quality or characteristic",
     "example": "Honesty is an admirable trait.",
@@ -43342,7 +43342,7 @@
   {
     "id": 986,
     "word": "transcend",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "To go beyond the limits of; to surpass",
     "example": "His music transcends cultural boundaries.",
@@ -43386,7 +43386,7 @@
   {
     "id": 987,
     "word": "transform",
-    "level": "Advanced",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "To change completely in form or nature",
     "example": "Technology has transformed our lives.",
@@ -43430,7 +43430,7 @@
   {
     "id": 988,
     "word": "transition",
-    "level": "Expert",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "The process of changing from one state to another",
     "example": "The transition to the new system was smooth.",
@@ -43474,7 +43474,7 @@
   {
     "id": 989,
     "word": "transparent",
-    "level": "Basic",
+    "level": "Common",
     "partOfSpeech": "adjective",
     "definition": "Allowing light to pass through; honest and open",
     "example": "The government promised to be transparent.",
@@ -43562,7 +43562,7 @@
   {
     "id": 991,
     "word": "trend",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "noun",
     "definition": "A general direction of change; a fashion",
     "example": "There's a trend toward remote work.",
@@ -43606,7 +43606,7 @@
   {
     "id": 992,
     "word": "trigger",
-    "level": "Expert",
+    "level": "Common",
     "partOfSpeech": "verb",
     "definition": "To cause something to happen or begin",
     "example": "The event triggered a series of protests.",
@@ -43650,7 +43650,7 @@
   {
     "id": 993,
     "word": "trivial",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "Of little value or importance",
     "example": "Don't worry about such trivial matters.",
@@ -43694,7 +43694,7 @@
   {
     "id": 994,
     "word": "ubiquitous",
-    "level": "Common",
+    "level": "Expert",
     "partOfSpeech": "adjective",
     "definition": "Present or found everywhere",
     "example": "Smartphones have become ubiquitous.",
@@ -43738,7 +43738,7 @@
   {
     "id": 995,
     "word": "ultimate",
-    "level": "Advanced",
+    "level": "Basic",
     "partOfSpeech": "adjective",
     "definition": "Final; the best or most extreme",
     "example": "This is our ultimate goal.",
@@ -43782,7 +43782,7 @@
   {
     "id": 996,
     "word": "unanimous",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "Fully in agreement; with no one disagreeing",
     "example": "The decision was unanimous.",
@@ -43826,7 +43826,7 @@
   {
     "id": 997,
     "word": "undergo",
-    "level": "Basic",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "To experience or be subjected to",
     "example": "The patient will undergo surgery tomorrow.",
@@ -43870,7 +43870,7 @@
   {
     "id": 998,
     "word": "undermine",
-    "level": "Common",
+    "level": "Advanced",
     "partOfSpeech": "verb",
     "definition": "To weaken or damage gradually",
     "example": "His actions undermined trust in the organization.",
@@ -43914,7 +43914,7 @@
   {
     "id": 999,
     "word": "underscore",
-    "level": "Advanced",
+    "level": "Expert",
     "partOfSpeech": "verb",
     "definition": "To emphasize; to draw attention to",
     "example": "The report underscores the need for change.",
@@ -43958,7 +43958,7 @@
   {
     "id": 1000,
     "word": "unprecedented",
-    "level": "Expert",
+    "level": "Advanced",
     "partOfSpeech": "adjective",
     "definition": "Never done or known before",
     "example": "This is an unprecedented situation.",
