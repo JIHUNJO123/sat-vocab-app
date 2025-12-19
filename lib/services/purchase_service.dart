@@ -9,8 +9,8 @@ class PurchaseService {
   static PurchaseService get instance => _instance;
   PurchaseService._internal();
 
-  // ?곹뭹 ID
-  static const String removeAdsProductId = 'sat_vocab_premium';
+  // 제품 ID
+  static const String removeAdsProductId = 'jlpt_step_n5_n3_premium';
   static const Set<String> _productIds = {removeAdsProductId};
 
   final InAppPurchase _inAppPurchase = InAppPurchase.instance;

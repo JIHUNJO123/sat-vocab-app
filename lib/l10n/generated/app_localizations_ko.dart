@@ -9,7 +9,7 @@ class AppLocalizationsKo extends AppLocalizations {
   AppLocalizationsKo([String locale = 'ko']) : super(locale);
 
   @override
-  String get appTitle => 'SAT 어휘 마스터';
+  String get appTitle => 'JLPT Step N5–N3';
 
   @override
   String get todayWord => '오늘의 단어';
@@ -111,7 +111,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get disclaimer => '면책 조항';
 
   @override
-  String get disclaimerText => '이 앱은 독립적인 SAT 준비 도구이며 ETS(Educational Testing Service)와 제휴, 보증 또는 승인 관계가 없습니다.';
+  String get disclaimerText => '이 앱은 독립적인 JLPT 준비 도구이며 일본국제교류기금 또는 일본국제교육협회와 제휴, 보증 또는 승인 관계가 없습니다.';
 
   @override
   String get privacyPolicy => '개인정보 처리방침';
@@ -146,28 +146,34 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String get basic => '기초';
+  String get n5 => 'N5';
 
   @override
-  String get basicDesc => '기본 단어 - 500개';
+  String get n5Desc => '초급 - 500단어';
 
   @override
-  String get common => '일반';
+  String get n4 => 'N4';
 
   @override
-  String get commonDesc => '자주 출제 - 1,000개';
+  String get n4Desc => '초중급 - 1,000단어';
 
   @override
-  String get advanced => '고급';
+  String get n3 => 'N3';
 
   @override
-  String get advancedDesc => '고빈도 SAT - 800개';
+  String get n3Desc => '중급 - 800단어';
 
   @override
-  String get expert => '전문가';
+  String get n2 => 'N2';
 
   @override
-  String get expertDesc => '어려운 어휘 - 500개';
+  String get n2Desc => '중상급 - 1,200단어';
+
+  @override
+  String get n1 => 'N1';
+
+  @override
+  String get n1Desc => '고급 - 1,500단어';
 
   @override
   String get alphabetical => '알파벳순';
@@ -246,4 +252,19 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get noPurchaseFound => '이전 구매 내역이 없습니다';
+
+  @override
+  String get furiganaDisplayMode => '읽기 표시 방식';
+
+  @override
+  String get parenthesesMode => '괄호 병기';
+
+  @override
+  String get furiganaMode => '후리가나';
+
+  @override
+  String get parenthesesExample => '예: 食べ物 (たべもの)';
+
+  @override
+  String get furiganaExample => '예: 食べ物 [たべもの]';
 }

@@ -1,12 +1,14 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:sat_vocab_app/l10n/generated/app_localizations.dart';
+import 'package:jlpt_vocab_app/l10n/generated/app_localizations.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:url_launcher/url_launcher.dart';
 import '../main.dart';
 import '../services/translation_service.dart';
 import '../services/purchase_service.dart';
 import '../services/ad_service.dart';
+import '../services/display_service.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
@@ -19,6 +21,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
   bool _darkMode = false;
   bool _dailyReminder = false;
   double _fontSize = 1.0;
+  String _furiganaDisplayMode = 'parentheses'; // 'parentheses' or 'furigana'
   bool _isLoading = true;
 
   @override
@@ -56,6 +59,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
       _darkMode = prefs.getBool('darkMode') ?? false;
       _dailyReminder = prefs.getBool('dailyReminder') ?? false;
       _fontSize = prefs.getDouble('wordFontSize') ?? 1.0;
+      _furiganaDisplayMode =
+          prefs.getString('furiganaDisplayMode') ?? 'parentheses';
       _isLoading = false;
     });
   }
@@ -122,7 +127,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                             title: Text(lang.nativeName),
                             subtitle: Text(lang.name),
                             onTap: () {
-                              // TranslationService???�어 코드 ?�??
+                              // TranslationService???�어 코드 ?�??
                               TranslationService.instance.setLanguage(
                                 lang.code,
                               );
@@ -200,6 +205,35 @@ class _SettingsScreenState extends State<SettingsScreen> {
               },
             ),
           ),
+          ListTile(
+            leading: const Icon(Icons.text_format),
+            title: Text(l10n.furiganaDisplayMode),
+            subtitle: Text(
+              _furiganaDisplayMode == 'parentheses'
+                  ? l10n.parenthesesExample
+                  : l10n.furiganaExample,
+            ),
+            trailing: DropdownButton<String>(
+              value: _furiganaDisplayMode,
+              items: [
+                DropdownMenuItem(
+                  value: 'parentheses',
+                  child: Text(l10n.parenthesesMode),
+                ),
+                DropdownMenuItem(
+                  value: 'furigana',
+                  child: Text(l10n.furiganaMode),
+                ),
+              ],
+              onChanged: (value) {
+                if (value != null) {
+                  setState(() => _furiganaDisplayMode = value);
+                  _saveSetting('furiganaDisplayMode', value);
+                  DisplayService.instance.setDisplayMode(value);
+                }
+              },
+            ),
+          ),
           const Divider(),
 
           // Notification Section
@@ -236,21 +270,46 @@ class _SettingsScreenState extends State<SettingsScreen> {
           ListTile(
             leading: const Icon(Icons.privacy_tip),
             title: Text(l10n.privacyPolicy),
-            onTap: () {
-              showDialog(
-                context: context,
-                builder:
-                    (context) => AlertDialog(
-                      title: Text(l10n.privacyPolicy),
-                      content: Text(l10n.privacyPolicyContent),
-                      actions: [
-                        TextButton(
-                          onPressed: () => Navigator.pop(context),
-                          child: const Text('OK'),
-                        ),
-                      ],
-                    ),
-              );
+            trailing: const Icon(Icons.open_in_new),
+            onTap: () async {
+              const url =
+                  'https://jihunjo123.github.io/jlpt-step-apps/privacy-policy-n5-n3.html';
+              final uri = Uri.parse(url);
+              if (await canLaunchUrl(uri)) {
+                await launchUrl(uri, mode: LaunchMode.externalApplication);
+              } else {
+                if (mounted) {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(content: Text('Cannot open URL: $url')),
+                  );
+                }
+              }
+            },
+          ),
+          ListTile(
+            leading: const Icon(Icons.campaign),
+            title: const Text('Marketing'),
+            trailing: const Icon(Icons.open_in_new),
+            onTap: () async {
+              const url =
+                  'https://jihunjo123.github.io/jlpt-step-apps/marketing-n5-n3.html';
+              final uri = Uri.parse(url);
+              if (await canLaunchUrl(uri)) {
+                await launchUrl(uri, mode: LaunchMode.externalApplication);
+              }
+            },
+          ),
+          ListTile(
+            leading: const Icon(Icons.help_outline),
+            title: const Text('Support'),
+            trailing: const Icon(Icons.open_in_new),
+            onTap: () async {
+              const url =
+                  'https://jihunjo123.github.io/jlpt-step-apps/support-n5-n3.html';
+              final uri = Uri.parse(url);
+              if (await canLaunchUrl(uri)) {
+                await launchUrl(uri, mode: LaunchMode.externalApplication);
+              }
             },
           ),
         ],

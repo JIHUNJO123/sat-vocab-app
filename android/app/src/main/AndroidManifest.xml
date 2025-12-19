@@ -3,14 +3,14 @@
     <uses-permission android:name="com.android.vending.BILLING"/>
     
     <application
-        android:label="SAT Vocabulary"
+        android:label="JLPT Step N5–N3"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         
-        <!-- Google AdMob App ID -->
+        <!-- Google AdMob App ID - JLPT Step N5–N3 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-5837885590326347~5018201928"/>
+            android:value="ca-app-pub-5837885590326347~5763133926"/>
             
         <activity
             android:name=".MainActivity"

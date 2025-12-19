@@ -2,7 +2,7 @@
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:sat_vocab_app/l10n/generated/app_localizations.dart';
+import 'package:jlpt_vocab_app/l10n/generated/app_localizations.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
@@ -11,6 +11,7 @@ import 'screens/home_screen.dart';
 import 'services/translation_service.dart';
 import 'services/ad_service.dart';
 import 'services/purchase_service.dart';
+import 'services/display_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -28,16 +29,19 @@ void main() async {
   // 踰덉뿭 ?쒕퉬??珥덇린??
   await TranslationService.instance.init();
 
-  // 愿묎퀬 ?쒕퉬??珥덇린??
+  // 표시 서비스 초기화
+  await DisplayService.instance.init();
+
+  // 광고 서비스 초기화
   await AdService.instance.initialize();
 
-  // ?몄빋 援щℓ ?쒕퉬??珥덇린??
+  // 인앱 구매 서비스 초기화
   await PurchaseService.instance.initialize();
 
   runApp(
     ChangeNotifierProvider(
       create: (_) => LocaleProvider(),
-      child: const GREVocabApp(),
+      child: const JLPTVocabApp(),
     ),
   );
 }
@@ -90,15 +94,15 @@ class LocaleProvider extends ChangeNotifier {
   }
 }
 
-class GREVocabApp extends StatelessWidget {
-  const GREVocabApp({super.key});
+class JLPTVocabApp extends StatelessWidget {
+  const JLPTVocabApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     final localeProvider = Provider.of<LocaleProvider>(context);
 
     return MaterialApp(
-      title: 'GRE Vocabulary Master',
+      title: 'JLPT Step N5–N3',
       debugShowCheckedModeBanner: false,
 
       // Localization ?ㅼ젙
@@ -112,21 +116,12 @@ class GREVocabApp extends StatelessWidget {
       supportedLocales: const [
         Locale('en'),
         Locale('ko'),
-        Locale('ja'),
         Locale('zh'),
-        Locale('es'),
-        Locale('pt'),
-        Locale('de'),
-        Locale('fr'),
-        Locale('vi'),
-        Locale('ar'),
-        Locale('id'),
-        Locale('hi'),
       ],
 
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF6B4EAB), // GRE 釉붾（
+          seedColor: const Color(0xFFE53E3E), // JLPT Red
           brightness: Brightness.light,
         ),
         useMaterial3: false,
@@ -151,7 +146,7 @@ class GREVocabApp extends StatelessWidget {
       ),
       darkTheme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF6B4EAB),
+          seedColor: const Color(0xFFE53E3E), // JLPT Red
           brightness: Brightness.dark,
         ),
         useMaterial3: true,

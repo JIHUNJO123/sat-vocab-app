@@ -9,7 +9,7 @@ class AppLocalizationsZh extends AppLocalizations {
   AppLocalizationsZh([String locale = 'zh']) : super(locale);
 
   @override
-  String get appTitle => 'SAT词汇大师';
+  String get appTitle => 'JLPT Step N5–N3';
 
   @override
   String get todayWord => '今日单词';
@@ -111,7 +111,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get disclaimer => '免责声明';
 
   @override
-  String get disclaimerText => '本应用是独立的SAT备考工具，与ETS（美国教育考试服务中心）无任何关联、背书或认可关系。';
+  String get disclaimerText => '本应用是独立的JLPT备考工具，与日本国际交流基金会或日本国际教育支援协会无任何关联、背书或认可关系。';
 
   @override
   String get privacyPolicy => '隐私政策';
@@ -146,28 +146,34 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get basic => '基础';
+  String get n5 => 'N5';
 
   @override
-  String get basicDesc => '基础词汇 - 500词';
+  String get n5Desc => '初级 - 500词';
 
   @override
-  String get common => '常见';
+  String get n4 => 'N4';
 
   @override
-  String get commonDesc => '高频考点 - 1,000词';
+  String get n4Desc => '初中级 - 1,000词';
 
   @override
-  String get advanced => '进阶';
+  String get n3 => 'N3';
 
   @override
-  String get advancedDesc => 'SAT高频 - 800词';
+  String get n3Desc => '中级 - 800词';
 
   @override
-  String get expert => '专家';
+  String get n2 => 'N2';
 
   @override
-  String get expertDesc => '挑战词汇 - 500词';
+  String get n2Desc => '中高级 - 1,200词';
+
+  @override
+  String get n1 => 'N1';
+
+  @override
+  String get n1Desc => '高级 - 1,500词';
 
   @override
   String get alphabetical => '字母顺序';
@@ -246,4 +252,19 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get noPurchaseFound => '未找到之前的购买记录';
+
+  @override
+  String get furiganaDisplayMode => '假名显示方式';
+
+  @override
+  String get parenthesesMode => '括号标注';
+
+  @override
+  String get furiganaMode => '假名标注';
+
+  @override
+  String get parenthesesExample => '例：食べ物 (たべもの)';
+
+  @override
+  String get furiganaExample => '例：食べ物 [たべもの]';
 }

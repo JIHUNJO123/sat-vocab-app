@@ -9,7 +9,7 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get appTitle => 'SAT Vocabulary Master';
+  String get appTitle => 'JLPT Step N5–N3';
 
   @override
   String get todayWord => 'Today\'s Word';
@@ -111,7 +111,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get disclaimer => 'Disclaimer';
 
   @override
-  String get disclaimerText => 'This app is an independent SAT preparation tool and is not affiliated with, endorsed by, or approved by ETS (Educational Testing Service).';
+  String get disclaimerText => 'This app is an independent JLPT preparation tool and is not affiliated with, endorsed by, or approved by the Japan Foundation or Japan Educational Exchanges and Services.';
 
   @override
   String get privacyPolicy => 'Privacy Policy';
@@ -146,28 +146,34 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get basic => 'Basic';
+  String get n5 => 'N5';
 
   @override
-  String get basicDesc => 'Foundation words - 500 words';
+  String get n5Desc => 'Beginner - 500 words';
 
   @override
-  String get common => 'Common';
+  String get n4 => 'N4';
 
   @override
-  String get commonDesc => 'Frequently tested - 1,000 words';
+  String get n4Desc => 'Elementary - 1,000 words';
 
   @override
-  String get advanced => 'Advanced';
+  String get n3 => 'N3';
 
   @override
-  String get advancedDesc => 'High-frequency SAT - 800 words';
+  String get n3Desc => 'Intermediate - 800 words';
 
   @override
-  String get expert => 'Expert';
+  String get n2 => 'N2';
 
   @override
-  String get expertDesc => 'Challenging vocabulary - 500 words';
+  String get n2Desc => 'Upper Intermediate - 1,200 words';
+
+  @override
+  String get n1 => 'N1';
+
+  @override
+  String get n1Desc => 'Advanced - 1,500 words';
 
   @override
   String get alphabetical => 'Alphabetical';
@@ -246,4 +252,19 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get noPurchaseFound => 'No previous purchase found';
+
+  @override
+  String get furiganaDisplayMode => 'Reading Display';
+
+  @override
+  String get parenthesesMode => 'Parentheses';
+
+  @override
+  String get furiganaMode => 'Brackets';
+
+  @override
+  String get parenthesesExample => 'e.g. 食べ物 (たべもの)';
+
+  @override
+  String get furiganaExample => 'e.g. 食べ物 [たべもの]';
 }

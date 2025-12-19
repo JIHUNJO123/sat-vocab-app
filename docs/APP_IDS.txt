@@ -1,0 +1,29 @@
+========================================
+JLPT Step 앱 - 번들ID, SKU, 인앱 구매 제품 ID
+========================================
+
+1. JLPT Step N5–N3
+   Bundle ID (Android): com.jlptstep.n5n3
+   Bundle ID (iOS): com.jlptstep.n5n3
+   SKU: jlpt-step-n5-n3
+   In-App Purchase Product ID: jlpt_step_n5_n3_premium
+
+2. JLPT Step N2
+   Bundle ID (Android): com.jlptstep.n2
+   Bundle ID (iOS): com.jlptstep.n2
+   SKU: jlpt-step-n2
+   In-App Purchase Product ID: jlpt_step_n2_premium
+
+3. JLPT Step N1
+   Bundle ID (Android): com.jlptstep.n1
+   Bundle ID (iOS): com.jlptstep.n1
+   SKU: jlpt-step-n1
+   In-App Purchase Product ID: jlpt_step_n1_premium
+
+========================================
+참고사항
+========================================
+- Bundle ID는 각 플랫폼(Android/iOS)에서 고유해야 합니다
+- SKU는 Google Play Console과 App Store Connect에서 사용됩니다
+- In-App Purchase Product ID는 각 스토어에서 등록해야 합니다
+

@@ -1,0 +1,24 @@
+
+JLPT Vocabulary Data Attribution
+================================
+
+This application uses vocabulary data from the following sources:
+
+1. JLPT Vocabulary Lists by Jonathan Waller
+   - Website: http://www.tanos.co.uk/jlpt/
+   - License: Creative Commons Attribution (CC BY)
+   - Attribution: "JLPT vocabulary from http://www.tanos.co.uk/jlpt/"
+
+2. JMdict Dictionary Data
+   - Project: Electronic Dictionary Research and Development Group
+   - Website: http://www.edrdg.org/jmdict/j_jmdict.html
+   - License: Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)
+   - License URL: http://www.edrdg.org/edrdg/licence.html
+   - Attribution: "This application uses the JMdict dictionary file.
+     These files are the property of the Electronic Dictionary Research
+     and Development Group, and are used in conformance with the Group's licence."
+
+Note: When using CC BY-SA licensed content, any derivative works must also
+be shared under the same or compatible license terms.
+
+For questions about licensing, please contact the original data providers.

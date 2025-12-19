@@ -1,10 +1,11 @@
 ﻿import 'package:flutter/material.dart';
-import 'package:sat_vocab_app/l10n/generated/app_localizations.dart';
+import 'package:jlpt_vocab_app/l10n/generated/app_localizations.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import '../db/database_helper.dart';
 import '../models/word.dart';
 import '../services/translation_service.dart';
 import '../services/ad_service.dart';
+import '../services/display_service.dart';
 import 'word_list_screen.dart';
 import 'word_detail_screen.dart';
 import 'favorites_screen.dart';
@@ -297,7 +298,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: [
                   Expanded(
                     child: Text(
-                      _todayWord!.word,
+                      _todayWord!.getDisplayWord(
+                        displayMode: DisplayService.instance.displayMode,
+                      ),
                       style: const TextStyle(
                         fontSize: 28,
                         fontWeight: FontWeight.bold,
@@ -440,31 +443,25 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget _buildLevelCards() {
     final l10n = AppLocalizations.of(context)!;
 
-    // SAT Level 湲곗? ?덈꺼 (??泥닿퀎)
+    // JLPT Level 카드 (N5-N1)
     final levels = [
       {
-        'level': 'Basic',
-        'name': l10n.basic,
-        'desc': l10n.basicDesc,
+        'level': 'N5',
+        'name': l10n.n5,
+        'desc': l10n.n5Desc,
         'color': Colors.green,
       },
       {
-        'level': 'Common',
-        'name': l10n.common,
-        'desc': l10n.commonDesc,
+        'level': 'N4',
+        'name': l10n.n4,
+        'desc': l10n.n4Desc,
         'color': Colors.blue,
       },
       {
-        'level': 'Advanced',
-        'name': l10n.advanced,
-        'desc': l10n.advancedDesc,
+        'level': 'N3',
+        'name': l10n.n3,
+        'desc': l10n.n3Desc,
         'color': Colors.orange,
-      },
-      {
-        'level': 'Expert',
-        'name': l10n.expert,
-        'desc': l10n.expertDesc,
-        'color': Colors.red,
       },
     ];
 
@@ -548,5 +545,3 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
-
-

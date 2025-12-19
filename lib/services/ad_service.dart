@@ -15,16 +15,16 @@ class AdService {
   InterstitialAd? _interstitialAd;
   bool _isInterstitialAdLoaded = false;
 
-  // ?제 광고 ID
+  // JLPT Step N5–N3 광고 ID
   // Android
   static const String _androidBannerId =
-      'ca-app-pub-5837885590326347/3658579299';
+      'ca-app-pub-5837885590326347/6675199844';
   static const String _androidInterstitialId =
-      'ca-app-pub-5837885590326347/6767958368';
+      'ca-app-pub-5837885590326347/5362118174';
   // iOS
-  static const String _iosBannerId = 'ca-app-pub-5837885590326347/2375726715';
+  static const String _iosBannerId = 'ca-app-pub-5837885590326347/9636405103';
   static const String _iosInterstitialId =
-      'ca-app-pub-5837885590326347/8034429261';
+      'ca-app-pub-5837885590326347/6010545938';
 
   String get bannerAdUnitId {
     if (Platform.isAndroid) {
@@ -68,6 +68,11 @@ class AdService {
       return;
     }
 
+    // JLPT Step N5–N3 AdMob App ID
+    final appId = Platform.isAndroid 
+        ? 'ca-app-pub-5837885590326347~5763133926'  // Android
+        : 'ca-app-pub-5837885590326347~8197725571'; // iOS
+    
     await MobileAds.instance.initialize();
     _isInitialized = true;
   }

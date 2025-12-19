@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>SAT Vocabulary</string>
+	<string>JLPT Step N5–N3</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -45,8 +45,8 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
-<key>GADApplicationIdentifier</key>
-<string>ca-app-pub-5837885590326347~5399036377</string>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-5837885590326347~8197725571</string>
 <key>SKAdNetworkItems</key>
 <array>
 <dict>

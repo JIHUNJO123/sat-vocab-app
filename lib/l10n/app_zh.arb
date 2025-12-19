@@ -1,6 +1,6 @@
 ﻿{
   "@@locale": "zh",
-  "appTitle": "SAT词汇大师",
+  "appTitle": "JLPT Step N5–N3",
   "todayWord": "今日单词",
   "learning": "学习",
   "levelLearning": "难度等级",
@@ -34,7 +34,7 @@
   "info": "信息",
   "version": "版本",
   "disclaimer": "免责声明",
-  "disclaimerText": "本应用是独立的SAT备考工具，与ETS（美国教育考试服务中心）无任何关联、背书或认可关系。",
+  "disclaimerText": "本应用是独立的JLPT备考工具，与日本国际交流基金会或日本国际教育支援协会无任何关联、背书或认可关系。",
   "privacyPolicy": "隐私政策",
   "cannotLoadWords": "无法加载单词",
   "noFavoritesYet": "暂无收藏",
@@ -52,14 +52,16 @@
       }
     }
   },
-  "basic": "基础",
-  "basicDesc": "基础词汇 - 500词",
-  "common": "常见",
-  "commonDesc": "高频考点 - 1,000词",
-  "advanced": "进阶",
-  "advancedDesc": "SAT高频 - 800词",
-  "expert": "专家",
-  "expertDesc": "挑战词汇 - 500词",
+  "n5": "N5",
+  "n5Desc": "初级 - 500词",
+  "n4": "N4",
+  "n4Desc": "初中级 - 1,000词",
+  "n3": "N3",
+  "n3Desc": "中级 - 800词",
+  "n2": "N2",
+  "n2Desc": "中高级 - 1,200词",
+  "n1": "N1",
+  "n1Desc": "高级 - 1,500词",
   "alphabetical": "字母顺序",
   "random": "随机",
   "tapToFlip": "点击翻转",
@@ -85,5 +87,10 @@
   "privacyPolicyContent": "本应用不收集、存储或共享任何个人信息。您的学习进度和收藏仅存储在您的设备上。",
   "restorePurchaseDesc": "如果您之前在其他设备上购买了移除广告或重新安装了应用，请点击此处恢复购买。",
   "restoreComplete": "恢复完成",
-  "noPurchaseFound": "未找到之前的购买记录"
+  "noPurchaseFound": "未找到之前的购买记录",
+  "furiganaDisplayMode": "假名显示方式",
+  "parenthesesMode": "括号标注",
+  "furiganaMode": "假名标注",
+  "parenthesesExample": "例：食べ物 (たべもの)",
+  "furiganaExample": "例：食べ物 [たべもの]"
 }

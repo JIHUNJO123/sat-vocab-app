@@ -1,12 +1,13 @@
 ﻿import 'package:flutter/material.dart';
 import 'package:flip_card/flip_card.dart';
-import 'package:sat_vocab_app/l10n/generated/app_localizations.dart';
+import 'package:jlpt_vocab_app/l10n/generated/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import '../db/database_helper.dart';
 import '../models/word.dart';
 import '../services/translation_service.dart';
 import '../services/ad_service.dart';
+import '../services/display_service.dart';
 import 'word_detail_screen.dart';
 
 class WordListScreen extends StatefulWidget {
@@ -201,13 +202,15 @@ class _WordListScreenState extends State<WordListScreen> {
 
   Color _getLevelColor(String level) {
     switch (level) {
-      case 'Basic':
+      case 'N5':
         return Colors.green;
-      case 'Common':
+      case 'N4':
         return Colors.blue;
-      case 'Advanced':
+      case 'N3':
         return Colors.orange;
-      case 'Expert':
+      case 'N2':
+        return Colors.purple;
+      case 'N1':
         return Colors.red;
       default:
         return Colors.blue;
@@ -218,10 +221,11 @@ class _WordListScreenState extends State<WordListScreen> {
     final l10n = AppLocalizations.of(context)!;
     final bands = [
       {'level': null, 'name': l10n.allWords, 'color': Colors.grey},
-      {'level': 'Basic', 'name': 'Basic', 'color': Colors.green},
-      {'level': 'Common', 'name': 'Common', 'color': Colors.blue},
-      {'level': 'Advanced', 'name': 'Advanced', 'color': Colors.orange},
-      {'level': 'Expert', 'name': 'Expert', 'color': Colors.red},
+      {'level': 'N5', 'name': 'N5', 'color': Colors.green},
+      {'level': 'N4', 'name': 'N4', 'color': Colors.blue},
+      {'level': 'N3', 'name': 'N3', 'color': Colors.orange},
+      {'level': 'N2', 'name': 'N2', 'color': Colors.purple},
+      {'level': 'N1', 'name': 'N1', 'color': Colors.red},
     ];
 
     showModalBottomSheet(
@@ -478,7 +482,7 @@ class _WordListScreenState extends State<WordListScreen> {
               children: [
                 Expanded(
                   child: Text(
-                    word.word,
+                    word.getDisplayWord(displayMode: DisplayService.instance.displayMode),
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 16 * _wordFontSize,
@@ -652,7 +656,7 @@ class _WordListScreenState extends State<WordListScreen> {
                             ),
                             const Spacer(),
                             Text(
-                              word.word,
+                              word.getDisplayWord(displayMode: DisplayService.instance.displayMode),
                               style: TextStyle(
                                 fontSize: 28 * _wordFontSize,
                                 fontWeight: FontWeight.bold,

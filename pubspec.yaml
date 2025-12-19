@@ -1,8 +1,8 @@
-﻿name: sat_vocab_app
-description: "SAT Vocabulary - Master GRE words for your graduate school admission"
+﻿name: jlpt_vocab_app
+description: "JLPT Step N5–N3 - Master Japanese words for JLPT N5, N4, N3 levels"
 publish_to: 'none'
 
-version: 1.0.1+6
+version: 1.0.0+1
 
 environment:
   sdk: ^3.7.0
@@ -37,6 +37,9 @@ dependencies:
   # Google Mobile Ads
   google_mobile_ads: ^5.2.0
   
+  # URL Launcher
+  url_launcher: ^6.2.2
+  
   # In-App Purchase
   in_app_purchase: ^3.2.0
 
@@ -52,7 +55,7 @@ flutter_launcher_icons:
   image_path: "assets/icon/app_icon.png"
   min_sdk_android: 21
   remove_alpha_ios: true
-  adaptive_icon_background: "#6B4EAB"
+  adaptive_icon_background: "#E53E3E"
   adaptive_icon_foreground: "assets/icon/app_icon.png"
 
 flutter:
@@ -61,6 +64,9 @@ flutter:
 
   assets:
     - assets/data/words.json
+    - assets/data/words_n5_n3.json
+    - assets/data/words_n2.json
+    - assets/data/words_n1.json
 
 
 

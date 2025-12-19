@@ -1,10 +1,11 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:sat_vocab_app/l10n/generated/app_localizations.dart';
+import 'package:jlpt_vocab_app/l10n/generated/app_localizations.dart';
 import '../db/database_helper.dart';
 import '../models/word.dart';
 import '../services/translation_service.dart';
 import '../services/ad_service.dart';
+import '../services/display_service.dart';
 
 enum QuizType { wordToMeaning, meaningToWord }
 
@@ -37,7 +38,7 @@ class _QuizScreenState extends State<QuizScreen> {
   }
 
   Future<void> _loadWords() async {
-    // JSON?�서 ?�어 로드 (?�장 번역 ?�함)
+    // JSON?�서 ?�어 로드 (?�장 번역 ?�함)
     final jsonWords = await DatabaseHelper.instance.getWordsWithTranslations();
 
     List<Word> words;
@@ -56,10 +57,10 @@ class _QuizScreenState extends State<QuizScreen> {
     await translationService.init();
     final langCode = translationService.currentLanguage;
 
-    // 모든 ?�어???�???�장 번역 로드 (?�답 ?�택지??번역?�어????
+    // 모든 ?�어???�???�장 번역 로드 (?�답 ?�택지??번역?�어????
     if (translationService.needsTranslation) {
       for (var word in words) {
-        // ?�장 번역�??�인 (API ?�출 ?�음)
+        // ?�장 번역�??�인 (API ?�출 ?�음)
         final embeddedTranslation = word.getEmbeddedTranslation(
           langCode,
           'definition',
@@ -67,7 +68,7 @@ class _QuizScreenState extends State<QuizScreen> {
         if (embeddedTranslation != null && embeddedTranslation.isNotEmpty) {
           _translatedDefinitions[word.id] = embeddedTranslation;
         }
-        // ?�장 번역 ?�으�??�어 ?�본 ?�용 (API ?�출 ?�함 - ?�즈 ?�도 ?�선)
+        // ?�장 번역 ?�으�??�어 ?�본 ?�용 (API ?�출 ?�함 - ?�즈 ?�도 ?�선)
       }
     }
 
@@ -347,7 +348,7 @@ class _QuizScreenState extends State<QuizScreen> {
                     const SizedBox(height: 16),
                     Text(
                       _quizType == QuizType.wordToMeaning
-                          ? currentWord.word
+                          ? currentWord.getDisplayWord(displayMode: DisplayService.instance.displayMode)
                           : (_translatedDefinitions[currentWord.id] ??
                               currentWord.definition),
                       style: TextStyle(

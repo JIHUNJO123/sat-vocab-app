@@ -1,6 +1,6 @@
 ﻿{
   "@@locale": "en",
-  "appTitle": "SAT Vocabulary Master",
+  "appTitle": "JLPT Step N5–N3",
   "todayWord": "Today's Word",
   "learning": "Learning",
   "levelLearning": "Difficulty Level",
@@ -34,7 +34,7 @@
   "info": "Info",
   "version": "Version",
   "disclaimer": "Disclaimer",
-  "disclaimerText": "This app is an independent SAT preparation tool and is not affiliated with, endorsed by, or approved by ETS (Educational Testing Service).",
+  "disclaimerText": "This app is an independent JLPT preparation tool and is not affiliated with, endorsed by, or approved by the Japan Foundation or Japan Educational Exchanges and Services.",
   "privacyPolicy": "Privacy Policy",
   "cannotLoadWords": "Cannot load words",
   "noFavoritesYet": "No favorites yet",
@@ -52,14 +52,16 @@
       }
     }
   },
-  "basic": "Basic",
-  "basicDesc": "Foundation words - 500 words",
-  "common": "Common",
-  "commonDesc": "Frequently tested - 1,000 words",
-  "advanced": "Advanced",
-  "advancedDesc": "High-frequency SAT - 800 words",
-  "expert": "Expert",
-  "expertDesc": "Challenging vocabulary - 500 words",
+  "n5": "N5",
+  "n5Desc": "Beginner - 500 words",
+  "n4": "N4",
+  "n4Desc": "Elementary - 1,000 words",
+  "n3": "N3",
+  "n3Desc": "Intermediate - 800 words",
+  "n2": "N2",
+  "n2Desc": "Upper Intermediate - 1,200 words",
+  "n1": "N1",
+  "n1Desc": "Advanced - 1,500 words",
   "alphabetical": "Alphabetical",
   "random": "Random",
   "tapToFlip": "Tap to flip",
@@ -85,7 +87,12 @@
   "privacyPolicyContent": "This app does not collect, store, or share any personal information. Your learning progress and favorites are stored only on your device. No data is transmitted to external servers.",
   "restorePurchaseDesc": "If you have previously purchased ad removal on another device or after reinstalling the app, tap here to restore your purchase.",
   "restoreComplete": "Restore complete",
-  "noPurchaseFound": "No previous purchase found"
+  "noPurchaseFound": "No previous purchase found",
+  "furiganaDisplayMode": "Reading Display",
+  "parenthesesMode": "Parentheses",
+  "furiganaMode": "Brackets",
+  "parenthesesExample": "e.g. 食べ物 (たべもの)",
+  "furiganaExample": "e.g. 食べ物 [たべもの]"
 }
 
 
