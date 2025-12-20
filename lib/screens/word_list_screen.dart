@@ -41,26 +41,26 @@ class _WordListScreenState extends State<WordListScreen> {
   String get _positionKey =>
       'word_list_position_${widget.level ?? 'all'}_${widget.isFlashcardMode ? 'flashcard' : 'list'}';
 
-  String get _scrollOffsetKey =>
-      'word_list_scroll_offset_${widget.level ?? 'all'}';
-
-  Future<void> _restoreScrollPosition() async {
+  void _restoreScrollPosition() {
     if (widget.isFlashcardMode) return;
-    final prefs = await SharedPreferences.getInstance();
-    final offset = prefs.getDouble(_scrollOffsetKey) ?? 0.0;
-    if (offset > 0) {
-      WidgetsBinding.instance.addPostFrameCallback((_) {
-        if (_listScrollController.hasClients && mounted) {
-          _listScrollController.jumpTo(offset);
-        }
-      });
-    }
+    final prefs = SharedPreferences.getInstance();
+    prefs.then((p) {
+      final position = p.getInt(_positionKey) ?? 0;
+      if (position > 0 && mounted) {
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          if (_listScrollController.hasClients && mounted) {
+            _listScrollController.jumpTo(position * 80.0);
+          }
+        });
+      }
+    });
   }
 
   Future<void> _saveScrollPosition() async {
     if (_listScrollController.hasClients) {
       final prefs = await SharedPreferences.getInstance();
-      await prefs.setDouble(_scrollOffsetKey, _listScrollController.offset);
+      final itemIndex = (_listScrollController.offset / 80.0).round();
+      await prefs.setInt(_positionKey, itemIndex);
     }
   }
 
@@ -337,16 +337,17 @@ class _WordListScreenState extends State<WordListScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        leading: widget.isFlashcardMode
-            ? IconButton(
-                icon: const Icon(Icons.arrow_back),
-                onPressed: () async {
-                  if (await _handleBackPress()) {
-                    if (context.mounted) Navigator.of(context).pop();
-                  }
-                },
-              )
-            : null,
+        leading:
+            widget.isFlashcardMode
+                ? IconButton(
+                  icon: const Icon(Icons.arrow_back),
+                  onPressed: () async {
+                    if (await _handleBackPress()) {
+                      if (context.mounted) Navigator.of(context).pop();
+                    }
+                  },
+                )
+                : null,
         title: Column(
           children: [
             Text(title),
@@ -482,11 +483,19 @@ class _WordListScreenState extends State<WordListScreen> {
   }
 
   Widget _buildListView() {
-    return ListView.builder(
-      controller: _listScrollController,
-      padding: const EdgeInsets.all(16),
-      itemCount: _words.length,
-      itemBuilder: (context, index) {
+    return NotificationListener<ScrollNotification>(
+      onNotification: (notification) {
+        if (notification is ScrollEndNotification) {
+          final itemIndex = (_listScrollController.offset / 80.0).round();
+          _savePosition(itemIndex);
+        }
+        return false;
+      },
+      child: ListView.builder(
+        controller: _listScrollController,
+        padding: const EdgeInsets.all(16),
+        itemCount: _words.length,
+        itemBuilder: (context, index) {
         final word = _words[index];
         _loadTranslationForWord(word);
 
@@ -510,7 +519,9 @@ class _WordListScreenState extends State<WordListScreen> {
               children: [
                 Expanded(
                   child: Text(
-                    word.getDisplayWord(displayMode: DisplayService.instance.displayMode),
+                    word.getDisplayWord(
+                      displayMode: DisplayService.instance.displayMode,
+                    ),
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 16 * _wordFontSize,
@@ -570,6 +581,7 @@ class _WordListScreenState extends State<WordListScreen> {
           ),
         );
       },
+      ),
     );
   }
 
@@ -684,7 +696,10 @@ class _WordListScreenState extends State<WordListScreen> {
                             ),
                             const Spacer(),
                             Text(
-                              word.getDisplayWord(displayMode: DisplayService.instance.displayMode),
+                              word.getDisplayWord(
+                                displayMode:
+                                    DisplayService.instance.displayMode,
+                              ),
                               style: TextStyle(
                                 fontSize: 28 * _wordFontSize,
                                 fontWeight: FontWeight.bold,
@@ -828,4 +843,3 @@ class _WordListScreenState extends State<WordListScreen> {
     );
   }
 }
-
