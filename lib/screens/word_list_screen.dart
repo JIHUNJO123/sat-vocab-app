@@ -40,6 +40,29 @@ class _WordListScreenState extends State<WordListScreen> {
   String get _positionKey =>
       'word_list_position_${widget.level ?? 'all'}_${widget.isFlashcardMode ? 'flashcard' : 'list'}';
 
+  void _restoreScrollPosition() {
+    if (widget.isFlashcardMode) return;
+    final prefs = SharedPreferences.getInstance();
+    prefs.then((p) {
+      final position = p.getInt(_positionKey) ?? 0;
+      if (position > 0 && mounted) {
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          if (_listScrollController.hasClients && mounted) {
+            _listScrollController.jumpTo(position * 80.0);
+          }
+        });
+      }
+    });
+  }
+
+  Future<void> _saveScrollPosition() async {
+    if (_listScrollController.hasClients) {
+      final prefs = await SharedPreferences.getInstance();
+      final itemIndex = (_listScrollController.offset / 80.0).round();
+      await prefs.setInt(_positionKey, itemIndex);
+    }
+  }
+
   @override
   void initState() {
     super.initState();
@@ -107,11 +130,7 @@ class _WordListScreenState extends State<WordListScreen> {
         setState(() {});
       } else {
         // 리스트 모드 스크롤 위치 복원
-        WidgetsBinding.instance.addPostFrameCallback((_) {
-          if (_listScrollController.hasClients && mounted) {
-            _listScrollController.jumpTo(position * 80.0);
-          }
-        });
+        _restoreScrollPosition();
       }
     }
   }
@@ -312,16 +331,17 @@ class _WordListScreenState extends State<WordListScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        leading: widget.isFlashcardMode
-            ? IconButton(
-                icon: const Icon(Icons.arrow_back),
-                onPressed: () async {
-                  if (await _handleBackPress()) {
-                    if (context.mounted) Navigator.of(context).pop();
-                  }
-                },
-              )
-            : null,
+        leading:
+            widget.isFlashcardMode
+                ? IconButton(
+                  icon: const Icon(Icons.arrow_back),
+                  onPressed: () async {
+                    if (await _handleBackPress()) {
+                      if (context.mounted) Navigator.of(context).pop();
+                    }
+                  },
+                )
+                : null,
         title: Column(
           children: [
             Text(title),
@@ -460,8 +480,7 @@ class _WordListScreenState extends State<WordListScreen> {
     return NotificationListener<ScrollNotification>(
       onNotification: (notification) {
         if (notification is ScrollEndNotification) {
-          final itemIndex = (_listScrollController.offset / 80.0).round();
-          _savePosition(itemIndex);
+          _saveScrollPosition();
         }
         return false;
       },
@@ -473,86 +492,86 @@ class _WordListScreenState extends State<WordListScreen> {
           final word = _words[index];
           _loadTranslationForWord(word);
 
-        final definition =
-            _showNativeLanguage && _translatedDefinitions.containsKey(word.id)
-                ? _translatedDefinitions[word.id]!
-                : word.definition;
+          final definition =
+              _showNativeLanguage && _translatedDefinitions.containsKey(word.id)
+                  ? _translatedDefinitions[word.id]!
+                  : word.definition;
 
-        return Card(
-          margin: const EdgeInsets.only(bottom: 12),
-          child: ListTile(
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => WordDetailScreen(word: word),
-                ),
-              );
-            },
-            title: Row(
-              children: [
-                Expanded(
-                  child: Text(
-                    word.word,
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 16 * _wordFontSize,
-                    ),
+          return Card(
+            margin: const EdgeInsets.only(bottom: 12),
+            child: ListTile(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => WordDetailScreen(word: word),
                   ),
-                ),
-                // Band 諛곗?: All Words?먯꽌 ?좉? 媛??
-                if (widget.level == null && _showBandBadge)
-                  Container(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 8,
-                      vertical: 2,
-                    ),
-                    decoration: BoxDecoration(
-                      color: _getLevelColor(word.level),
-                      borderRadius: BorderRadius.circular(10),
-                    ),
+                );
+              },
+              title: Row(
+                children: [
+                  Expanded(
                     child: Text(
-                      word.level,
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 10,
+                      word.word,
+                      style: TextStyle(
                         fontWeight: FontWeight.bold,
+                        fontSize: 16 * _wordFontSize,
                       ),
                     ),
                   ),
-              ],
-            ),
-            subtitle: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const SizedBox(height: 4),
-                Row(
-                  children: [
-                    Text(
-                      word.partOfSpeech,
-                      style: TextStyle(color: Colors.grey[600], fontSize: 12),
+                  // Band 諛곗?: All Words?먯꽌 ?좉? 媛??
+                  if (widget.level == null && _showBandBadge)
+                    Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 8,
+                        vertical: 2,
+                      ),
+                      decoration: BoxDecoration(
+                        color: _getLevelColor(word.level),
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      child: Text(
+                        word.level,
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 10,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
                     ),
-                  ],
-                ),
-                const SizedBox(height: 4),
-                Text(
-                  definition,
-                  maxLines: 2,
-                  overflow: TextOverflow.ellipsis,
-                  style: TextStyle(fontSize: 14 * _wordFontSize),
-                ),
-              ],
-            ),
-            trailing: IconButton(
-              icon: Icon(
-                word.isFavorite ? Icons.favorite : Icons.favorite_border,
-                color: word.isFavorite ? Colors.red : null,
+                ],
               ),
-              onPressed: () => _toggleFavorite(word),
+              subtitle: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const SizedBox(height: 4),
+                  Row(
+                    children: [
+                      Text(
+                        word.partOfSpeech,
+                        style: TextStyle(color: Colors.grey[600], fontSize: 12),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    definition,
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                    style: TextStyle(fontSize: 14 * _wordFontSize),
+                  ),
+                ],
+              ),
+              trailing: IconButton(
+                icon: Icon(
+                  word.isFavorite ? Icons.favorite : Icons.favorite_border,
+                  color: word.isFavorite ? Colors.red : null,
+                ),
+                onPressed: () => _toggleFavorite(word),
+              ),
             ),
-          ),
-        );
-      },
+          );
+        },
       ),
     );
   }
@@ -812,4 +831,3 @@ class _WordListScreenState extends State<WordListScreen> {
     );
   }
 }
-
