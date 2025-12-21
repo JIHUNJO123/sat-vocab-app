@@ -1,11 +1,10 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:sat_vocab_app/l10n/generated/app_localizations.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import '../db/database_helper.dart';
 import '../models/word.dart';
 import '../services/translation_service.dart';
 import '../services/ad_service.dart';
-import '../services/display_service.dart';
 import 'word_list_screen.dart';
 import 'word_detail_screen.dart';
 import 'favorites_screen.dart';
@@ -68,7 +67,7 @@ class _HomeScreenState extends State<HomeScreen> {
         await translationService.init();
 
         if (translationService.needsTranslation) {
-          // ?�장 번역�??�용 (API ?�출 ?�음)
+          // ?댁옣 踰덉뿭留??ъ슜 (API ?몄텧 ?놁쓬)
           final embeddedTranslation = word.getEmbeddedTranslation(
             translationService.currentLanguage,
             'definition',
@@ -178,7 +177,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
           ),
-          // 배너 광고
+          // 諛곕꼫 愿묎퀬
           _buildBannerAd(),
         ],
       ),
@@ -298,9 +297,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: [
                   Expanded(
                     child: Text(
-                      _todayWord!.getDisplayWord(
-                        displayMode: DisplayService.instance.displayMode,
-                      ),
+                      _todayWord!.word,
                       style: const TextStyle(
                         fontSize: 28,
                         fontWeight: FontWeight.bold,
@@ -443,25 +440,31 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget _buildLevelCards() {
     final l10n = AppLocalizations.of(context)!;
 
-    // JLPT Level ī�� (N5-N1)
+    // SAT Level 湲곗? ?덈꺼 (??泥닿퀎)
     final levels = [
       {
-        'level': 'N5',
-        'name': l10n.n5,
-        'desc': l10n.n5Desc,
+        'level': 'Basic',
+        'name': l10n.basic,
+        'desc': l10n.basicDesc,
         'color': Colors.green,
       },
       {
-        'level': 'N4',
-        'name': l10n.n4,
-        'desc': l10n.n4Desc,
+        'level': 'Common',
+        'name': l10n.common,
+        'desc': l10n.commonDesc,
         'color': Colors.blue,
       },
       {
-        'level': 'N3',
-        'name': l10n.n3,
-        'desc': l10n.n3Desc,
+        'level': 'Advanced',
+        'name': l10n.advanced,
+        'desc': l10n.advancedDesc,
         'color': Colors.orange,
+      },
+      {
+        'level': 'Expert',
+        'name': l10n.expert,
+        'desc': l10n.expertDesc,
+        'color': Colors.red,
       },
     ];
 
@@ -545,3 +548,5 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
+
+

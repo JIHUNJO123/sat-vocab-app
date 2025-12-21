@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:flip_card/flip_card.dart';
 import 'package:sat_vocab_app/l10n/generated/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -7,7 +7,6 @@ import '../db/database_helper.dart';
 import '../models/word.dart';
 import '../services/translation_service.dart';
 import '../services/ad_service.dart';
-import '../services/display_service.dart';
 import 'word_detail_screen.dart';
 
 class WordListScreen extends StatefulWidget {
@@ -31,7 +30,7 @@ class _WordListScreenState extends State<WordListScreen> {
   bool _isBannerAdLoaded = false;
   double _wordFontSize = 1.0;
   bool _showNativeLanguage = true;
-  bool _showBandBadge = true; // Band 배�? ?�시 ?��?
+  bool _showBandBadge = true; // Band 諛곗? ?쒖떆 ?щ?
 
   final ScrollController _listScrollController = ScrollController();
 
@@ -40,29 +39,6 @@ class _WordListScreenState extends State<WordListScreen> {
 
   String get _positionKey =>
       'word_list_position_${widget.level ?? 'all'}_${widget.isFlashcardMode ? 'flashcard' : 'list'}';
-
-  void _restoreScrollPosition() {
-    if (widget.isFlashcardMode) return;
-    final prefs = SharedPreferences.getInstance();
-    prefs.then((p) {
-      final position = p.getInt(_positionKey) ?? 0;
-      if (position > 0 && mounted) {
-        WidgetsBinding.instance.addPostFrameCallback((_) {
-          if (_listScrollController.hasClients && mounted) {
-            _listScrollController.jumpTo(position * 80.0);
-          }
-        });
-      }
-    });
-  }
-
-  Future<void> _saveScrollPosition() async {
-    if (_listScrollController.hasClients) {
-      final prefs = await SharedPreferences.getInstance();
-      final itemIndex = (_listScrollController.offset / 80.0).round();
-      await prefs.setInt(_positionKey, itemIndex);
-    }
-  }
 
   @override
   void initState() {
@@ -129,8 +105,6 @@ class _WordListScreenState extends State<WordListScreen> {
         _currentFlashcardIndex = position;
         _pageController = PageController(initialPage: position);
         setState(() {});
-      } else {
-        _restoreScrollPosition();
       }
     }
   }
@@ -164,7 +138,7 @@ class _WordListScreenState extends State<WordListScreen> {
     if (!translationService.needsTranslation) return;
     if (!mounted) return;
 
-    // ?�장 번역�??�용 (API ?�출 ?�음)
+    // ?댁옣 踰덉뿭留??ъ슜 (API ?몄텧 ?놁쓬)
     final langCode = translationService.currentLanguage;
     final embeddedDef = word.getEmbeddedTranslation(langCode, 'definition');
     final embeddedEx = word.getEmbeddedTranslation(langCode, 'example');
@@ -227,15 +201,13 @@ class _WordListScreenState extends State<WordListScreen> {
 
   Color _getLevelColor(String level) {
     switch (level) {
-      case 'N5':
+      case 'Basic':
         return Colors.green;
-      case 'N4':
+      case 'Common':
         return Colors.blue;
-      case 'N3':
+      case 'Advanced':
         return Colors.orange;
-      case 'N2':
-        return Colors.purple;
-      case 'N1':
+      case 'Expert':
         return Colors.red;
       default:
         return Colors.blue;
@@ -246,11 +218,10 @@ class _WordListScreenState extends State<WordListScreen> {
     final l10n = AppLocalizations.of(context)!;
     final bands = [
       {'level': null, 'name': l10n.allWords, 'color': Colors.grey},
-      {'level': 'N5', 'name': 'N5', 'color': Colors.green},
-      {'level': 'N4', 'name': 'N4', 'color': Colors.blue},
-      {'level': 'N3', 'name': 'N3', 'color': Colors.orange},
-      {'level': 'N2', 'name': 'N2', 'color': Colors.purple},
-      {'level': 'N1', 'name': 'N1', 'color': Colors.red},
+      {'level': 'Basic', 'name': 'Basic', 'color': Colors.green},
+      {'level': 'Common', 'name': 'Common', 'color': Colors.blue},
+      {'level': 'Advanced', 'name': 'Advanced', 'color': Colors.orange},
+      {'level': 'Expert', 'name': 'Expert', 'color': Colors.red},
     ];
 
     showModalBottomSheet(
@@ -311,9 +282,6 @@ class _WordListScreenState extends State<WordListScreen> {
 
   @override
   void dispose() {
-    if (!widget.isFlashcardMode) {
-      _saveScrollPosition();
-    }
     _pageController.dispose();
     _listScrollController.dispose();
     AdService.instance.disposeBannerAd();
@@ -337,17 +305,16 @@ class _WordListScreenState extends State<WordListScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        leading:
-            widget.isFlashcardMode
-                ? IconButton(
-                  icon: const Icon(Icons.arrow_back),
-                  onPressed: () async {
-                    if (await _handleBackPress()) {
-                      if (context.mounted) Navigator.of(context).pop();
-                    }
-                  },
-                )
-                : null,
+        leading: widget.isFlashcardMode
+            ? IconButton(
+                icon: const Icon(Icons.arrow_back),
+                onPressed: () async {
+                  if (await _handleBackPress()) {
+                    if (context.mounted) Navigator.of(context).pop();
+                  }
+                },
+              )
+            : null,
         title: Column(
           children: [
             Text(title),
@@ -363,7 +330,7 @@ class _WordListScreenState extends State<WordListScreen> {
         ),
         centerTitle: true,
         actions: [
-          // Band 배�? ?�시 ?��? 버튼 (All Words 리스?�에?�만)
+          // Band 諛곗? ?쒖떆 ?좉? 踰꾪듉 (All Words 由ъ뒪?몄뿉?쒕쭔)
           if (widget.level == null &&
               !widget.isFlashcardMode &&
               _words.isNotEmpty)
@@ -379,7 +346,7 @@ class _WordListScreenState extends State<WordListScreen> {
                 });
               },
             ),
-          // Band filter button (All Words?� Flashcard 모드 모두?�서 ?�용 가??
+          // Band filter button (All Words? Flashcard 紐⑤뱶 紐⑤몢?먯꽌 ?ъ슜 媛??
           if (widget.level == null && _words.isNotEmpty)
             IconButton(
               icon: Icon(
@@ -483,105 +450,94 @@ class _WordListScreenState extends State<WordListScreen> {
   }
 
   Widget _buildListView() {
-    return NotificationListener<ScrollNotification>(
-      onNotification: (notification) {
-        if (notification is ScrollEndNotification) {
-          final itemIndex = (_listScrollController.offset / 80.0).round();
-          _savePosition(itemIndex);
-        }
-        return false;
-      },
-      child: ListView.builder(
-        controller: _listScrollController,
-        padding: const EdgeInsets.all(16),
-        itemCount: _words.length,
-        itemBuilder: (context, index) {
-          final word = _words[index];
-          _loadTranslationForWord(word);
+    return ListView.builder(
+      controller: _listScrollController,
+      padding: const EdgeInsets.all(16),
+      itemCount: _words.length,
+      itemBuilder: (context, index) {
+        final word = _words[index];
+        _loadTranslationForWord(word);
 
-          final definition =
-              _showNativeLanguage && _translatedDefinitions.containsKey(word.id)
-                  ? _translatedDefinitions[word.id]!
-                  : word.definition;
+        final definition =
+            _showNativeLanguage && _translatedDefinitions.containsKey(word.id)
+                ? _translatedDefinitions[word.id]!
+                : word.definition;
 
-          return Card(
-            margin: const EdgeInsets.only(bottom: 12),
-            child: ListTile(
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => WordDetailScreen(word: word),
-                  ),
-                );
-              },
-              title: Row(
-                children: [
-                  Expanded(
-                    child: Text(
-                      word.getDisplayWord(
-                        displayMode: DisplayService.instance.displayMode,
-                      ),
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 16 * _wordFontSize,
-                      ),
-                    ),
-                  ),
-                  // Band 배�?: All Words?�서 ?��? 가??
-                  if (widget.level == null && _showBandBadge)
-                    Container(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 8,
-                        vertical: 2,
-                      ),
-                      decoration: BoxDecoration(
-                        color: _getLevelColor(word.level),
-                        borderRadius: BorderRadius.circular(10),
-                      ),
-                      child: Text(
-                        word.level,
-                        style: const TextStyle(
-                          color: Colors.white,
-                          fontSize: 10,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ),
-                ],
-              ),
-              subtitle: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  const SizedBox(height: 4),
-                  Row(
-                    children: [
-                      Text(
-                        word.partOfSpeech,
-                        style: TextStyle(color: Colors.grey[600], fontSize: 12),
-                      ),
-                    ],
-                  ),
-                  const SizedBox(height: 4),
-                  Text(
-                    definition,
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
-                    style: TextStyle(fontSize: 14 * _wordFontSize),
-                  ),
-                ],
-              ),
-              trailing: IconButton(
-                icon: Icon(
-                  word.isFavorite ? Icons.favorite : Icons.favorite_border,
-                  color: word.isFavorite ? Colors.red : null,
+        return Card(
+          margin: const EdgeInsets.only(bottom: 12),
+          child: ListTile(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => WordDetailScreen(word: word),
                 ),
-                onPressed: () => _toggleFavorite(word),
-              ),
+              );
+            },
+            title: Row(
+              children: [
+                Expanded(
+                  child: Text(
+                    word.word,
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16 * _wordFontSize,
+                    ),
+                  ),
+                ),
+                // Band 諛곗?: All Words?먯꽌 ?좉? 媛??
+                if (widget.level == null && _showBandBadge)
+                  Container(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 8,
+                      vertical: 2,
+                    ),
+                    decoration: BoxDecoration(
+                      color: _getLevelColor(word.level),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Text(
+                      word.level,
+                      style: const TextStyle(
+                        color: Colors.white,
+                        fontSize: 10,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+              ],
             ),
-          );
-        },
-      ),
+            subtitle: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                const SizedBox(height: 4),
+                Row(
+                  children: [
+                    Text(
+                      word.partOfSpeech,
+                      style: TextStyle(color: Colors.grey[600], fontSize: 12),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  definition,
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(fontSize: 14 * _wordFontSize),
+                ),
+              ],
+            ),
+            trailing: IconButton(
+              icon: Icon(
+                word.isFavorite ? Icons.favorite : Icons.favorite_border,
+                color: word.isFavorite ? Colors.red : null,
+              ),
+              onPressed: () => _toggleFavorite(word),
+            ),
+          ),
+        );
+      },
     );
   }
 
@@ -696,10 +652,7 @@ class _WordListScreenState extends State<WordListScreen> {
                             ),
                             const Spacer(),
                             Text(
-                              word.getDisplayWord(
-                                displayMode:
-                                    DisplayService.instance.displayMode,
-                              ),
+                              word.word,
                               style: TextStyle(
                                 fontSize: 28 * _wordFontSize,
                                 fontWeight: FontWeight.bold,
@@ -843,3 +796,4 @@ class _WordListScreenState extends State<WordListScreen> {
     );
   }
 }
+

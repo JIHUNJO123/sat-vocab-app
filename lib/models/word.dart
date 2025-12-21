@@ -1,33 +1,29 @@
 import 'dart:convert';
 
-/// ?�어 모델 (JLPT ?�습??- ?�본???�어??
-/// ?�어 기본 ?�보 + ?�베??번역 + ?�적 번역
+/// ?�어 모델 (GRE ?�습??- ?�국??지??
+/// ?�어 ?�본 ?�이??+ ?�장 번역 + ?�적 번역
 class Word {
   final int id;
-  final String word; // ?�체 ?�어 (?�자+?�라가???�합)
-  final String? kanji; // ?�자 부�?
-  final String? hiragana; // ?�라가???�기
+  final String word;
   final String
-  level; // JLPT ?�벨: N5, N4, N3, N2, N1
+  level; // GRE Band 기�?: Band 4.5-5.5, Band 6.0-6.5, Band 7.0-7.5, Band 8.0+
   final String partOfSpeech;
-  final String definition; // ?�어 ?�의
-  final String example; // ?�어 ?�문
+  final String definition; // ?�어 ?�의
+  final String example; // ?�어 ?�문
   final String
   category; // 카테고리: Academic, Environment, Technology, Health, Education ??
   bool isFavorite;
 
-  // ?�장 번역 ?�이??(words.json?�서 로드)
+  // ?�장 번역 ?�이??(words.json?�서 로드)
   final Map<String, Map<String, String>>? translations;
 
-  // 번역???�스??(?��??�에 ?�정??
+  // 번역???�스??(?��??�에 ?�정??
   String? translatedDefinition;
   String? translatedExample;
 
   Word({
     required this.id,
     required this.word,
-    this.kanji,
-    this.hiragana,
     required this.level,
     required this.partOfSpeech,
     required this.definition,
@@ -39,7 +35,7 @@ class Word {
     this.translatedExample,
   });
 
-  /// ?�장 번역 가?�오�?
+  /// ?�장 번역 가?�오�?
   String? getEmbeddedTranslation(String langCode, String fieldType) {
     if (translations == null) return null;
     final langData = translations![langCode];
@@ -47,12 +43,12 @@ class Word {
     return langData[fieldType];
   }
 
-  /// JSON?�서 ?�성 (?�어 ?�본 + ?�장 번역)
+  /// JSON?�서 ?�성 (?�어 ?�본 + ?�장 번역)
   factory Word.fromJson(Map<String, dynamic> json) {
-    // translations ?�싱 (??가지 ?�식 지??
+    // translations ?�싱 (??가지 ?�식 지??
     Map<String, Map<String, String>>? translations;
 
-    // ?�식 1: translations 객체
+    // ?�식 1: translations 객체
     if (json['translations'] != null) {
       translations = {};
       (json['translations'] as Map<String, dynamic>).forEach((langCode, data) {
@@ -65,7 +61,7 @@ class Word {
       });
     }
 
-    // ?�식 2: flat ?�식 (definition_ja, example_ja ??
+    // ?�식 2: flat ?�식 (definition_ja, example_ja ??
     final langCodes = [
       'ko',
       'ja',
@@ -86,7 +82,7 @@ class Word {
       final exKey = 'example_$lang';
       if (json[defKey] != null || json[exKey] != null) {
         translations ??= {};
-        // zh_cn -> zh�?매핑
+        // zh_cn -> zh�?매핑
         final normalizedLang = lang == 'zh_cn' ? 'zh' : lang;
         translations[normalizedLang] = {
           'definition': json[defKey]?.toString() ?? '',
@@ -98,8 +94,6 @@ class Word {
     return Word(
       id: json['id'],
       word: json['word'],
-      kanji: json['kanji'],
-      hiragana: json['hiragana'],
       level: json['level'],
       partOfSpeech: json['partOfSpeech'],
       definition: json['definition'],
@@ -110,9 +104,9 @@ class Word {
     );
   }
 
-  /// DB 맵에???�성 (translations JSON ?�싱 ?�함)
+  /// DB 맵에???�성 (translations JSON ?�싱 ?�함)
   factory Word.fromDb(Map<String, dynamic> json) {
-    // DB?�서 translations ?�드 ?�싱
+    // DB?�서 translations ?�드 ?�싱
     Map<String, Map<String, String>>? translations;
     if (json['translations'] != null && json['translations'] is String) {
       try {
@@ -136,8 +130,6 @@ class Word {
     return Word(
       id: json['id'] as int,
       word: json['word'] as String,
-      kanji: json['kanji'] as String?,
-      hiragana: json['hiragana'] as String?,
       level: json['level'] as String,
       partOfSpeech: json['partOfSpeech'] as String,
       definition: json['definition'] as String,
@@ -161,7 +153,7 @@ class Word {
     };
   }
 
-  /// 번역???�의 가?�오�?(번역 ?�으�??�어 ?�본)
+  /// 번역???�의 가?�오�?(번역 ?�으�??�어 ?�본)
   String getDefinition(bool useTranslation) {
     if (useTranslation &&
         translatedDefinition != null &&
@@ -171,7 +163,7 @@ class Word {
     return definition;
   }
 
-  /// 번역???�문 가?�오�?(번역 ?�으�??�어 ?�본)
+  /// 번역???�문 가?�오�?(번역 ?�으�??�어 ?�본)
   String getExample(bool useTranslation) {
     if (useTranslation &&
         translatedExample != null &&
@@ -181,26 +173,9 @@ class Word {
     return example;
   }
 
-  /// ?�자?� ?�라가?��? ?�께 ?�시 (?�시 방식???�라)
-  /// [displayMode]: 'parentheses' (괄호 병기) ?�는 'furigana' (?�리가??
-  String getDisplayWord({String displayMode = 'parentheses'}) {
-    if (kanji != null && hiragana != null && kanji!.isNotEmpty && hiragana!.isNotEmpty) {
-      if (displayMode == 'furigana') {
-        // ?�리가??방식: 食べ??[?�べ?�の]
-        return '$kanji [$hiragana]';
-      } else {
-        // 괄호 병기 방식: 食べ??(?�べ?�の)
-        return '$kanji ($hiragana)';
-      }
-    }
-    return word;
-  }
-
   Word copyWith({
     int? id,
     String? word,
-    String? kanji,
-    String? hiragana,
     String? level,
     String? partOfSpeech,
     String? definition,
@@ -214,8 +189,6 @@ class Word {
     return Word(
       id: id ?? this.id,
       word: word ?? this.word,
-      kanji: kanji ?? this.kanji,
-      hiragana: hiragana ?? this.hiragana,
       level: level ?? this.level,
       partOfSpeech: partOfSpeech ?? this.partOfSpeech,
       definition: definition ?? this.definition,

@@ -19,11 +19,13 @@ class TranslationService {
   static final TranslationService instance = TranslationService._init();
   TranslationService._init();
 
-  // Supported languages list - English, Korean, Chinese only
+  // Supported languages list - GRE major markets only
+  // India (#1), China (#2), USA, South Korea
   static const List<SupportedLanguage> supportedLanguages = [
     SupportedLanguage(code: 'en', name: 'English', nativeName: 'English'),
-    SupportedLanguage(code: 'ko', name: 'Korean', nativeName: 'Korean'),
+    SupportedLanguage(code: 'hi', name: 'Hindi', nativeName: 'Hindi'),
     SupportedLanguage(code: 'zh', name: 'Chinese', nativeName: 'Chinese'),
+    SupportedLanguage(code: 'ko', name: 'Korean', nativeName: 'Korean'),
   ];
 
   String _currentLanguage = 'en';

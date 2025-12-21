@@ -12,7 +12,7 @@ class DatabaseHelper {
 
   Future<Database> get database async {
     if (_database != null) return _database!;
-    _database = await _initDB('jlpt_words.db');
+    _database = await _initDB('sat_words.db');
     return _database!;
   }
 
@@ -22,14 +22,14 @@ class DatabaseHelper {
 
     return await openDatabase(
       path,
-      version: 3, // ?�자/?�라가???�드 추�?�?버전 ?�그?�이??
+      version: 2,
       onCreate: _createDB,
       onUpgrade: _upgradeDB,
     );
   }
 
   Future _createDB(Database db, int version) async {
-    // ?�어 ?�이�?(?�장 번역 ?�함)
+    // ?�어 ?�이�?(?�장 번역 ?�함)
     await db.execute('''
       CREATE TABLE words (
         id INTEGER PRIMARY KEY,
@@ -44,7 +44,7 @@ class DatabaseHelper {
       )
     ''');
 
-    // 번역 캐시 ?�이�?
+    // 번역 캐시 ?�이�?
     await db.execute('''
       CREATE TABLE translations (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -76,47 +76,31 @@ class DatabaseHelper {
 
   Future<void> _loadInitialData(Database db) async {
     try {
-      // Load all word files: N5-N3, N2, N1
-      final jsonFiles = [
-        'assets/data/words_n5_n3.json',
-        'assets/data/words_n2.json',
-        'assets/data/words_n1.json',
-      ];
+      final String response = await rootBundle.loadString(
+        'assets/data/words.json',
+      );
+      final List<dynamic> data = json.decode(response);
 
-      int totalWords = 0;
-      for (final filePath in jsonFiles) {
-        try {
-          final String response = await rootBundle.loadString(filePath);
-          final List<dynamic> data = json.decode(response);
-
-          for (var wordJson in data) {
-        // translations�?JSON 문자?�로 ?�??
+      for (var wordJson in data) {
+        // translations�?JSON 문자?�로 ?�??
         String? translationsJson;
         if (wordJson['translations'] != null) {
           translationsJson = json.encode(wordJson['translations']);
         }
 
-            await db.insert('words', {
-              'id': wordJson['id'],
-              'word': wordJson['word'],
-              'kanji': wordJson['kanji'],
-              'hiragana': wordJson['hiragana'],
-              'level': wordJson['level'],
-              'partOfSpeech': wordJson['partOfSpeech'],
-              'definition': wordJson['definition'],
-              'example': wordJson['example'],
-              'category': wordJson['category'] ?? 'General',
-              'isFavorite': 0,
-              'translations': translationsJson,
-            });
-          }
-          totalWords += data.length;
-          print('Loaded ${data.length} words from $filePath');
-        } catch (e) {
-          print('Error loading $filePath: $e');
-        }
+        await db.insert('words', {
+          'id': wordJson['id'],
+          'word': wordJson['word'],
+          'level': wordJson['level'],
+          'partOfSpeech': wordJson['partOfSpeech'],
+          'definition': wordJson['definition'],
+          'example': wordJson['example'],
+          'category': wordJson['category'] ?? 'General',
+          'isFavorite': 0,
+          'translations': translationsJson,
+        });
       }
-      print('Loaded total ${totalWords} JLPT words successfully');
+      print('Loaded ${data.length} SAT words successfully');
     } catch (e) {
       print('Error loading initial data: $e');
     }
@@ -124,7 +108,7 @@ class DatabaseHelper {
 
   // ============ 번역 캐시 메서??============
 
-  /// 번역 캐시?�서 가?�오�?
+  /// 번역 캐시?�서 가?�오�?
   Future<String?> getTranslation(
     int wordId,
     String languageCode,
@@ -143,7 +127,7 @@ class DatabaseHelper {
     return null;
   }
 
-  /// 번역 캐시???�??
+  /// 번역 캐시???�??
   Future<void> saveTranslation(
     int wordId,
     String languageCode,
@@ -285,7 +269,7 @@ class DatabaseHelper {
         'assets/data/advanced_words.json',
         'assets/data/expert_words.json',
         'assets/data/words_batch2.json',
-        'assets/data/words.json', // 번역 ?�는 ?�일?�?마�?막에
+        'assets/data/words.json', // 번역 ?�는 ?�일?� 마�?막에
       ];
 
       for (final file in jsonFiles) {
@@ -295,7 +279,7 @@ class DatabaseHelper {
           final List<dynamic> data = json.decode(response);
           final words = data.map((json) => Word.fromJson(json)).toList();
           print('  Loaded ${words.length} words from $file');
-          // �?번째 ?�어??번역 ?�인
+          // �?번째 ?�어??번역 ?�인
           if (words.isNotEmpty && words.first.translations != null) {
             print(
               '  First word has translations: ${words.first.translations!.keys}',
@@ -318,7 +302,7 @@ class DatabaseHelper {
 
   /// ?�어 찾기 (번역???�는 ?�어 ?�선)
   Word? _findWordWithTranslation(List<Word> jsonWords, Word dbWord) {
-    // 같�? ?�어명으�?매칭?�는 모든 ?�어 찾기
+    // 같�? ?�어명으�?매칭?�는 모든 ?�어 찾기
     final matches =
         jsonWords
             .where((w) => w.word.toLowerCase() == dbWord.word.toLowerCase())
@@ -339,11 +323,11 @@ class DatabaseHelper {
     }
 
     print('No word with translations found');
-    // 번역 ?�으�?�?번째 반환
+    // 번역 ?�으�?�?번째 반환
     return matches.first;
   }
 
-  /// 모든 ?�어 가?�오�?(?�장 번역 ?�함) - ?�즈??
+  /// 모든 ?�어 가?�오�?(?�장 번역 ?�함) - ?�즈??
   Future<List<Word>> getWordsWithTranslations() async {
     final db = await instance.database;
     final dbResult = await db.query('words', orderBy: 'word ASC');
@@ -398,7 +382,7 @@ class DatabaseHelper {
 
       final finalWord = jsonWord ?? dbWord;
 
-      // DB??isFavorite ?�태?�?JSON??번역 ?�이??병합
+      // DB??isFavorite ?�태?� JSON??번역 ?�이??병합
       final result2 = dbWord.copyWith(translations: finalWord.translations);
       print('Final word translations: ${result2.translations}');
       return result2;
@@ -408,7 +392,7 @@ class DatabaseHelper {
     }
   }
 
-  /// ?�벨�??�어 ??가?�오�?
+  /// ?�벨�??�어 ??가?�오�?
   Future<Map<String, int>> getWordCountByLevel() async {
     final db = await instance.database;
     final result = await db.rawQuery(

@@ -6,6 +6,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
 import 'app_localizations_en.dart';
+import 'app_localizations_hi.dart';
 import 'app_localizations_ko.dart';
 import 'app_localizations_zh.dart';
 
@@ -47,12 +48,12 @@ import 'app_localizations_zh.dart';
 ///
 /// iOS applications define key application metadata, including supported
 /// locales, in an Info.plist file that is built into the application bundle.
-/// To configure the locales supported by your app, you?ôll need to edit this
+/// To configure the locales supported by your app, you‚Äôll need to edit this
 /// file.
 ///
-/// First, open your project?ôs ios/Runner.xcworkspace Xcode workspace file.
+/// First, open your project‚Äôs ios/Runner.xcworkspace Xcode workspace file.
 /// Then, in the Project Navigator, open the Info.plist file under the Runner
-/// project?ôs Runner folder.
+/// project‚Äôs Runner folder.
 ///
 /// Next, select the Information Property List item, select Add Item from the
 /// Editor menu, then select Localizations from the pop-up menu.
@@ -93,6 +94,7 @@ abstract class AppLocalizations {
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
+    Locale('hi'),
     Locale('ko'),
     Locale('zh')
   ];
@@ -100,7 +102,7 @@ abstract class AppLocalizations {
   /// No description provided for @appTitle.
   ///
   /// In en, this message translates to:
-  /// **'JLPT Step N5?ìN3'**
+  /// **'SAT Vocabulary Master'**
   String get appTitle;
 
   /// No description provided for @todayWord.
@@ -304,7 +306,7 @@ abstract class AppLocalizations {
   /// No description provided for @disclaimerText.
   ///
   /// In en, this message translates to:
-  /// **'This app is an independent JLPT preparation tool and is not affiliated with, endorsed by, or approved by the Japan Foundation or Japan Educational Exchanges and Services.'**
+  /// **'This app is an independent SAT preparation tool and is not affiliated with, endorsed by, or approved by ETS (Educational Testing Service).'**
   String get disclaimerText;
 
   /// No description provided for @privacyPolicy.
@@ -367,65 +369,53 @@ abstract class AppLocalizations {
   /// **'{level} Words'**
   String levelWords(String level);
 
-  /// No description provided for @n5.
+  /// No description provided for @basic.
   ///
   /// In en, this message translates to:
-  /// **'N5'**
-  String get n5;
+  /// **'Basic'**
+  String get basic;
 
-  /// No description provided for @n5Desc.
+  /// No description provided for @basicDesc.
   ///
   /// In en, this message translates to:
-  /// **'Beginner - 500 words'**
-  String get n5Desc;
+  /// **'Foundation words - 500 words'**
+  String get basicDesc;
 
-  /// No description provided for @n4.
+  /// No description provided for @common.
   ///
   /// In en, this message translates to:
-  /// **'N4'**
-  String get n4;
+  /// **'Common'**
+  String get common;
 
-  /// No description provided for @n4Desc.
+  /// No description provided for @commonDesc.
   ///
   /// In en, this message translates to:
-  /// **'Elementary - 1,000 words'**
-  String get n4Desc;
+  /// **'Frequently tested - 1,000 words'**
+  String get commonDesc;
 
-  /// No description provided for @n3.
+  /// No description provided for @advanced.
   ///
   /// In en, this message translates to:
-  /// **'N3'**
-  String get n3;
+  /// **'Advanced'**
+  String get advanced;
 
-  /// No description provided for @n3Desc.
+  /// No description provided for @advancedDesc.
   ///
   /// In en, this message translates to:
-  /// **'Intermediate - 800 words'**
-  String get n3Desc;
+  /// **'High-frequency SAT - 800 words'**
+  String get advancedDesc;
 
-  /// No description provided for @n2.
+  /// No description provided for @expert.
   ///
   /// In en, this message translates to:
-  /// **'N2'**
-  String get n2;
+  /// **'Expert'**
+  String get expert;
 
-  /// No description provided for @n2Desc.
+  /// No description provided for @expertDesc.
   ///
   /// In en, this message translates to:
-  /// **'Upper Intermediate - 1,200 words'**
-  String get n2Desc;
-
-  /// No description provided for @n1.
-  ///
-  /// In en, this message translates to:
-  /// **'N1'**
-  String get n1;
-
-  /// No description provided for @n1Desc.
-  ///
-  /// In en, this message translates to:
-  /// **'Advanced - 1,500 words'**
-  String get n1Desc;
+  /// **'Challenging vocabulary - 500 words'**
+  String get expertDesc;
 
   /// No description provided for @alphabetical.
   ///
@@ -582,36 +572,6 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'No previous purchase found'**
   String get noPurchaseFound;
-
-  /// No description provided for @furiganaDisplayMode.
-  ///
-  /// In en, this message translates to:
-  /// **'Reading Display'**
-  String get furiganaDisplayMode;
-
-  /// No description provided for @parenthesesMode.
-  ///
-  /// In en, this message translates to:
-  /// **'Parentheses'**
-  String get parenthesesMode;
-
-  /// No description provided for @furiganaMode.
-  ///
-  /// In en, this message translates to:
-  /// **'Brackets'**
-  String get furiganaMode;
-
-  /// No description provided for @parenthesesExample.
-  ///
-  /// In en, this message translates to:
-  /// **'e.g. È£ü„Åπ??(?ü„Åπ?Ç„ÅÆ)'**
-  String get parenthesesExample;
-
-  /// No description provided for @furiganaExample.
-  ///
-  /// In en, this message translates to:
-  /// **'e.g. È£ü„Åπ??[?ü„Åπ?Ç„ÅÆ]'**
-  String get furiganaExample;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
@@ -623,7 +583,7 @@ class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> 
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['en', 'ko', 'zh'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>['en', 'hi', 'ko', 'zh'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
@@ -635,6 +595,7 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
     case 'en': return AppLocalizationsEn();
+    case 'hi': return AppLocalizationsHi();
     case 'ko': return AppLocalizationsKo();
     case 'zh': return AppLocalizationsZh();
   }

@@ -3,7 +3,6 @@ import 'package:flip_card/flip_card.dart';
 import 'package:sat_vocab_app/l10n/generated/app_localizations.dart';
 import '../models/word.dart';
 import '../services/translation_service.dart';
-import '../services/display_service.dart';
 import '../db/database_helper.dart';
 
 class FavoritesFlashcardScreen extends StatefulWidget {
@@ -39,7 +38,7 @@ class _FavoritesFlashcardScreenState extends State<FavoritesFlashcardScreen> {
     if (translationService.needsTranslation) {
       final langCode = translationService.currentLanguage;
       for (var word in _favorites) {
-        // ?�장 번역�??�용 (API ?�출 ?�음)
+        // ?�장 번역�??�용 (API ?�출 ?�음)
         final embeddedDef = word.getEmbeddedTranslation(langCode, 'definition');
         final embeddedEx = word.getEmbeddedTranslation(langCode, 'example');
 
@@ -75,15 +74,13 @@ class _FavoritesFlashcardScreenState extends State<FavoritesFlashcardScreen> {
 
   Color _getLevelColor(String level) {
     switch (level) {
-      case 'N5':
+      case 'Band 5':
         return Colors.green;
-      case 'N4':
+      case 'Band 6':
         return Colors.lightGreen;
-      case 'N3':
+      case 'Band 7':
         return Colors.orange;
-      case 'N2':
-        return Colors.purple;
-      case 'N1':
+      case 'Band 8+':
         return Colors.red;
       default:
         return Colors.blue;
@@ -224,7 +221,7 @@ class _FavoritesFlashcardScreenState extends State<FavoritesFlashcardScreen> {
                               ),
                               const Spacer(),
                               Text(
-                                word.getDisplayWord(displayMode: DisplayService.instance.displayMode),
+                                word.word,
                                 style: const TextStyle(
                                   fontSize: 28,
                                   fontWeight: FontWeight.bold,

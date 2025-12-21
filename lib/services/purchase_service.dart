@@ -1,4 +1,4 @@
-import 'dart:async';
+﻿import 'dart:async';
 import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
@@ -9,8 +9,8 @@ class PurchaseService {
   static PurchaseService get instance => _instance;
   PurchaseService._internal();
 
-  // ��ǰ ID
-  static const String removeAdsProductId = 'jlpt_step_n5_n3_premium';
+  // ?곹뭹 ID
+  static const String removeAdsProductId = 'sat_vocab_premium';
   static const Set<String> _productIds = {removeAdsProductId};
 
   final InAppPurchase _inAppPurchase = InAppPurchase.instance;
@@ -27,12 +27,12 @@ class PurchaseService {
   bool get isPurchasePending => _isPurchasePending;
   String? get errorMessage => _errorMessage;
 
-  // 콜백
+  // 肄쒕갚
   Function()? onPurchaseSuccess;
   Function(String)? onPurchaseError;
 
   Future<void> initialize() async {
-    // ???�는 ?�스?�톱?�서??IAP 비활?�화
+    // ???먮뒗 ?곗뒪?ы넲?먯꽌??IAP 鍮꾪솢?깊솕
     if (kIsWeb || (!Platform.isAndroid && !Platform.isIOS)) {
       _isAvailable = false;
       return;
@@ -44,7 +44,7 @@ class PurchaseService {
       return;
     }
 
-    // 구매 ?�트�?구독
+    // 援щℓ ?ㅽ듃由?援щ룆
     _subscription = _inAppPurchase.purchaseStream.listen(
       _onPurchaseUpdate,
       onError: (error) {
@@ -53,7 +53,7 @@ class PurchaseService {
       },
     );
 
-    // ?�품 ?�보 로드
+    // ?곹뭹 ?뺣낫 濡쒕뱶
     await _loadProducts();
   }
 
@@ -108,7 +108,7 @@ class PurchaseService {
       } else if (purchaseDetails.status == PurchaseStatus.purchased ||
           purchaseDetails.status == PurchaseStatus.restored) {
         debugPrint('  Purchase successful or restored!');
-        // 구매 ?�공 - 광고 ?�거 처리
+        // 援щℓ ?깃났 - 愿묎퀬 ?쒓굅 泥섎━
         if (purchaseDetails.productID == removeAdsProductId) {
           await AdService.instance.removeAds();
           onPurchaseSuccess?.call();
@@ -119,7 +119,7 @@ class PurchaseService {
         _errorMessage = 'Purchase canceled';
       }
 
-      // 구매 ?�료 처리
+      // 援щℓ ?꾨즺 泥섎━
       if (purchaseDetails.pendingCompletePurchase) {
         debugPrint('  Completing purchase...');
         await _inAppPurchase.completePurchase(purchaseDetails);
@@ -127,7 +127,7 @@ class PurchaseService {
     }
   }
 
-  // 광고 ?�거 구매
+  // 愿묎퀬 ?쒓굅 援щℓ
   Future<bool> buyRemoveAds() async {
     debugPrint('buyRemoveAds called');
     debugPrint('  isAvailable: $_isAvailable');
@@ -158,7 +158,7 @@ class PurchaseService {
 
     debugPrint('  Purchasing product: ${product.id} - ${product.price}');
 
-    // 비소모성 ?�품?�로 구매
+    // 鍮꾩냼紐⑥꽦 ?곹뭹?쇰줈 援щℓ
     final PurchaseParam purchaseParam = PurchaseParam(productDetails: product);
     try {
       final result = await _inAppPurchase.buyNonConsumable(
@@ -173,13 +173,13 @@ class PurchaseService {
     }
   }
 
-  // 구매 복원
+  // 援щℓ 蹂듭썝
   Future<void> restorePurchases() async {
     if (!_isAvailable) return;
     await _inAppPurchase.restorePurchases();
   }
 
-  // 광고 ?�거 ?�품 가�?가?�오�?
+  // 愿묎퀬 ?쒓굅 ?곹뭹 媛寃?媛?몄삤湲?
   String? getRemoveAdsPrice() {
     final product =
         _products.where((p) => p.id == removeAdsProductId).firstOrNull;

@@ -1,8 +1,8 @@
 name: sat_vocab_app
-description: "SAT Vocabulary - Master GRE words for your graduate school admission"
+description: "SAT Vocabulary - Master SAT words for your college admission"
 publish_to: 'none'
 
-version: 1.0.2+25
+version: 1.0.3+26
 
 environment:
   sdk: ^3.7.0

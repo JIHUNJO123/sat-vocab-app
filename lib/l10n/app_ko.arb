@@ -1,6 +1,6 @@
 ﻿{
   "@@locale": "ko",
-  "appTitle": "JLPT Step N5–N3",
+  "appTitle": "SAT 어휘 마스터",
   "todayWord": "오늘의 단어",
   "learning": "학습",
   "levelLearning": "난이도별 학습",
@@ -34,7 +34,7 @@
   "info": "정보",
   "version": "버전",
   "disclaimer": "면책 조항",
-  "disclaimerText": "이 앱은 독립적인 JLPT 준비 도구이며 일본국제교류기금 또는 일본국제교육협회와 제휴, 보증 또는 승인 관계가 없습니다.",
+  "disclaimerText": "이 앱은 독립적인 SAT 준비 도구이며 ETS(Educational Testing Service)와 제휴, 보증 또는 승인 관계가 없습니다.",
   "privacyPolicy": "개인정보 처리방침",
   "cannotLoadWords": "단어를 불러올 수 없습니다",
   "noFavoritesYet": "즐겨찾기가 없습니다",
@@ -52,16 +52,14 @@
       }
     }
   },
-  "n5": "N5",
-  "n5Desc": "초급 - 500단어",
-  "n4": "N4",
-  "n4Desc": "초중급 - 1,000단어",
-  "n3": "N3",
-  "n3Desc": "중급 - 800단어",
-  "n2": "N2",
-  "n2Desc": "중상급 - 1,200단어",
-  "n1": "N1",
-  "n1Desc": "고급 - 1,500단어",
+  "basic": "기초",
+  "basicDesc": "기본 단어 - 500개",
+  "common": "일반",
+  "commonDesc": "자주 출제 - 1,000개",
+  "advanced": "고급",
+  "advancedDesc": "고빈도 SAT - 800개",
+  "expert": "전문가",
+  "expertDesc": "어려운 어휘 - 500개",
   "alphabetical": "알파벳순",
   "random": "무작위",
   "tapToFlip": "탭하여 뒤집기",
@@ -87,10 +85,5 @@
   "privacyPolicyContent": "이 앱은 개인정보를 수집, 저장 또는 공유하지 않습니다. 학습 진행 상황과 즐겨찾기는 기기에만 저장됩니다.",
   "restorePurchaseDesc": "다른 기기에서 광고 제거를 구매했거나 앱을 재설치한 경우 여기를 눌러 구매를 복원하세요.",
   "restoreComplete": "복원 완료",
-  "noPurchaseFound": "이전 구매 내역이 없습니다",
-  "furiganaDisplayMode": "읽기 표시 방식",
-  "parenthesesMode": "괄호 병기",
-  "furiganaMode": "후리가나",
-  "parenthesesExample": "예: 食べ物 (たべもの)",
-  "furiganaExample": "예: 食べ物 [たべもの]"
+  "noPurchaseFound": "이전 구매 내역이 없습니다"
 }
