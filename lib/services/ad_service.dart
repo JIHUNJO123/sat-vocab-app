@@ -15,7 +15,7 @@ class AdService {
   InterstitialAd? _interstitialAd;
   bool _isInterstitialAdLoaded = false;
 
-  // JLPT Step N5–N3 광고 ID
+  // JLPT Step N5?�N3 광고 ID
   // Android
   static const String _androidBannerId =
       'ca-app-pub-5837885590326347/6675199844';
@@ -53,7 +53,7 @@ class AdService {
   Future<void> initialize() async {
     if (_isInitialized) return;
 
-    // 광고 ?거 구매 ?? ?인
+    // 광고 ?�?구매 ?? ???
     final prefs = await SharedPreferences.getInstance();
     _adsRemoved = prefs.getBool('ads_removed') ?? false;
 
@@ -62,13 +62,13 @@ class AdService {
       return;
     }
 
-    // ???는 ?스?톱?서??광고 비활?화
+    // ?????????????광고 비활???
     if (kIsWeb || (!Platform.isAndroid && !Platform.isIOS)) {
       _isInitialized = true;
       return;
     }
 
-    // JLPT Step N5–N3 AdMob App ID
+    // JLPT Step N5?�N3 AdMob App ID
     final appId = Platform.isAndroid 
         ? 'ca-app-pub-5837885590326347~5763133926'  // Android
         : 'ca-app-pub-5837885590326347~8197725571'; // iOS
@@ -124,7 +124,7 @@ class AdService {
     _isBannerAdLoaded = false;
   }
 
-  // ?면 광고 로드
+  // ?�?광고 로드
   Future<void> loadInterstitialAd() async {
     if (_adsRemoved) return;
     if (kIsWeb || (!Platform.isAndroid && !Platform.isIOS)) return;
@@ -142,7 +142,7 @@ class AdService {
             onAdDismissedFullScreenContent: (ad) {
               ad.dispose();
               _isInterstitialAdLoaded = false;
-              loadInterstitialAd(); // ?음 광고 미리 로드
+              loadInterstitialAd(); // ???광고 미리 로드
             },
             onAdFailedToShowFullScreenContent: (ad, error) {
               ad.dispose();
@@ -159,7 +159,7 @@ class AdService {
     );
   }
 
-  // ?면 광고 ?시
+  // ?�?광고 ???
   Future<void> showInterstitialAd() async {
     if (_adsRemoved) return;
     if (!_isInterstitialAdLoaded || _interstitialAd == null) return;
@@ -173,7 +173,7 @@ class AdService {
     _isInterstitialAdLoaded = false;
   }
 
-  // 광고 ?거 구매 ???출
+  // 광고 ?�?구매 ???�?
   Future<void> removeAds() async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setBool('ads_removed', true);
@@ -182,7 +182,7 @@ class AdService {
     disposeInterstitialAd();
   }
 
-  // 광고 ?거 복원 (IAP 복원??
+  // 광고 ?�?복원 (IAP 복원??
   Future<void> restoreAdsRemoved() async {
     final prefs = await SharedPreferences.getInstance();
     _adsRemoved = prefs.getBool('ads_removed') ?? false;

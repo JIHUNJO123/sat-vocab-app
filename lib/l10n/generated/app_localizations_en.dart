@@ -9,7 +9,7 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get appTitle => 'JLPT Step N5–N3';
+  String get appTitle => 'JLPT Step N5?�N3';
 
   @override
   String get todayWord => 'Today\'s Word';
@@ -263,8 +263,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get furiganaMode => 'Brackets';
 
   @override
-  String get parenthesesExample => 'e.g. 食べ物 (たべもの)';
+  String get parenthesesExample => 'e.g. 食べ??(?�べ?�の)';
 
   @override
-  String get furiganaExample => 'e.g. 食べ物 [たべもの]';
+  String get furiganaExample => 'e.g. 食べ??[?�べ?�の]';
 }

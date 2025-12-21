@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flip_card/flip_card.dart';
-import 'package:jlpt_vocab_app/l10n/generated/app_localizations.dart';
+import 'package:sat_vocab_app/l10n/generated/app_localizations.dart';
 import '../models/word.dart';
 import '../services/translation_service.dart';
 import '../services/display_service.dart';
@@ -39,7 +39,7 @@ class _FavoritesFlashcardScreenState extends State<FavoritesFlashcardScreen> {
     if (translationService.needsTranslation) {
       final langCode = translationService.currentLanguage;
       for (var word in _favorites) {
-        // ?�장 번역�??�용 (API ?�출 ?�음)
+        // ?�장 번역�??�용 (API ?�출 ?�음)
         final embeddedDef = word.getEmbeddedTranslation(langCode, 'definition');
         final embeddedEx = word.getEmbeddedTranslation(langCode, 'example');
 

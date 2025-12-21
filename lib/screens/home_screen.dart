@@ -1,5 +1,5 @@
-﻿import 'package:flutter/material.dart';
-import 'package:jlpt_vocab_app/l10n/generated/app_localizations.dart';
+import 'package:flutter/material.dart';
+import 'package:sat_vocab_app/l10n/generated/app_localizations.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import '../db/database_helper.dart';
 import '../models/word.dart';
@@ -68,7 +68,7 @@ class _HomeScreenState extends State<HomeScreen> {
         await translationService.init();
 
         if (translationService.needsTranslation) {
-          // ?댁옣 踰덉뿭留??ъ슜 (API ?몄텧 ?놁쓬)
+          // ?�장 번역�??�용 (API ?�출 ?�음)
           final embeddedTranslation = word.getEmbeddedTranslation(
             translationService.currentLanguage,
             'definition',
@@ -178,7 +178,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
           ),
-          // 諛곕꼫 愿묎퀬
+          // 배너 광고
           _buildBannerAd(),
         ],
       ),
@@ -443,7 +443,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget _buildLevelCards() {
     final l10n = AppLocalizations.of(context)!;
 
-    // JLPT Level 카드 (N5-N1)
+    // JLPT Level ī�� (N5-N1)
     final levels = [
       {
         'level': 'N5',

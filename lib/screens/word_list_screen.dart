@@ -1,6 +1,6 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:flip_card/flip_card.dart';
-import 'package:jlpt_vocab_app/l10n/generated/app_localizations.dart';
+import 'package:sat_vocab_app/l10n/generated/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import '../db/database_helper.dart';
@@ -31,7 +31,7 @@ class _WordListScreenState extends State<WordListScreen> {
   bool _isBannerAdLoaded = false;
   double _wordFontSize = 1.0;
   bool _showNativeLanguage = true;
-  bool _showBandBadge = true; // Band 諛곗? ?쒖떆 ?щ?
+  bool _showBandBadge = true; // Band 배�? ?�시 ?��?
 
   final ScrollController _listScrollController = ScrollController();
 
@@ -164,7 +164,7 @@ class _WordListScreenState extends State<WordListScreen> {
     if (!translationService.needsTranslation) return;
     if (!mounted) return;
 
-    // ?댁옣 踰덉뿭留??ъ슜 (API ?몄텧 ?놁쓬)
+    // ?�장 번역�??�용 (API ?�출 ?�음)
     final langCode = translationService.currentLanguage;
     final embeddedDef = word.getEmbeddedTranslation(langCode, 'definition');
     final embeddedEx = word.getEmbeddedTranslation(langCode, 'example');
@@ -363,7 +363,7 @@ class _WordListScreenState extends State<WordListScreen> {
         ),
         centerTitle: true,
         actions: [
-          // Band 諛곗? ?쒖떆 ?좉? 踰꾪듉 (All Words 由ъ뒪?몄뿉?쒕쭔)
+          // Band 배�? ?�시 ?��? 버튼 (All Words 리스?�에?�만)
           if (widget.level == null &&
               !widget.isFlashcardMode &&
               _words.isNotEmpty)
@@ -379,7 +379,7 @@ class _WordListScreenState extends State<WordListScreen> {
                 });
               },
             ),
-          // Band filter button (All Words? Flashcard 紐⑤뱶 紐⑤몢?먯꽌 ?ъ슜 媛??
+          // Band filter button (All Words?� Flashcard 모드 모두?�서 ?�용 가??
           if (widget.level == null && _words.isNotEmpty)
             IconButton(
               icon: Icon(
@@ -496,91 +496,91 @@ class _WordListScreenState extends State<WordListScreen> {
         padding: const EdgeInsets.all(16),
         itemCount: _words.length,
         itemBuilder: (context, index) {
-        final word = _words[index];
-        _loadTranslationForWord(word);
+          final word = _words[index];
+          _loadTranslationForWord(word);
 
-        final definition =
-            _showNativeLanguage && _translatedDefinitions.containsKey(word.id)
-                ? _translatedDefinitions[word.id]!
-                : word.definition;
+          final definition =
+              _showNativeLanguage && _translatedDefinitions.containsKey(word.id)
+                  ? _translatedDefinitions[word.id]!
+                  : word.definition;
 
-        return Card(
-          margin: const EdgeInsets.only(bottom: 12),
-          child: ListTile(
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => WordDetailScreen(word: word),
-                ),
-              );
-            },
-            title: Row(
-              children: [
-                Expanded(
-                  child: Text(
-                    word.getDisplayWord(
-                      displayMode: DisplayService.instance.displayMode,
-                    ),
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 16 * _wordFontSize,
-                    ),
+          return Card(
+            margin: const EdgeInsets.only(bottom: 12),
+            child: ListTile(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => WordDetailScreen(word: word),
                   ),
-                ),
-                // Band 諛곗?: All Words?먯꽌 ?좉? 媛??
-                if (widget.level == null && _showBandBadge)
-                  Container(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 8,
-                      vertical: 2,
-                    ),
-                    decoration: BoxDecoration(
-                      color: _getLevelColor(word.level),
-                      borderRadius: BorderRadius.circular(10),
-                    ),
+                );
+              },
+              title: Row(
+                children: [
+                  Expanded(
                     child: Text(
-                      word.level,
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 10,
+                      word.getDisplayWord(
+                        displayMode: DisplayService.instance.displayMode,
+                      ),
+                      style: TextStyle(
                         fontWeight: FontWeight.bold,
+                        fontSize: 16 * _wordFontSize,
                       ),
                     ),
                   ),
-              ],
-            ),
-            subtitle: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const SizedBox(height: 4),
-                Row(
-                  children: [
-                    Text(
-                      word.partOfSpeech,
-                      style: TextStyle(color: Colors.grey[600], fontSize: 12),
+                  // Band 배�?: All Words?�서 ?��? 가??
+                  if (widget.level == null && _showBandBadge)
+                    Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 8,
+                        vertical: 2,
+                      ),
+                      decoration: BoxDecoration(
+                        color: _getLevelColor(word.level),
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      child: Text(
+                        word.level,
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 10,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
                     ),
-                  ],
-                ),
-                const SizedBox(height: 4),
-                Text(
-                  definition,
-                  maxLines: 2,
-                  overflow: TextOverflow.ellipsis,
-                  style: TextStyle(fontSize: 14 * _wordFontSize),
-                ),
-              ],
-            ),
-            trailing: IconButton(
-              icon: Icon(
-                word.isFavorite ? Icons.favorite : Icons.favorite_border,
-                color: word.isFavorite ? Colors.red : null,
+                ],
               ),
-              onPressed: () => _toggleFavorite(word),
+              subtitle: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const SizedBox(height: 4),
+                  Row(
+                    children: [
+                      Text(
+                        word.partOfSpeech,
+                        style: TextStyle(color: Colors.grey[600], fontSize: 12),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    definition,
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                    style: TextStyle(fontSize: 14 * _wordFontSize),
+                  ),
+                ],
+              ),
+              trailing: IconButton(
+                icon: Icon(
+                  word.isFavorite ? Icons.favorite : Icons.favorite_border,
+                  color: word.isFavorite ? Colors.red : null,
+                ),
+                onPressed: () => _toggleFavorite(word),
+              ),
             ),
-          ),
-        );
-      },
+          );
+        },
       ),
     );
   }

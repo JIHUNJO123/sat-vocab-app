@@ -1,14 +1,14 @@
 import 'dart:convert';
 
-/// 단어 모델 (JLPT 학습용 - 일본어 단어장)
-/// 단어 기본 정보 + 임베드 번역 + 동적 번역
+/// ?�어 모델 (JLPT ?�습??- ?�본???�어??
+/// ?�어 기본 ?�보 + ?�베??번역 + ?�적 번역
 class Word {
   final int id;
-  final String word; // 전체 단어 (한자+히라가나 혼합)
-  final String? kanji; // 한자 부분
-  final String? hiragana; // 히라가나 읽기
+  final String word; // ?�체 ?�어 (?�자+?�라가???�합)
+  final String? kanji; // ?�자 부�?
+  final String? hiragana; // ?�라가???�기
   final String
-  level; // JLPT 레벨: N5, N4, N3, N2, N1
+  level; // JLPT ?�벨: N5, N4, N3, N2, N1
   final String partOfSpeech;
   final String definition; // ?�어 ?�의
   final String example; // ?�어 ?�문
@@ -39,7 +39,7 @@ class Word {
     this.translatedExample,
   });
 
-  /// ?�장 번역 가?�오�?
+  /// ?�장 번역 가?�오�?
   String? getEmbeddedTranslation(String langCode, String fieldType) {
     if (translations == null) return null;
     final langData = translations![langCode];
@@ -86,7 +86,7 @@ class Word {
       final exKey = 'example_$lang';
       if (json[defKey] != null || json[exKey] != null) {
         translations ??= {};
-        // zh_cn -> zh�?매핑
+        // zh_cn -> zh�?매핑
         final normalizedLang = lang == 'zh_cn' ? 'zh' : lang;
         translations[normalizedLang] = {
           'definition': json[defKey]?.toString() ?? '',
@@ -161,7 +161,7 @@ class Word {
     };
   }
 
-  /// 번역???�의 가?�오�?(번역 ?�으�??�어 ?�본)
+  /// 번역???�의 가?�오�?(번역 ?�으�??�어 ?�본)
   String getDefinition(bool useTranslation) {
     if (useTranslation &&
         translatedDefinition != null &&
@@ -171,7 +171,7 @@ class Word {
     return definition;
   }
 
-  /// 번역???�문 가?�오�?(번역 ?�으�??�어 ?�본)
+  /// 번역???�문 가?�오�?(번역 ?�으�??�어 ?�본)
   String getExample(bool useTranslation) {
     if (useTranslation &&
         translatedExample != null &&
@@ -181,15 +181,15 @@ class Word {
     return example;
   }
 
-  /// 한자와 히라가나를 함께 표시 (표시 방식에 따라)
-  /// [displayMode]: 'parentheses' (괄호 병기) 또는 'furigana' (후리가나)
+  /// ?�자?� ?�라가?��? ?�께 ?�시 (?�시 방식???�라)
+  /// [displayMode]: 'parentheses' (괄호 병기) ?�는 'furigana' (?�리가??
   String getDisplayWord({String displayMode = 'parentheses'}) {
     if (kanji != null && hiragana != null && kanji!.isNotEmpty && hiragana!.isNotEmpty) {
       if (displayMode == 'furigana') {
-        // 후리가나 방식: 食べ物 [たべもの]
+        // ?�리가??방식: 食べ??[?�べ?�の]
         return '$kanji [$hiragana]';
       } else {
-        // 괄호 병기 방식: 食べ物 (たべもの)
+        // 괄호 병기 방식: 食べ??(?�べ?�の)
         return '$kanji ($hiragana)';
       }
     }

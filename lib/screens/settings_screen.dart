@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:jlpt_vocab_app/l10n/generated/app_localizations.dart';
+import 'package:sat_vocab_app/l10n/generated/app_localizations.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -127,7 +127,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                             title: Text(lang.nativeName),
                             subtitle: Text(lang.name),
                             onTap: () {
-                              // TranslationService???�어 코드 ?�??
+                              // TranslationService???�어 코드 ?�??
                               TranslationService.instance.setLanguage(
                                 lang.code,
                               );

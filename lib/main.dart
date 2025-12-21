@@ -1,8 +1,8 @@
-﻿import 'dart:io';
+import 'dart:io';
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:jlpt_vocab_app/l10n/generated/app_localizations.dart';
+import 'package:sat_vocab_app/l10n/generated/app_localizations.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
@@ -16,26 +16,26 @@ import 'services/display_service.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // ?뚮옯?쇰퀎 sqflite 珥덇린??
+  // ?�랫?�별 sqflite 초기??
   if (kIsWeb) {
-    // ?뱀뿉??sqflite 珥덇린??
+    // ?�에??sqflite 초기??
     databaseFactory = databaseFactoryFfiWeb;
   } else if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
-    // Windows, Linux, macOS?먯꽌 sqflite 珥덇린??
+    // Windows, Linux, macOS?�서 sqflite 초기??
     sqfliteFfiInit();
     databaseFactory = databaseFactoryFfi;
   }
 
-  // 踰덉뿭 ?쒕퉬??珥덇린??
+  // 번역 ?�비??초기??
   await TranslationService.instance.init();
 
-  // 표시 서비스 초기화
+  // ǥ�� ���� �ʱ�ȭ
   await DisplayService.instance.init();
 
-  // 광고 서비스 초기화
+  // ���� ���� �ʱ�ȭ
   await AdService.instance.initialize();
 
-  // 인앱 구매 서비스 초기화
+  // �ξ� ���� ���� �ʱ�ȭ
   await PurchaseService.instance.initialize();
 
   runApp(
@@ -46,7 +46,7 @@ void main() async {
   );
 }
 
-/// ?몄뼱 諛??뚮쭏 蹂寃쎌쓣 ?꾪븳 Provider
+/// ?�어 �??�마 변경을 ?�한 Provider
 class LocaleProvider extends ChangeNotifier {
   Locale _locale = const Locale('en');
   ThemeMode _themeMode = ThemeMode.light;
@@ -61,12 +61,12 @@ class LocaleProvider extends ChangeNotifier {
   Future<void> _loadSavedSettings() async {
     final prefs = await SharedPreferences.getInstance();
 
-    // ?몄뼱 濡쒕뱶
+    // ?�어 로드
     await TranslationService.instance.init();
     final langCode = TranslationService.instance.currentLanguage;
     _locale = _createLocale(langCode);
 
-    // ?ㅽ겕紐⑤뱶 濡쒕뱶
+    // ?�크모드 로드
     final isDarkMode = prefs.getBool('darkMode') ?? false;
     _themeMode = isDarkMode ? ThemeMode.dark : ThemeMode.light;
 
@@ -102,10 +102,10 @@ class JLPTVocabApp extends StatelessWidget {
     final localeProvider = Provider.of<LocaleProvider>(context);
 
     return MaterialApp(
-      title: 'JLPT Step N5–N3',
+      title: 'JLPT Step N5?N3',
       debugShowCheckedModeBanner: false,
 
-      // Localization ?ㅼ젙
+      // Localization ?�정
       locale: localeProvider.locale,
       localizationsDelegates: const [
         AppLocalizations.delegate,
