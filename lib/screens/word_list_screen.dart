@@ -105,6 +105,13 @@ class _WordListScreenState extends State<WordListScreen> {
         _currentFlashcardIndex = position;
         _pageController = PageController(initialPage: position);
         setState(() {});
+      } else {
+        // 리스트 모드 스크롤 위치 복원
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          if (_listScrollController.hasClients && mounted) {
+            _listScrollController.jumpTo(position * 80.0);
+          }
+        });
       }
     }
   }
@@ -450,13 +457,21 @@ class _WordListScreenState extends State<WordListScreen> {
   }
 
   Widget _buildListView() {
-    return ListView.builder(
-      controller: _listScrollController,
-      padding: const EdgeInsets.all(16),
-      itemCount: _words.length,
-      itemBuilder: (context, index) {
-        final word = _words[index];
-        _loadTranslationForWord(word);
+    return NotificationListener<ScrollNotification>(
+      onNotification: (notification) {
+        if (notification is ScrollEndNotification) {
+          final itemIndex = (_listScrollController.offset / 80.0).round();
+          _savePosition(itemIndex);
+        }
+        return false;
+      },
+      child: ListView.builder(
+        controller: _listScrollController,
+        padding: const EdgeInsets.all(16),
+        itemCount: _words.length,
+        itemBuilder: (context, index) {
+          final word = _words[index];
+          _loadTranslationForWord(word);
 
         final definition =
             _showNativeLanguage && _translatedDefinitions.containsKey(word.id)
@@ -538,6 +553,7 @@ class _WordListScreenState extends State<WordListScreen> {
           ),
         );
       },
+      ),
     );
   }
 

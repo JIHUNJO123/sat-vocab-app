@@ -179,4 +179,3 @@ class SATVocabApp extends StatelessWidget {
     );
   }
 }
-
