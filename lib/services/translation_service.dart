@@ -22,8 +22,8 @@ class TranslationService {
   // Supported languages list - English, Korean, Chinese only
   static const List<SupportedLanguage> supportedLanguages = [
     SupportedLanguage(code: 'en', name: 'English', nativeName: 'English'),
-    SupportedLanguage(code: 'ko', name: 'Korean', nativeName: '한국어'),
-    SupportedLanguage(code: 'zh', name: 'Chinese', nativeName: '中文'),
+    SupportedLanguage(code: 'ko', name: 'Korean', nativeName: 'Korean'),
+    SupportedLanguage(code: 'zh', name: 'Chinese', nativeName: 'Chinese'),
   ];
 
   String _currentLanguage = 'en';
