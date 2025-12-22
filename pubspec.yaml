@@ -2,7 +2,7 @@ name: sat_vocab_app
 description: "SAT Vocabulary - Master SAT words for your college admission"
 publish_to: 'none'
 
-version: 1.0.3+29
+version: 1.0.4+33
 
 environment:
   sdk: ^3.7.0
