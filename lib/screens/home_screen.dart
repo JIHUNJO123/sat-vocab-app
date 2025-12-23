@@ -361,27 +361,14 @@ class _HomeScreenState extends State<HomeScreen> {
           title: l10n.flashcard,
           subtitle: l10n.cardLearning,
           color: Colors.orange,
-          onTap: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder:
-                    (context) => const WordListScreen(isFlashcardMode: true),
-              ),
-            );
-          },
+          onTap: () => _showLevelSelectionDialog(isQuiz: false),
         ),
         _buildMenuCard(
           icon: Icons.quiz,
           title: l10n.quiz,
           subtitle: l10n.testYourself,
           color: Colors.green,
-          onTap: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => const QuizScreen()),
-            );
-          },
+          onTap: () => _showLevelSelectionDialog(isQuiz: true),
         ),
       ],
     );
@@ -547,6 +534,147 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
+
+  void _showLevelSelectionDialog({required bool isQuiz}) {
+    final l10n = AppLocalizations.of(context)!;
+    final levels = [
+      {
+        'level': null,
+        'name': l10n.allWords,
+        'color': Colors.grey,
+        'icon': Icons.all_inclusive,
+      },
+      {
+        'level': 'favorites',
+        'name': l10n.favorites,
+        'color': Colors.red,
+        'icon': Icons.favorite,
+      },
+      {
+        'level': 'Basic',
+        'name': 'Basic',
+        'color': Colors.green,
+        'icon': Icons.looks_one,
+      },
+      {
+        'level': 'Common',
+        'name': 'Common',
+        'color': Colors.blue,
+        'icon': Icons.looks_two,
+      },
+      {
+        'level': 'Advanced',
+        'name': 'Advanced',
+        'color': Colors.orange,
+        'icon': Icons.looks_3,
+      },
+      {
+        'level': 'Expert',
+        'name': 'Expert',
+        'color': Colors.red,
+        'icon': Icons.looks_4,
+      },
+    ];
+
+    showModalBottomSheet(
+      context: context,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+      ),
+      builder:
+          (context) => Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Center(
+                  child: Container(
+                    width: 40,
+                    height: 4,
+                    decoration: BoxDecoration(
+                      color: Colors.grey[300],
+                      borderRadius: BorderRadius.circular(2),
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 16),
+                Text(
+                  isQuiz ? l10n.quiz : l10n.flashcard,
+                  style: const TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                const SizedBox(height: 16),
+                ...levels.map(
+                  (level) => ListTile(
+                    leading: Icon(
+                      level['icon'] as IconData,
+                      color: level['color'] as Color,
+                    ),
+                    title: Text(level['name'] as String),
+                    onTap: () {
+                      Navigator.pop(context);
+                      final selectedLevel = level['level'] as String?;
+                      if (isQuiz) {
+                        if (selectedLevel == 'favorites') {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder:
+                                  (context) =>
+                                      const QuizScreen(favoritesOnly: true),
+                            ),
+                          );
+                        } else {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder:
+                                  (context) => QuizScreen(level: selectedLevel),
+                            ),
+                          );
+                        }
+                      } else {
+                        if (selectedLevel == 'favorites') {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder:
+                                  (context) => const WordListScreen(
+                                    isFlashcardMode: true,
+                                    favoritesOnly: true,
+                                  ),
+                            ),
+                          );
+                        } else {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder:
+                                  (context) => WordListScreen(
+                                    level: selectedLevel,
+                                    isFlashcardMode: true,
+                                  ),
+                            ),
+                          );
+                        }
+                      }
+                    },
+                  ),
+                ),
+                const SizedBox(height: 8),
+                SizedBox(
+                  width: double.infinity,
+                  child: TextButton(
+                    onPressed: () => Navigator.pop(context),
+                    child: Text(l10n.cancel),
+                  ),
+                ),
+              ],
+            ),
+          ),
+    );
+  }
 }
-
-

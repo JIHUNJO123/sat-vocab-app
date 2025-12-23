@@ -10,8 +10,9 @@ enum QuizType { wordToMeaning, meaningToWord }
 
 class QuizScreen extends StatefulWidget {
   final String? level;
+  final bool favoritesOnly;
 
-  const QuizScreen({super.key, this.level});
+  const QuizScreen({super.key, this.level, this.favoritesOnly = false});
 
   @override
   State<QuizScreen> createState() => _QuizScreenState();
@@ -37,11 +38,15 @@ class _QuizScreenState extends State<QuizScreen> {
   }
 
   Future<void> _loadWords() async {
-    // JSON?�서 ?�어 로드 (?�장 번역 ?�함)
+    // JSON에서 단어 로드 (내장 번역 포함)
     final jsonWords = await DatabaseHelper.instance.getWordsWithTranslations();
 
     List<Word> words;
-    if (widget.level != null) {
+    if (widget.favoritesOnly) {
+      final favorites = await DatabaseHelper.instance.getFavorites();
+      final favoriteIds = favorites.map((f) => f.id).toSet();
+      words = jsonWords.where((w) => favoriteIds.contains(w.id)).toList();
+    } else if (widget.level != null) {
       words = jsonWords.where((w) => w.level == widget.level).toList();
     } else {
       words = jsonWords;
@@ -56,10 +61,10 @@ class _QuizScreenState extends State<QuizScreen> {
     await translationService.init();
     final langCode = translationService.currentLanguage;
 
-    // 모든 ?�어???�???�장 번역 로드 (?�답 ?�택지??번역?�어????
+    // 모든 ?�어???�???�장 번역 로드 (?�답 ?�택지??번역?�어????
     if (translationService.needsTranslation) {
       for (var word in words) {
-        // ?�장 번역�??�인 (API ?�출 ?�음)
+        // ?�장 번역�??�인 (API ?�출 ?�음)
         final embeddedTranslation = word.getEmbeddedTranslation(
           langCode,
           'definition',
@@ -67,7 +72,7 @@ class _QuizScreenState extends State<QuizScreen> {
         if (embeddedTranslation != null && embeddedTranslation.isNotEmpty) {
           _translatedDefinitions[word.id] = embeddedTranslation;
         }
-        // ?�장 번역 ?�으�??�어 ?�본 ?�용 (API ?�출 ?�함 - ?�즈 ?�도 ?�선)
+        // ?�장 번역 ?�으�??�어 ?�본 ?�용 (API ?�출 ?�함 - ?�즈 ?�도 ?�선)
       }
     }
 

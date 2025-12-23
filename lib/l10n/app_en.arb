@@ -85,7 +85,8 @@
   "privacyPolicyContent": "This app does not collect, store, or share any personal information. Your learning progress and favorites are stored only on your device. No data is transmitted to external servers.",
   "restorePurchaseDesc": "If you have previously purchased ad removal on another device or after reinstalling the app, tap here to restore your purchase.",
   "restoreComplete": "Restore complete",
-  "noPurchaseFound": "No previous purchase found"
+  "noPurchaseFound": "No previous purchase found",
+  "cancel": "Cancel"
 }
 
 

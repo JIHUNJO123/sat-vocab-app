@@ -85,5 +85,6 @@
   "privacyPolicyContent": "本应用不收集、存储或共享任何个人信息。您的学习进度和收藏仅存储在您的设备上。",
   "restorePurchaseDesc": "如果您之前在其他设备上购买了移除广告或重新安装了应用，请点击此处恢复购买。",
   "restoreComplete": "恢复完成",
-  "noPurchaseFound": "未找到之前的购买记录"
+  "noPurchaseFound": "未找到之前的购买记录",
+  "cancel": "取消"
 }

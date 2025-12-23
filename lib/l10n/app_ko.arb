@@ -85,5 +85,6 @@
   "privacyPolicyContent": "이 앱은 개인정보를 수집, 저장 또는 공유하지 않습니다. 학습 진행 상황과 즐겨찾기는 기기에만 저장됩니다.",
   "restorePurchaseDesc": "다른 기기에서 광고 제거를 구매했거나 앱을 재설치한 경우 여기를 눌러 구매를 복원하세요.",
   "restoreComplete": "복원 완료",
-  "noPurchaseFound": "이전 구매 내역이 없습니다"
+  "noPurchaseFound": "이전 구매 내역이 없습니다",
+  "cancel": "취소"
 }
