@@ -476,14 +476,75 @@ class _WordListScreenState extends State<WordListScreen> {
             ),
         ],
       ),
-      body:
-          _isLoading
-              ? const Center(child: CircularProgressIndicator())
-              : _words.isEmpty
-              ? Center(child: Text(l10n.cannotLoadWords))
-              : widget.isFlashcardMode
-                  ? _buildFlashcardView()
-                  : _buildListView(),
+      body: Column(
+        children: [
+          // 잠금 해제 안내 배너 (잠긴 상태일 때만 표시)
+          if (!AdService.instance.isUnlocked)
+            Container(
+              width: double.infinity,
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [
+                    Colors.orange.shade400,
+                    Colors.deepOrange.shade400,
+                  ],
+                ),
+              ),
+              child: InkWell(
+                onTap: _showUnlockDialog,
+                child: Row(
+                  children: [
+                    const Icon(Icons.lock_open, color: Colors.white, size: 20),
+                    const SizedBox(width: 12),
+                    Expanded(
+                      child: Text(
+                        l10n.watchAdToUnlock,
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                    ),
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Icon(Icons.play_circle_filled, 
+                            color: Colors.deepOrange.shade400, size: 16),
+                          const SizedBox(width: 4),
+                          Text(
+                            l10n.watchAd,
+                            style: TextStyle(
+                              color: Colors.deepOrange.shade400,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 12,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          Expanded(
+            child:
+                _isLoading
+                    ? const Center(child: CircularProgressIndicator())
+                    : _words.isEmpty
+                    ? Center(child: Text(l10n.cannotLoadWords))
+                    : widget.isFlashcardMode
+                        ? _buildFlashcardView()
+                        : _buildListView(),
+          ),
+        ],
+      ),
     );
   }
 
