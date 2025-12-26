@@ -86,7 +86,12 @@
   "restorePurchaseDesc": "If you have previously purchased ad removal on another device or after reinstalling the app, tap here to restore your purchase.",
   "restoreComplete": "Restore complete",
   "noPurchaseFound": "No previous purchase found",
-  "cancel": "Cancel"
+  "cancel": "Cancel",
+  "lockedContent": "Locked Content",
+  "watchAdToUnlock": "Watch a short video to unlock all words until midnight!",
+  "watchAd": "Watch Ad",
+  "adNotReady": "Ad is not ready yet. Please try again.",
+  "unlockedUntilMidnight": "All words unlocked until midnight!"
 }
 
 

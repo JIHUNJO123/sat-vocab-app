@@ -111,7 +111,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get disclaimer => 'Disclaimer';
 
   @override
-  String get disclaimerText => 'This app is an independent SAT preparation tool and is not affiliated with, endorsed by, or approved by ETS (Educational Testing Service).';
+  String get disclaimerText =>
+      'This app is an independent SAT preparation tool and is not affiliated with, endorsed by, or approved by ETS (Educational Testing Service).';
 
   @override
   String get privacyPolicy => 'Privacy Policy';
@@ -236,14 +237,35 @@ class AppLocalizationsEn extends AppLocalizations {
   String get levelC1 => 'Advanced';
 
   @override
-  String get privacyPolicyContent => 'This app does not collect, store, or share any personal information. Your learning progress and favorites are stored only on your device. No data is transmitted to external servers.';
+  String get privacyPolicyContent =>
+      'This app does not collect, store, or share any personal information. Your learning progress and favorites are stored only on your device. No data is transmitted to external servers.';
 
   @override
-  String get restorePurchaseDesc => 'If you have previously purchased ad removal on another device or after reinstalling the app, tap here to restore your purchase.';
+  String get restorePurchaseDesc =>
+      'If you have previously purchased ad removal on another device or after reinstalling the app, tap here to restore your purchase.';
 
   @override
   String get restoreComplete => 'Restore complete';
 
   @override
   String get noPurchaseFound => 'No previous purchase found';
+
+  @override
+  String get cancel => 'Cancel';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }

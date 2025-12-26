@@ -86,5 +86,10 @@
   "restorePurchaseDesc": "如果您之前在其他设备上购买了移除广告或重新安装了应用，请点击此处恢复购买。",
   "restoreComplete": "恢复完成",
   "noPurchaseFound": "未找到之前的购买记录",
-  "cancel": "取消"
+  "cancel": "取消",
+  "lockedContent": "锁定内容",
+  "watchAdToUnlock": "观看短视频即可解锁所有单词至午夜！",
+  "watchAd": "观看广告",
+  "adNotReady": "广告尚未准备好，请稍后再试。",
+  "unlockedUntilMidnight": "所有单词已解锁至午夜！"
 }

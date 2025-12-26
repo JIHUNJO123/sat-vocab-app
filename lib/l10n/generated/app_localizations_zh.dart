@@ -246,4 +246,22 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get noPurchaseFound => '未找到之前的购买记录';
+
+  @override
+  String get cancel => '取消';
+
+  @override
+  String get lockedContent => '锁定内容';
+
+  @override
+  String get watchAdToUnlock => '观看短视频即可解锁所有单词至午夜！';
+
+  @override
+  String get watchAd => '观看广告';
+
+  @override
+  String get adNotReady => '广告尚未准备好，请稍后再试。';
+
+  @override
+  String get unlockedUntilMidnight => '所有单词已解锁至午夜！';
 }

@@ -111,7 +111,8 @@ class AppLocalizationsHi extends AppLocalizations {
   String get disclaimer => 'असवकरण';
 
   @override
-  String get disclaimerText => 'यह ऐप एक सवततर SAT तयर उपकरण ह और ETS स सबदध, समरथत य सवकत नह ह';
+  String get disclaimerText =>
+      'यह ऐप एक सवततर SAT तयर उपकरण ह और ETS स सबदध, समरथत य सवकत नह ह';
 
   @override
   String get privacyPolicy => 'गपनयत नत';
@@ -236,14 +237,35 @@ class AppLocalizationsHi extends AppLocalizations {
   String get levelC1 => 'उननत';
 
   @override
-  String get privacyPolicyContent => 'यह ऐप कई वयकतगत जनकर एकतर, सगरहत य सझ नह करत ह आपक परगत और पसदद कवल आपक डवइस पर सगरहत ह';
+  String get privacyPolicyContent =>
+      'यह ऐप कई वयकतगत जनकर एकतर, सगरहत य सझ नह करत ह आपक परगत और पसदद कवल आपक डवइस पर सगरहत ह';
 
   @override
-  String get restorePurchaseDesc => 'यद आपन पहल कस अनय डवइस पर वजञपन हटन क खरदर क ह, त यह टप करक पनरसथपत कर';
+  String get restorePurchaseDesc =>
+      'यद आपन पहल कस अनय डवइस पर वजञपन हटन क खरदर क ह, त यह टप करक पनरसथपत कर';
 
   @override
   String get restoreComplete => 'पनरसथपन परण';
 
   @override
   String get noPurchaseFound => 'कई पछल खरदर नह मल';
+
+  @override
+  String get cancel => 'रदद कर';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }

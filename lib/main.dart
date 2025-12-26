@@ -25,13 +25,14 @@ void main() async {
     databaseFactory = databaseFactoryFfi;
   }
 
-  // 踰덉뿭 ?쒕퉬??珥덇린??
+  // 번역 서비스 초기화
   await TranslationService.instance.init();
 
-  // 愿묎퀬 ?쒕퉬??珥덇린??
-  await AdService.instance.initialize();
+  // 광고 서비스 초기화 (잠금 해제 상태 로드 + 보상형 광고 로드)
+  await AdService.instance.loadUnlockStatus();
+  AdService.instance.loadRewardedAd();
 
-  // ?몄빋 援щℓ ?쒕퉬??珥덇린??
+  // 인앱 구매 서비스 초기화
   await PurchaseService.instance.initialize();
 
   runApp(

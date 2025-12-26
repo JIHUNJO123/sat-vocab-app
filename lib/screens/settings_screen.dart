@@ -122,7 +122,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                             title: Text(lang.nativeName),
                             subtitle: Text(lang.name),
                             onTap: () {
-                              // TranslationService???�어 코드 ?�??
+                              // TranslationService???�어 코드 ?�??
                               TranslationService.instance.setLanguage(
                                 lang.code,
                               );
@@ -223,11 +223,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
           // Info Section
           _buildSectionHeader(l10n.info),
           ListTile(
-            leading: const Icon(Icons.info_outline),
-            title: Text(l10n.version),
-            subtitle: const Text('1.0.0'),
-          ),
-          ListTile(
             leading: const Icon(Icons.copyright),
             title: Text(l10n.disclaimer),
             subtitle: Text(l10n.disclaimerText),
@@ -274,19 +269,28 @@ class _SettingsScreenState extends State<SettingsScreen> {
 
   Widget _buildRemoveAdsSection() {
     final l10n = AppLocalizations.of(context)!;
-    final adsRemoved = AdService.instance.adsRemoved;
+    final isUnlocked = AdService.instance.isUnlocked;
+    final isPurchaseAvailable = PurchaseService.instance.isAvailable;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         _buildSectionHeader(l10n.removeAds),
-        if (adsRemoved)
-          ListTile(
-            leading: const Icon(Icons.check_circle, color: Colors.green),
-            title: Text(l10n.adsRemoved),
-            subtitle: Text(l10n.thankYou),
-          )
-        else ...[
+        // 잠금 해제 상태 표시
+        ListTile(
+          leading: Icon(
+            isUnlocked ? Icons.lock_open : Icons.lock_outline,
+            color: isUnlocked ? Colors.green : null,
+          ),
+          title: Text(isUnlocked ? l10n.unlockedUntilMidnight : l10n.lockedContent),
+          subtitle: Text(
+            isUnlocked 
+              ? l10n.thankYou 
+              : l10n.watchAdToUnlock,
+          ),
+        ),
+        // IAP 광고 제거 구매 (스토어 사용 가능한 경우에만 표시)
+        if (isPurchaseAvailable) ...[
           ListTile(
             leading: const Icon(Icons.remove_circle_outline),
             title: Text(l10n.removeAds),

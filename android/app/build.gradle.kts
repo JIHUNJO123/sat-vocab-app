@@ -1,4 +1,4 @@
-﻿import java.util.Properties
+import java.util.Properties
 import java.io.FileInputStream
 import java.io.File
 
@@ -24,7 +24,7 @@ android {
 
     defaultConfig {
         applicationId = "com.jhuni.sat_vocab_app"
-        minSdk = 21
+        minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
@@ -35,7 +35,7 @@ android {
         create("release") {
             keyAlias = "upload"
             keyPassword = "gre2024"
-            storeFile = file("upload-keystore.jks")
+            storeFile = file("sat-keystore.jks")
             storePassword = "gre2024"
         }
     }

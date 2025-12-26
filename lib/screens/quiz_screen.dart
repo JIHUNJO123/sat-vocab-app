@@ -4,7 +4,6 @@ import 'package:sat_vocab_app/l10n/generated/app_localizations.dart';
 import '../db/database_helper.dart';
 import '../models/word.dart';
 import '../services/translation_service.dart';
-import '../services/ad_service.dart';
 
 enum QuizType { wordToMeaning, meaningToWord }
 
@@ -148,11 +147,6 @@ class _QuizScreenState extends State<QuizScreen> {
   }
 
   void _showResultDialog() async {
-    final adService = AdService.instance;
-    if (!adService.adsRemoved) {
-      await adService.showInterstitialAd();
-    }
-
     if (!mounted) return;
 
     final l10n = AppLocalizations.of(context)!;
