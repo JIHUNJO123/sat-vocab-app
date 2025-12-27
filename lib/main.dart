@@ -7,6 +7,7 @@ import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 import 'package:sqflite_common_ffi_web/sqflite_ffi_web.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'screens/home_screen.dart';
 import 'services/translation_service.dart';
 import 'services/ad_service.dart';
@@ -27,6 +28,16 @@ void main() async {
 
   // 번역 서비스 초기화
   await TranslationService.instance.init();
+
+  // AdMob SDK 초기화 (모바일 플랫폼에서만)
+  if (!kIsWeb && (Platform.isAndroid || Platform.isIOS)) {
+    try {
+      await MobileAds.instance.initialize();
+      debugPrint('AdMob SDK initialized successfully');
+    } catch (e) {
+      debugPrint('AdMob init error: $e');
+    }
+  }
 
   // 광고 서비스 초기화 (잠금 해제 상태 로드 + 보상형 광고 로드)
   await AdService.instance.loadUnlockStatus();
