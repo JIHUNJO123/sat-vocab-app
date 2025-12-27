@@ -10,7 +10,7 @@
         <!-- Google AdMob App ID - SAT Prep Vocabulary -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-5837885590326347~5763133926"/>
+            android:value="ca-app-pub-5837885590326347~5018201928"/>
             
         <activity
             android:name=".MainActivity"

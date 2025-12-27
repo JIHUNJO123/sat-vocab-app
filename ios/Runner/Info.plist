@@ -46,7 +46,7 @@
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-5837885590326347~8197725571</string>
+	<string>ca-app-pub-5837885590326347~5399036377</string>
 <key>SKAdNetworkItems</key>
 <array>
 <dict>
@@ -58,4 +58,3 @@
 <string>This app uses tracking to provide personalized ads. Your data will be used to deliver ads that are more relevant to you.</string>
 </dict>
 </plist>
-
