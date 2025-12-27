@@ -600,12 +600,15 @@ class _WordListScreenState extends State<WordListScreen> {
                         ),
                   ),
                 );
-                if (result != null && result != index && mounted) {
-                  _listScrollController.animateTo(
-                    result * 80.0,
-                    duration: const Duration(milliseconds: 300),
-                    curve: Curves.easeInOut,
-                  );
+                if (result != null && mounted) {
+                  _savePosition(result);
+                  if (result != index && _listScrollController.hasClients) {
+                    _listScrollController.animateTo(
+                      result * 80.0,
+                      duration: const Duration(milliseconds: 300),
+                      curve: Curves.easeInOut,
+                    );
+                  }
                 }
               },
               title: Row(
