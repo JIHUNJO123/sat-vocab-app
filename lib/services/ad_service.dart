@@ -63,6 +63,8 @@ class AdService {
 
   void loadRewardedAd() {
     if (kIsWeb) return;
+    // 모바일 플랫폼에서만 광고 로드
+    if (!Platform.isAndroid && !Platform.isIOS) return;
     if (_isLoading || _rewardedAd != null) return;
     _isLoading = true;
 
@@ -70,6 +72,8 @@ class AdService {
   }
 
   void _loadAd() {
+    // 모바일이 아니면 로드하지 않음
+    if (!Platform.isAndroid && !Platform.isIOS) return;
     final String adUnitId =
         Platform.isIOS ? rewardedAdUnitIdIOS : rewardedAdUnitIdAndroid;
 
