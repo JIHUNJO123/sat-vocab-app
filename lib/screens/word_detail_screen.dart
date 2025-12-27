@@ -50,9 +50,6 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
   void _goToPrevious() {
     if (_canGoPrevious) {
       int newIndex = _currentIndex - 1;
-      while (newIndex > 0 && _isWordLocked(newIndex)) {
-        newIndex--;
-      }
       if (_isWordLocked(newIndex)) return;
 
       setState(() {
@@ -68,10 +65,6 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
   void _goToNext() {
     if (_canGoNext) {
       int newIndex = _currentIndex + 1;
-      while (newIndex < widget.wordList!.length - 1 &&
-          _isWordLocked(newIndex)) {
-        newIndex++;
-      }
       if (_isWordLocked(newIndex)) return;
 
       setState(() {
