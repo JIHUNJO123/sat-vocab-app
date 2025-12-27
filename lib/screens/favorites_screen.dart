@@ -349,14 +349,6 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
                           children: [
                             const SizedBox(height: 4),
                             Text(
-                              word.partOfSpeech,
-                              style: TextStyle(
-                                color: Colors.grey[600],
-                                fontSize: 12,
-                              ),
-                            ),
-                            const SizedBox(height: 4),
-                            Text(
                               definition,
                               maxLines: 2,
                               overflow: TextOverflow.ellipsis,
